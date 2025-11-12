@@ -1,0 +1,19 @@
+{
+    "people":{
+        {
+            "name": "József",
+            "age": 26,
+            "city": "Kecskemét"
+        }
+        {
+            "name": "Elemér",
+            "age": 37,
+            "city": "Budapest"
+        }
+        {
+            "name": "Kinga",
+            "age": 17,
+            "city": "Budapest"
+        }
+    }
+}

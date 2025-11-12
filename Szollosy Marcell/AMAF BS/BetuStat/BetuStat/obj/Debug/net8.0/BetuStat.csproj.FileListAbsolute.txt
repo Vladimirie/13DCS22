@@ -1,0 +1,14 @@
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\bin\Debug\net8.0\BetuStat.exe
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\bin\Debug\net8.0\BetuStat.deps.json
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\bin\Debug\net8.0\BetuStat.runtimeconfig.json
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\bin\Debug\net8.0\BetuStat.dll
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\bin\Debug\net8.0\BetuStat.pdb
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\BetuStat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\BetuStat.AssemblyInfoInputs.cache
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\BetuStat.AssemblyInfo.cs
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\BetuStat.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\BetuStat.dll
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\refint\BetuStat.dll
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\BetuStat.pdb
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\BetuStat.genruntimeconfig.cache
+C:\Users\MarcellSzollosy\source\repos\BetuStat\BetuStat\obj\Debug\net8.0\ref\BetuStat.dll
