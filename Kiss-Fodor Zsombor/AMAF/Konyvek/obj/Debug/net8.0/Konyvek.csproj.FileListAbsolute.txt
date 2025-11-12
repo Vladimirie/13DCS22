@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\bin\Debug\net8.0\Konyvek.exe
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\bin\Debug\net8.0\Konyvek.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\bin\Debug\net8.0\Konyvek.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\bin\Debug\net8.0\Konyvek.dll
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\bin\Debug\net8.0\Konyvek.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.dll
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\refint\Konyvek.dll
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\Konyvek.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\gayming\13DCS2\Kiss-Fodor Zsombor\AMAF\Konyvek\obj\Debug\net8.0\ref\Konyvek.dll

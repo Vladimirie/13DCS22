@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\bin\Debug\net8.0\Kersekedelmi.exe
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\bin\Debug\net8.0\Kersekedelmi.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\bin\Debug\net8.0\Kersekedelmi.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\bin\Debug\net8.0\Kersekedelmi.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\bin\Debug\net8.0\Kersekedelmi.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\refint\Kersekedelmi.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\Kersekedelmi.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\Kersekedelmi\obj\Debug\net8.0\ref\Kersekedelmi.dll

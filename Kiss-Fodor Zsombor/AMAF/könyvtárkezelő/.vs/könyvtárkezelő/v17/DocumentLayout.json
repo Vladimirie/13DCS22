@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS2\\Kiss-Fodor Zsombor\\AMAF\\k\u00F6nyvt\u00E1rkezel\u0151\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0935F02E-FDD5-4105-BB4A-901079147093}|k\u00F6nyvt\u00E1rkezel\u0151.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs2\\kiss-fodor zsombor\\amaf\\k\u00F6nyvt\u00E1rkezel\u0151\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0935F02E-FDD5-4105-BB4A-901079147093}|k\u00F6nyvt\u00E1rkezel\u0151.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS2\\Kiss-Fodor Zsombor\\AMAF\\k\u00F6nyvt\u00E1rkezel\u0151\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS2\\Kiss-Fodor Zsombor\\AMAF\\k\u00F6nyvt\u00E1rkezel\u0151\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAswGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:11:55.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

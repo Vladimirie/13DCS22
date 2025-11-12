@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\bin\Debug\net8.0\dictionary.exe
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\bin\Debug\net8.0\dictionary.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\bin\Debug\net8.0\dictionary.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\bin\Debug\net8.0\dictionary.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\bin\Debug\net8.0\dictionary.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\refint\dictionary.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\dictionary.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\dictionary\obj\Debug\net8.0\ref\dictionary.dll

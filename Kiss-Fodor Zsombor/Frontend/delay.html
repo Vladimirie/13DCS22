@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Késtetéses változtató</title>
+    <link rel="icon" type="image/x-icon" href="burger.jpg">
+    
+    <style>
+        body {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 80vh;
+            background-color: lime;
+        }
+        .bigdiv {
+            width: 30%; 
+            text-align: center;
+            border: 1px solid black; 
+            padding: 1ch; 
+            margin: auto;
+        }
+
+        .smalldiv {
+            border: 2px solid black; 
+            height: 20px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p {
+            transition: all 0.6s ease;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bigdiv">
+        <p id="table1" class="smalldiv"></p>
+        <p id="table2" class="smalldiv"></p>
+        <p id="table3" class="smalldiv"></p>
+        <p id="table4" class="smalldiv"></p>
+        <p id="table5" class="smalldiv"></p>
+    </div>
+
+    <script>
+        //elöször a szövegüket írjuk át
+        function sex1() {
+            sexdiv = document.getElementById("table1").textContent = 100;
+            setTimeout(sex2, 500);
+        }
+
+        function sex2() {
+            sexdiv = document.getElementById("table2").textContent = 200;
+            setTimeout(sex3, 500);
+        }
+
+        function sex3() {
+            sexdiv = document.getElementById("table3").textContent = 300;
+            setTimeout(sex4, 500);
+        }
+
+        function sex4() {
+            sexdiv = document.getElementById("table4").textContent = 400;
+            setTimeout(sex5, 500);
+        }
+        
+        function sex5() {
+            sexdiv = document.getElementById("table5").textContent = 500;
+            setTimeout(style1, 500);
+        }
+
+        //stílusváltoztatás
+
+        function style1() {
+            document.getElementById("table1").style.border = "2px solid red";
+            setTimeout(style2, 500);
+        }
+        function style2() {
+            document.getElementById("table2").style.backgroundColor = "green";
+            setTimeout(style3, 500);
+        }
+        function style3() {
+            document.getElementById("table3").style.color = "blue";
+            setTimeout(style4, 500);
+        }
+        function style4() {
+            document.getElementById("table4").style.border = "10px solid black";
+            setTimeout(style5, 500);
+        }
+        function style5() {
+            document.getElementById("table5").style.border = "2px dashed black";
+            setTimeout(reset, 500);
+        }
+
+        //mindent lenullázunk
+        function reset() {
+            const paragraphs = document.querySelectorAll("p"); //egy listát csinálunk minden p elementből
+            paragraphs.forEach((inp) => {
+                inp.textContent = "";
+                inp.style = "";
+            });
+            setTimeout(sex1, 500); //újrakezdjük a folyamatot
+        }
+
+        window.onload = setTimeout(sex1, 500); //oldal megnyitáskor elindítjuk a legelső funkciót
+    </script>
+</body>
+</html>

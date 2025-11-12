@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elem változtatása</title>
+    <link rel="icon" type="image/x-icon" href="burger.jpg">
+</head>
+<body>
+    <div id="inp" style="margin: auto; width: 40%; text-align: center; border-style: solid; border-radius: 3px;">TEXT</div>
+
+    <Button onclick="ColorChange('red')" style="color: red;">Red Text</Button>
+    <Button onclick="ColorChange('blue')" style="color: blue;">Blue Text</Button>
+    <Button onclick="ColorChange('green')" style="color: green;">Green Text</Button>
+
+    <Button onclick="BackGroundChange('yellow')">Yellow Background</Button>
+    <Button onclick="BackGroundChange('grey')">Grey Background</Button>
+    <Button onclick="BackGroundChange('white')">White Background</Button>
+
+    <Button onclick="SizeChange('10px')">10px Text</Button>
+    <Button onclick="SizeChange('22px')">22px Text</Button>
+    <Button onclick="SizeChange('30px')">30px Text</Button>
+
+    <Button onclick="BorderChange('dashed')">Dashed Border</Button>
+    <Button onclick="BorderChange('dotted')">Dotted Border</Button>
+    <Button onclick="BorderChange('double')">Double Border</Button>
+
+    <button onclick="Reset()">RESET</button>
+    
+
+    <!-- 
+        red, blue, green
+        yellow, grey, white
+        16, 22, 30
+        dashed, solid, double
+        reset
+    -->
+</body>
+</html>
+<script>
+    let textField = document.getElementById("inp");
+    function ColorChange(newCol) {
+        textField.style.color = newCol
+    }
+    function BorderChange(newBorder) {
+        textField.style.border = newBorder
+    }
+    function BackGroundChange(newBack) {
+        textField.style.backgroundColor = newBack
+    }
+    function SizeChange(newSize) {
+        textField.style.fontSize = newSize
+    }
+    function Reset(){
+        textField.style.fontSize = "16px"
+        textField.style.color = "black"
+        textField.style.backgroundColor = "white"
+        textField.style.border = "solid"
+    }
+</script>

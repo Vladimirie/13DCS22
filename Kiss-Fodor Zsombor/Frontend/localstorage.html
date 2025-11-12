@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="icon" href="../kikezdhetetlen-logika-v0-1mu2g05j2zof1.webp">
+    <link rel="stylesheet" href="CSS/localstorage.css">
+    <script src="JS/localstorage.js"></script>
+</head>
+<body>
+    <div class="Divi">
+        <label>Név:</label>
+        <br>
+        <input id="nevInput" type="text" class="DiviMaxi">
+        <br>
+        <label>Időpont:</label>
+        <br>
+        <select id="idoPont" class="DiviMaxi">
+            <option value="9:00-10:00" class="Option">9:00-10:00</option>
+            <option value="10:00-11:00" class="Option">10:00-11:00</option>
+            <option value="11:00-12:00" class="Option">11:00-12:00</option>
+            <option value="12:00-13:00" class="Option">12:00-13:00</option>
+        </select>
+        <br>
+        <label>Sportág:</label>
+        <br>
+        <select id="sport" class="DiviMaxi">
+            <option value="Aerobik" class="Option">Aerobik</option>
+            <option value="Konditerem" class="Option">Konditerem</option>
+            <option value="Tenisz" class="Option">Tenisz</option>
+            <option value="Quash" class="Option">Quash</option>
+        </select>
+        <br>
+        <label>Bérlet Száma:</label>
+        <br>
+        <input id="berletInput" type="text" class="DiviMaxi">
+        <br>
+        <div class="ButtonDivi">
+            <button class="Butti" onclick="Mentes()">Mentés</button>
+            <button class="Butti" onclick="Megjelenit()">Megjelenítés</button>
+        </div>
+        <br>
+
+
+        <div id="adatok">
+            <!--Foglalások táblázata ide jön!-->
+        </div>
+    </div>
+</body>
+</html>

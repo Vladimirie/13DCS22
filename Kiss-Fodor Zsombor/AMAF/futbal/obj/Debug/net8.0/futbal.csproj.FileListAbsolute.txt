@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\bin\Debug\net8.0\futbal.exe
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\bin\Debug\net8.0\futbal.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\bin\Debug\net8.0\futbal.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\bin\Debug\net8.0\futbal.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\bin\Debug\net8.0\futbal.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\refint\futbal.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\futbal.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\futbal\obj\Debug\net8.0\ref\futbal.dll

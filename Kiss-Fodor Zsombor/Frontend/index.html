@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órai munkák gyűjtőoldala</title>
+    <link rel="icon" type="image/x-icon" href="burger.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 20px; /* Lekerekíti a sarkokat */
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        .content {
+            flex: 1; /* Kitölti a maradék helyet a szülő elemben */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto; /* Csak függőleges görgetés engedélyezése */
+        }
+        .header {
+            background-color: #007BFF;
+            width: 95%; /* 90% szélesség */
+            left: 50%; /* Középre igazítás */
+            transform: translateX(-50%); /* Középre pozícionálás */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            }
+        .header {
+            margin-top: 20px;
+        }
+        .footer {
+                margin-top: auto;
+                position: relative; /* A position: fixed helyett relative-t használunk */
+                bottom: 0;
+                width: 95%;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+                background-color: #007BFF;
+                color: white;
+                padding: 10px 20px; /* A magasság a padding alapján igazodik */
+                border-radius: 20px;
+                box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+                display: flex; /* Flexbox igazítás */
+                flex-direction: column; /* Többsoros tartalomhoz szükséges */
+                align-items: center; /* Függőleges középre igazítás */
+                justify-content: center; /* Vízszintes középre igazítás */
+                min-height: auto; /* A magasság automatikusan igazodik */
+                max-width: 100%; /* A szélesség nem lépheti túl a viewportot */
+            }
+        .myDiv {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr ;
+            gap: 5px;
+            margin: 10px;
+        }
+        .myDiv > div {
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menü -->
+    <div class="navbar">
+        <a href="#" onclick="loadContent('ElementMaking')">1</a>
+        <a href="#" onclick="loadContent('FunctionChanging')">2</a>
+        <a href="#" onclick="loadContent('GenSort')">3</a>
+        <a href="#" onclick="loadContent('Login')">4</a>
+        <a href="#" onclick="loadContent('Delay')">5</a>
+        <a href="#" onclick="loadContent('Html table with url')">Táblázat URL</a>
+        <a href="#" onclick="loadContent('Html table with popup')">Táblázat Popup</a>
+        <a href="#" onclick="loadContent('Div')">Divek</a>
+        <a href="#" onclick="loadContent('contact')">Kapcsolat</a>
+    </div>
+
+    <!-- Tartalom -->
+    <div class="content" id="content">
+
+
+        <h2>Kezdő oldal</h2>
+        <iframe src="Empty_html.html" width="100%" height="400px" style="border:none;"></iframe>
+
+
+
+    </div>
+
+    <div class="footer">
+        <p>Ez egy lekerekített lábléc</p>
+      </div>
+
+    <script>
+        function loadContent(page) {
+            const content = document.getElementById('content');
+            switch (page) {
+                case 'ElementMaking':
+                    content.innerHTML = `
+                        <h2>Elem Létrehozása gombal</h2>
+                        <iframe src="elementcreation.html" width="100%" height="400px" style="border:none;"></iframe>
+                    `;
+                    break;
+                case 'FunctionChanging':
+                    content.innerHTML = `
+                        <h2>Stílus változtatása gombal</h2>
+                        <iframe src="szoveg.html" width="100%" height="400px" style="border:none;"></iframe>
+                    `;
+                    break;
+                    case 'GenSort':
+                    content.innerHTML = `
+                        <h2>Szám generálása és szortírozása</h2>
+                        <iframe src="numbersorting.html" width="100%" height="400px" style="border:none;"></iframe>
+                    `;
+                    break;
+                    case 'Login':
+                    content.innerHTML = `
+                        <h2>Bejelentkezési oldal</h2>
+                        <iframe src="login window.html" width="100%" height="400px" style="border:none;"></iframe>
+                    `;
+                    break;
+                    case 'Delay':
+                    content.innerHTML = `
+                        <h2>idk</h2>
+                        <iframe src="delay.html" width="100%" height="400px" style="border:none;"></iframe>
+                    `;
+                    break;
+                    case 'Html table with url':
+                    content.innerHTML = `
+                        <h2>Egyszerű táblázat</h2>
+                        <iframe src="Html table with url.html" width="100%" height="400px" style="border:none;"></iframe>
+                    `;
+                    break;
+                    case 'Html table with popup':
+                    content.innerHTML = `
+                        <h2>Egyszerű táblázat</h2>
+                        <iframe src="Html table with popup.html" width="100%" height="400px" style="border:none;"></iframe>
+                    `;
+                    break;
+                    case 'Div':
+                    content.innerHTML = `
+                        <h2>Statikus oldal</h2>
+                        <div class='myDiv'>
+                            <div>Div 1</div>
+                            <div>Div 2</div>
+                            <div>Div 3</div>
+                            <div>Div 4</div>
+                            <div>Div 5</div>
+                            <div>Div 6</div>
+                            <div>Div 7</div>
+                            <div>Div 8</div>
+                            <div>Div 9</div>
+                            
+                        </div>
+
+                    `;
+                    break;
+                default:
+                    content.innerHTML = `
+                        <h2>Hiba</h2>
+                        <p>Nem található a kért oldal.</p>
+                    `;
+            }
+        }
+    </script>
+</body>
+</html>
