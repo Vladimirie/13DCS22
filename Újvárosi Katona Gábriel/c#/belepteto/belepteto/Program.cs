@@ -93,6 +93,11 @@ namespace belepteto
             Console.WriteLine("4 es feladat");
             Console.WriteLine($"A menzán aznap {menzacount} tanuló ebédelt");
             // 5 ös feladat
+
+            //lambda kifejezés
+         //   var belepesekHalmaz2 = Belepesek.Where(b => b.EsemenyCode == 4).Select(b => b.StudentCode).ToHashSet();
+
+
             int konyvtarcount = 0;
              List<string> konyvtaros = new List<string>();
             
