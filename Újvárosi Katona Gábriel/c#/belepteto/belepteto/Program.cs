@@ -79,8 +79,11 @@ namespace belepteto
             }
 
             File.WriteAllLines("kesok.txt", write);
-           
+
             // 4 es feladat
+            //LINQ megoldás
+           // int db2 = Belepesek.Where(b => b.EsemenyCode == 3).Count();
+
             int menzacount = 0;
             foreach (Belepes belepes in Belepesek)
             {
@@ -111,8 +114,7 @@ namespace belepteto
                 Console.WriteLine("Nem voltak többen, mint a menzán.");
             }
             // 6 os feladat
-               int f = 11 * 60 + 0;
-              Console.WriteLine(f);
+           
 
             List<string> marbelepet = new List<string>();
 
@@ -149,9 +151,55 @@ namespace belepteto
             {
                 Console.Write(fiu + " ");
             }
-          
-                
-                Console.ReadLine();
+
+            Console.WriteLine("7 es feladat");
+
+            int f = 11 * 60 + 0;
+            Console.WriteLine(f);
+            Console.WriteLine("Kérem adjon meg egy diák azonisítót");
+            string userInput = Console.ReadLine().Trim();
+           userInput =  userInput.ToUpper();
+
+            bool firstEnterB = false;
+            DateTime firtEnterTime = DateTime.MinValue;
+            int fEntIndex = 0;
+                while (!firstEnterB && fEntIndex < Belepesek.Count() )
+            {
+                if (userInput == Belepesek[fEntIndex].StudentCode)
+                {
+                    firstEnterB = true;
+                    firtEnterTime = Belepesek[fEntIndex].Time;
+                }
+                fEntIndex++;
+            }
+
+            DateTime maxleav = DateTime.MinValue;
+         
+
+     
+
+            if (firstEnterB) {
+
+                foreach (Belepes belepes in Belepesek)
+                {
+                    if (userInput == belepes.StudentCode && belepes.EsemenyCode == 2)
+                    {
+                        maxleav = belepes.Time;
+
+                    }
+                }
+                TimeSpan interval = maxleav - firtEnterTime;
+                // interval.ToString(@"hh\:mm")
+                Console.WriteLine($"A tanuló érkezése és távozása között {interval.Hours} óra  {interval.Minutes} perc telt el.");
+
+            } else
+            {
+                Console.WriteLine("Ez a diák nem lépet be aznap az iskolába");
+            }
+
+
+            Console.ReadLine();
+
 
         }
 
