@@ -1,0 +1,15 @@
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\bin\Debug\net9.0\Bedat.exe
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\bin\Debug\net9.0\Bedat.deps.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\bin\Debug\net9.0\Bedat.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\bin\Debug\net9.0\Bedat.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\bin\Debug\net9.0\Bedat.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\refint\Bedat.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\Bedat.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Bedat\obj\Debug\net9.0\ref\Bedat.dll

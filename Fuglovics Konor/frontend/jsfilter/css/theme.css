@@ -1,0 +1,18 @@
+.filter
+{
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0 auto;
+	width: 300px;
+}
+.text
+{
+	margin: 16px auto;
+}
+.filterbutton
+{
+	display: block;
+	margin: 12px auto 0 auto;
+}

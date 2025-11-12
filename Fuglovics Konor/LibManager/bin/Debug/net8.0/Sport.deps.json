@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sport/1.0.0": {
+        "runtime": {
+          "Sport.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+=======
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sport/1.0.0": {
+        "runtime": {
+          "Sport.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+>>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d
+}

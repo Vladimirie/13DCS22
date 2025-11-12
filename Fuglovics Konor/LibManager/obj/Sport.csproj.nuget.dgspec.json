@@ -1,0 +1,138 @@
+<<<<<<< HEAD
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj",
+        "projectName": "Sport",
+        "projectPath": "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj",
+        "packagesPath": "C:\\Users\\FuglovicsKonor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FuglovicsKonor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+=======
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj",
+        "projectName": "Sport",
+        "projectPath": "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\Sport.csproj",
+        "packagesPath": "C:\\Users\\FuglovicsKonor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FuglovicsKonor\\source\\repos\\Sport\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FuglovicsKonor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+>>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d
+}

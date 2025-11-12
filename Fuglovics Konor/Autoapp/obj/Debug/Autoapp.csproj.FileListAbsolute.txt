@@ -1,0 +1,8 @@
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\bin\Debug\Autoapp.exe.config
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\bin\Debug\Autoapp.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\bin\Debug\Autoapp.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\obj\Debug\Autoapp.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\obj\Debug\Autoapp.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\obj\Debug\Autoapp.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\obj\Debug\Autoapp.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Autoapp\obj\Debug\Autoapp.exe.config

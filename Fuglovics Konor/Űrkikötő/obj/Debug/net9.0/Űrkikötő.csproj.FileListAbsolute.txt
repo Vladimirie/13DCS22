@@ -1,0 +1,15 @@
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\bin\Debug\net9.0\Űrkikötő.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\bin\Debug\net9.0\Űrkikötő.deps.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\bin\Debug\net9.0\Űrkikötő.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\bin\Debug\net9.0\Űrkikötő.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\bin\Debug\net9.0\Űrkikötő.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\refint\Űrkikötő.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\Űrkikötő.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Űrkikötő\obj\Debug\net9.0\ref\Űrkikötő.dll
