@@ -1,0 +1,7 @@
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Konyvtarkezelo\Konyvtarkezelo\bin\Debug\Konyvtarkezelo.exe.config
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Konyvtarkezelo\Konyvtarkezelo\bin\Debug\Konyvtarkezelo.exe
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Konyvtarkezelo\Konyvtarkezelo\bin\Debug\Konyvtarkezelo.pdb
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Konyvtarkezelo\Konyvtarkezelo\obj\Debug\Konyvtarkezelo.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Konyvtarkezelo\Konyvtarkezelo\obj\Debug\Konyvtarkezelo.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Konyvtarkezelo\Konyvtarkezelo\obj\Debug\Konyvtarkezelo.exe
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Konyvtarkezelo\Konyvtarkezelo\obj\Debug\Konyvtarkezelo.pdb

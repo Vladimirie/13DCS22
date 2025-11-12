@@ -1,0 +1,7 @@
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Galaktikus\Galaktikus\bin\Debug\Galaktikus.exe.config
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Galaktikus\Galaktikus\bin\Debug\Galaktikus.exe
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Galaktikus\Galaktikus\bin\Debug\Galaktikus.pdb
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Galaktikus\Galaktikus\obj\Debug\Galaktikus.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Galaktikus\Galaktikus\obj\Debug\Galaktikus.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Galaktikus\Galaktikus\obj\Debug\Galaktikus.exe
+C:\Users\TEMP.AzureAD.000\Desktop\c#\Galaktikus\Galaktikus\obj\Debug\Galaktikus.pdb

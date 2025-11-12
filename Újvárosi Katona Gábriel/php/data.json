@@ -1,0 +1,16 @@
+{
+  "termekek": [
+    { "id": 1, "nev": "Alma",      "ar": 120,  "kategoria": "gyumolcs", "raktaron": true },
+    { "id": 2, "nev": "Banán",     "ar": 180,  "kategoria": "gyumolcs", "raktaron": false },
+    { "id": 3, "nev": "Kenyér",    "ar": 450,  "kategoria": "pekaru",   "raktaron": true },
+    { "id": 4, "nev": "Tej 1L",    "ar": 399,  "kategoria": "tej",      "raktaron": true },
+    { "id": 5, "nev": "Vaj 200g",  "ar": 890,  "kategoria": "tej",      "raktaron": false }
+  ],
+  "rendelesek": [
+    { "id": 101, "vevo": "Anna",  "termek_id": 1, "db": 3, "datum": "2025-10-01", "fizetve": true },
+    { "id": 102, "vevo": "Béla",  "termek_id": 3, "db": 1, "datum": "2025-10-02", "fizetve": false },
+    { "id": 103, "vevo": "Csaba", "termek_id": 4, "db": 2, "datum": "2025-10-02", "fizetve": true },
+    { "id": 104, "vevo": "Anna",  "termek_id": 2, "db": 5, "datum": "2025-10-03", "fizetve": false },
+    { "id": 105, "vevo": "Dóra",  "termek_id": 5, "db": 1, "datum": "2025-10-03", "fizetve": true }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "verzio": 1,
+    "tema": "fantasy piactér és kaland",
+    "letrehozva": "2025-10-06T09:00:00+02:00"
+  },
+  "gildek": [
+    {
+      "id": "G1",
+      "nev": "Ezüstpengék",
+      "alapitas": "2024-03-15",
+      "pont": 12850,
+      "tagok": ["P1", "P2", "P4"]
+    },
+    {
+      "id": "G2",
+      "nev": "Viharőrség",
+      "alapitas": "2024-11-02",
+      "pont": 9870,
+      "tagok": ["P3", "P5", "P6"]
+    }
+  ],
+  "jatekosok": [
+    {
+      "id": "P1",
+      "nev": "Arelis",
+      "szint": 34,
+      "faj": "elf",
+      "arany": 4321,
+      "guild_id": "G1",
+      "letrehozva": "2024-06-20T14:22:00+02:00",
+      "online": true,
+      "szerver": "Splitforge"
+    },
+    {
+      "id": "P2",
+      "nev": "Brakos",
+      "szint": 28,
+      "faj": "ork",
+      "arany": 1290,
+      "guild_id": "G1",
+      "letrehozva": "2024-08-01T09:10:00+02:00",
+      "online": false,
+      "szerver": "Splitforge"
+    },
+    {
+      "id": "P3",
+      "nev": "Cirianna",
+      "szint": 41,
+      "faj": "ember",
+      "arany": 8050,
+      "guild_id": "G2",
+      "letrehozva": "2023-12-11T18:00:00+01:00",
+      "online": true,
+      "szerver": "Splitforge"
+    },
+    {
+      "id": "P4",
+      "nev": "Druvok",
+      "szint": 22,
+      "faj": "törp",
+      "arany": 560,
+      "guild_id": "G1",
+      "letrehozva": "2025-01-05T12:00:00+01:00",
+      "online": false,
+      "szerver": "Splitforge"
+    },
+    {
+      "id": "P5",
+      "nev": "Elowen",
+      "szint": 17,
+      "faj": "tünde",
+      "arany": 220,
+      "guild_id": "G2",
+      "letrehozva": "2025-05-13T20:30:00+02:00",
+      "online": true,
+      "szerver": "Splitforge"
+    },
+    {
+      "id": "P6",
+      "nev": "Feron",
+      "szint": 12,
+      "faj": "ember",
+      "arany": 75,
+      "guild_id": "G2",
+      "letrehozva": "2025-07-22T07:45:00+02:00",
+      "online": false,
+      "szerver": "Splitforge"
+    }
+  ],
+  "zonak": [
+    {
+      "id": "Z1",
+      "nev": "Hamvadó-síkság",
+      "nehezseg": 2,
+      "klima": "száraz",
+      "koordinatak": { "x": -123.4, "y": 45.6 }
+    },
+    {
+      "id": "Z2",
+      "nev": "Ködmocsár",
+      "nehezseg": 3,
+      "klima": "mocsaras",
+      "koordinatak": { "x": 12.0, "y": -88.1 }
+    },
+    {
+      "id": "Z3",
+      "nev": "Csillagfény-erdő",
+      "nehezseg": 1,
+      "klima": "mérsékelt",
+      "koordinatak": { "x": 250.2, "y": 330.9 }
+    },
+    {
+      "id": "Z4",
+      "nev": "Fagyfok-torony",
+      "nehezseg": 5,
+      "klima": "fagyos",
+      "koordinatak": { "x": -400.0, "y": 1020.0 }
+    }
+  ],
+  "targyak": [
+    {
+      "id": "I100",
+      "nev": "Parázspenge",
+      "tipus": "fegyver",
+      "ritkasag": "ritka",
+      "ertek": 950,
+      "equipelheto": true,
+      "szint_kovetelmeny": 25,
+      "bonuszok": { "sebzes": 24, "tuz": 8 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I101",
+      "nev": "Tölgyfalemez Páncél",
+      "tipus": "páncél",
+      "ritkasag": "közönséges",
+      "ertek": 320,
+      "equipelheto": true,
+      "szint_kovetelmeny": 15,
+      "bonuszok": { "vedelem": 12 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I102",
+      "nev": "Gyógyital (Közepes)",
+      "tipus": "ital",
+      "ritkasag": "közönséges",
+      "ertek": 25,
+      "equipelheto": false,
+      "szint_kovetelmeny": 0,
+      "bonuszok": { "hp_heal": 150 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I103",
+      "nev": "Manaital (Kis)",
+      "tipus": "ital",
+      "ritkasag": "közönséges",
+      "ertek": 18,
+      "equipelheto": false,
+      "szint_kovetelmeny": 0,
+      "bonuszok": { "mp_heal": 75 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I104",
+      "nev": "Holdkő Gyűrű",
+      "tipus": "ékszer",
+      "ritkasag": "ritka",
+      "ertek": 410,
+      "equipelheto": true,
+      "szint_kovetelmeny": 18,
+      "bonuszok": { "kritikus": 5, "mana": 20 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I105",
+      "nev": "Sárkánypikkely",
+      "tipus": "alapanyag",
+      "ritkasag": "epikus",
+      "ertek": 1200,
+      "equipelheto": false,
+      "szint_kovetelmeny": 0,
+      "bonuszok": {},
+      "ertekesitheto": true
+    },
+    {
+      "id": "I106",
+      "nev": "Rozsdás Kulcs",
+      "tipus": "küldetés",
+      "ritkasag": "közönséges",
+      "ertek": 0,
+      "equipelheto": false,
+      "szint_kovetelmeny": 0,
+      "bonuszok": {},
+      "ertekesitheto": false
+    },
+    {
+      "id": "I107",
+      "nev": "Fagyfok Köpeny",
+      "tipus": "páncél",
+      "ritkasag": "epikus",
+      "ertek": 2100,
+      "equipelheto": true,
+      "szint_kovetelmeny": 35,
+      "bonuszok": { "vedelem": 28, "jeg": 12 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I108",
+      "nev": "Vadászcsapda",
+      "tipus": "eszköz",
+      "ritkasag": "közönséges",
+      "ertek": 60,
+      "equipelheto": false,
+      "szint_kovetelmeny": 0,
+      "bonuszok": { "lassitas": 20 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I109",
+      "nev": "Éji Íj",
+      "tipus": "fegyver",
+      "ritkasag": "legendás",
+      "ertek": 4800,
+      "equipelheto": true,
+      "szint_kovetelmeny": 40,
+      "bonuszok": { "sebzes": 45, "arny": 15, "kritikus": 10 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I110",
+      "nev": "Szíverősítő Elixír",
+      "tipus": "ital",
+      "ritkasag": "ritka",
+      "ertek": 140,
+      "equipelheto": false,
+      "szint_kovetelmeny": 0,
+      "bonuszok": { "hp_max": 50, "időtartam_mp": 300 },
+      "ertekesitheto": true
+    },
+    {
+      "id": "I111",
+      "nev": "Napfény Amulett",
+      "tipus": "ékszer",
+      "ritkasag": "epikus",
+      "ertek": 1600,
+      "equipelheto": true,
+      "szint_kovetelmeny": 30,
+      "bonuszok": { "eletero_regen": 3, "fény": 10 },
+      "ertekesitheto": true
+    }
+  ],
+  "keszletek": [
+    {
+      "jatekos_id": "P1",
+      "tetelek": [
+        { "item_id": "I100", "mennyiseg": 1, "allapot": 92, "lejarat": null },
+        { "item_id": "I102", "mennyiseg": 5, "allapot": 100, "lejarat": "2026-01-01" },
+        { "item_id": "I104", "mennyiseg": 1, "allapot": 88, "lejarat": null }
+      ]
+    },
+    {
+      "jatekos_id": "P2",
+      "tetelek": [
+        { "item_id": "I101", "mennyiseg": 1, "allapot": 77, "lejarat": null },
+        { "item_id": "I103", "mennyiseg": 2, "allapot": 100, "lejarat": "2025-12-31" },
+        { "item_id": "I108", "mennyiseg": 3, "allapot": 100, "lejarat": null }
+      ]
+    },
+    {
+      "jatekos_id": "P3",
+      "tetelek": [
+        { "item_id": "I109", "mennyiseg": 1, "allapot": 95, "lejarat": null },
+        { "item_id": "I110", "mennyiseg": 1, "allapot": 100, "lejarat": "2025-11-01" },
+        { "item_id": "I105", "mennyiseg": 2, "allapot": 100, "lejarat": null }
+      ]
+    },
+    {
+      "jatekos_id": "P4",
+      "tetelek": [
+        { "item_id": "I101", "mennyiseg": 1, "allapot": 64, "lejarat": null },
+        { "item_id": "I106", "mennyiseg": 1, "allapot": 100, "lejarat": null }
+      ]
+    },
+    {
+      "jatekos_id": "P5",
+      "tetelek": [
+        { "item_id": "I102", "mennyiseg": 1, "allapot": 100, "lejarat": "2026-03-10" },
+        { "item_id": "I111", "mennyiseg": 1, "allapot": 90, "lejarat": null }
+      ]
+    },
+    {
+      "jatekos_id": "P6",
+      "tetelek": [
+        { "item_id": "I103", "mennyiseg": 4, "allapot": 100, "lejarat": "2026-06-01" },
+        { "item_id": "I108", "mennyiseg": 1, "allapot": 100, "lejarat": null }
+      ]
+    }
+  ],
+  "szornyek": [
+    {
+      "id": "M1",
+      "nev": "Parázsgólem",
+      "kategoria": "elementál",
+      "zona_id": "Z1",
+      "xp": 120,
+      "arany": 15,
+      "dropok": [
+        { "item_id": "I100", "esely_szazalek": 1.5, "min_db": 1, "max_db": 1 },
+        { "item_id": "I105", "esely_szazalek": 3.0, "min_db": 1, "max_db": 2 }
+      ]
+    },
+    {
+      "id": "M2",
+      "nev": "Mocsári Lidérc",
+      "kategoria": "szellem",
+      "zona_id": "Z2",
+      "xp": 95,
+      "arany": 9,
+      "dropok": [
+        { "item_id": "I108", "esely_szazalek": 8.0, "min_db": 1, "max_db": 1 },
+        { "item_id": "I106", "esely_szazalek": 5.0, "min_db": 1, "max_db": 1 }
+      ]
+    },
+    {
+      "id": "M3",
+      "nev": "Erdei Romboló",
+      "kategoria": "vad",
+      "zona_id": "Z3",
+      "xp": 60,
+      "arany": 6,
+      "dropok": [
+        { "item_id": "I102", "esely_szazalek": 12.0, "min_db": 1, "max_db": 3 }
+      ]
+    },
+    {
+      "id": "M4",
+      "nev": "Fagyfok Őr",
+      "kategoria": "őr",
+      "zona_id": "Z4",
+      "xp": 220,
+      "arany": 28,
+      "dropok": [
+        { "item_id": "I107", "esely_szazalek": 2.0, "min_db": 1, "max_db": 1 },
+        { "item_id": "I110", "esely_szazalek": 6.5, "min_db": 1, "max_db": 2 }
+      ]
+    },
+    {
+      "id": "M5",
+      "nev": "Nyálkás Piócakirály",
+      "kategoria": "főellenfél",
+      "zona_id": "Z2",
+      "xp": 600,
+      "arany": 120,
+      "dropok": [
+        { "item_id": "I111", "esely_szazalek": 4.0, "min_db": 1, "max_db": 1 },
+        { "item_id": "I105", "esely_szazalek": 15.0, "min_db": 1, "max_db": 3 }
+      ]
+    },
+    {
+      "id": "M6",
+      "nev": "Fosztogató Kobold",
+      "kategoria": "humanoid",
+      "zona_id": "Z1",
+      "xp": 40,
+      "arany": 5,
+      "dropok": [
+        { "item_id": "I103", "esely_szazalek": 10.0, "min_db": 1, "max_db": 2 }
+      ]
+    },
+    {
+      "id": "M7",
+      "nev": "Éjvándor",
+      "kategoria": "elit",
+      "zona_id": "Z3",
+      "xp": 180,
+      "arany": 35,
+      "dropok": [
+        { "item_id": "I109", "esely_szazalek": 1.0, "min_db": 1, "max_db": 1 },
+        { "item_id": "I104", "esely_szazalek": 4.0, "min_db": 1, "max_db": 1 }
+      ]
+    },
+    {
+      "id": "M8",
+      "nev": "Fagyóriás",
+      "kategoria": "óriás",
+      "zona_id": "Z4",
+      "xp": 260,
+      "arany": 44,
+      "dropok": [
+        { "item_id": "I107", "esely_szazalek": 1.2, "min_db": 1, "max_db": 1 }
+      ]
+    }
+  ],
+  "kuldetesek": [
+    {
+      "id": "Q1",
+      "cim": "Rozsdás ajtó titka",
+      "leiras": "Szerezz egy Rozsdás Kulcsot a Ködmocsárból és nyisd ki a rejtett kriptát.",
+      "kovetelmenyek": {
+        "szint_min": 15,
+        "targy_idk": ["I106"],
+        "szorny_oles": { "mon_id": "M2", "db": 5 }
+      },
+      "hatarido": null,
+      "jutalmak": {
+        "xp": 450,
+        "arany": 200,
+        "targyak": [{ "item_id": "I104", "db": 1 }]
+      }
+    },
+    {
+      "id": "Q2",
+      "cim": "Fagyfok próbája",
+      "leiras": "Győzd le a Fagyfok Őrét és szerezd meg a köpenyét.",
+      "kovetelmenyek": {
+        "szint_min": 30,
+        "targy_idk": [],
+        "szorny_oles": { "mon_id": "M4", "db": 1 }
+      },
+      "hatarido": "2025-12-31",
+      "jutalmak": {
+        "xp": 1200,
+        "arany": 600,
+        "targyak": [{ "item_id": "I107", "db": 1 }]
+      }
+    },
+    {
+      "id": "Q3",
+      "cim": "Erdei vadorzók",
+      "leiras": "Helyezz el 2 vadászcsapdát és gyűjts 3 közepes gyógyitalt.",
+      "kovetelmenyek": {
+        "szint_min": 10,
+        "targy_idk": ["I108", "I102"],
+        "szorny_oles": null
+      },
+      "hatarido": null,
+      "jutalmak": {
+        "xp": 300,
+        "arany": 150,
+        "targyak": []
+      }
+    },
+    {
+      "id": "Q4",
+      "cim": "Piócakirály bukása",
+      "leiras": "Öld meg a Nyálkás Piócakirályt.",
+      "kovetelmenyek": {
+        "szint_min": 35,
+        "targy_idk": [],
+        "szorny_oles": { "mon_id": "M5", "db": 1 }
+      },
+      "hatarido": null,
+      "jutalmak": {
+        "xp": 2200,
+        "arany": 1500,
+        "targyak": [{ "item_id": "I111", "db": 1 }]
+      }
+    },
+    {
+      "id": "Q5",
+      "cim": "Csillagfény-őrség",
+      "leiras": "Védd meg a Csillagfény-erdőt 15 Éjvándor visszaverésével.",
+      "kovetelmenyek": {
+        "szint_min": 25,
+        "targy_idk": [],
+        "szorny_oles": { "mon_id": "M7", "db": 15 }
+      },
+      "hatarido": "2026-03-01",
+      "jutalmak": {
+        "xp": 2600,
+        "arany": 900,
+        "targyak": [{ "item_id": "I109", "db": 1 }]
+      }
+    }
+  ],
+  "esemenyek": [
+    {
+      "id": "E1",
+      "nev": "Őszi Aratás",
+      "tipus": "globális bónusz",
+      "kezdete": "2025-10-01T00:00:00+02:00",
+      "vege": "2025-10-10T23:59:59+02:00",
+      "szorzok": { "xp": 1.25, "drop": 1.1 }
+    },
+    {
+      "id": "E2",
+      "nev": "Fagyfok Ostrom",
+      "tipus": "rajd",
+      "kezdete": "2025-12-20T18:00:00+01:00",
+      "vege": "2025-12-20T22:00:00+01:00",
+      "szorzok": { "xp": 1.5, "drop": 1.3 }
+    }
+  ],
+  "tranzakciok": [
+    {
+      "id": "T1",
+      "tipus": "vasarlas",
+      "idopont": "2025-10-03T15:12:00+02:00",
+      "jatekos_id": "P1",
+      "masik_fel": "piac",
+      "tetelek": [
+        { "item_id": "I102", "egysegar": 25, "db": 3, "ado_szazalek": 5.0 },
+        { "item_id": "I104", "egysegar": 410, "db": 1, "ado_szazalek": 5.0 }
+      ],
+      "osszeg_brutto": 541,
+      "penznem": "arany"
+    },
+    {
+      "id": "T2",
+      "tipus": "eladas",
+      "idopont": "2025-10-04T10:00:00+02:00",
+      "jatekos_id": "P2",
+      "masik_fel": "piac",
+      "tetelek": [
+        { "item_id": "I108", "egysegar": 60, "db": 2, "ado_szazalek": 2.5 }
+      ],
+      "osszeg_brutto": 123,
+      "penznem": "arany"
+    },
+    {
+      "id": "T3",
+      "tipus": "csere",
+      "idopont": "2025-10-05T19:45:00+02:00",
+      "jatekos_id": "P3",
+      "masik_fel": "P1",
+      "tetelek": [
+        { "item_id": "I105", "egysegar": 1200, "db": 1, "ado_szazalek": 0.0 },
+        { "item_id": "I100", "egysegar": 950, "db": 1, "ado_szazalek": 0.0 }
+      ],
+      "osszeg_brutto": 250,
+      "penznem": "arany"
+    },
+    {
+      "id": "T4",
+      "tipus": "vasarlas",
+      "idopont": "2025-09-29T08:05:00+02:00",
+      "jatekos_id": "P6",
+      "masik_fel": "piac",
+      "tetelek": [
+        { "item_id": "I103", "egysegar": 18, "db": 4, "ado_szazalek": 5.0 }
+      ],
+      "osszeg_brutto": 76,
+      "penznem": "arany"
+    },
+    {
+      "id": "T5",
+      "tipus": "eladas",
+      "idopont": "2025-10-01T21:30:00+02:00",
+      "jatekos_id": "P1",
+      "masik_fel": "piac",
+      "tetelek": [
+        { "item_id": "I101", "egysegar": 300, "db": 1, "ado_szazalek": 5.0 }
+      ],
+      "osszeg_brutto": 315,
+      "penznem": "arany"
+    },
+    {
+      "id": "T6",
+      "tipus": "vasarlas",
+      "idopont": "2025-10-02T13:00:00+02:00",
+      "jatekos_id": "P3",
+      "masik_fel": "piac",
+      "tetelek": [
+        { "item_id": "I110", "egysegar": 140, "db": 1, "ado_szazalek": 5.0 }
+      ],
+      "osszeg_brutto": 147,
+      "penznem": "arany"
+    },
+    {
+      "id": "T7",
+      "tipus": "vasarlas",
+      "idopont": "2025-09-15T17:10:00+02:00",
+      "jatekos_id": "P5",
+      "masik_fel": "piac",
+      "tetelek": [
+        { "item_id": "I111", "egysegar": 1600, "db": 1, "ado_szazalek": 5.0 }
+      ],
+      "osszeg_brutto": 1680,
+      "penznem": "arany"
+    },
+    {
+      "id": "T8",
+      "tipus": "eladas",
+      "idopont": "2025-10-06T08:30:00+02:00",
+      "jatekos_id": "P4",
+      "masik_fel": "piac",
+      "tetelek": [
+        { "item_id": "I101", "egysegar": 280, "db": 1, "ado_szazalek": 5.0 },
+        { "item_id": "I102", "egysegar": 25, "db": 1, "ado_szazalek": 5.0 }
+      ],
+      "osszeg_brutto": 320,
+      "penznem": "arany"
+    }
+  ],
+  "naplo": [
+    {
+      "id": "L1",
+      "tipus": "harc",
+      "idopont": "2025-10-05T20:00:00+02:00",
+      "adat": { "jatekos_id": "P3", "mon_id": "M4", "gyozelem": true, "ido_mp": 142 }
+    },
+    {
+      "id": "L2",
+      "tipus": "halal",
+      "idopont": "2025-10-05T20:05:12+02:00",
+      "adat": { "jatekos_id": "P2", "mon_id": "M2", "veszteseg_arany": 12 }
+    },
+    {
+      "id": "L3",
+      "tipus": "szintlepes",
+      "idopont": "2025-10-04T18:30:00+02:00",
+      "adat": { "jatekos_id": "P1", "regi_szint": 33, "uj_szint": 34 }
+    },
+    {
+      "id": "L4",
+      "tipus": "kuldetes_allapot",
+      "idopont": "2025-10-03T12:00:00+02:00",
+      "adat": { "jatekos_id": "P5", "kuldetes_id": "Q3", "allapot": "folyamatban" }
+    },
+    {
+      "id": "L5",
+      "tipus": "kuldetes_befejezve",
+      "idopont": "2025-10-05T09:15:00+02:00",
+      "adat": { "jatekos_id": "P1", "kuldetes_id": "Q1", "jutalom_arany": 200, "jutalom_xp": 450 }
+    },
+    {
+      "id": "L6",
+      "tipus": "esemeny_reszvetel",
+      "idopont": "2025-10-01T19:00:00+02:00",
+      "adat": { "jatekos_id": "P6", "esemeny_id": "E1", "pont": 120 }
+    }
+  ]
+}

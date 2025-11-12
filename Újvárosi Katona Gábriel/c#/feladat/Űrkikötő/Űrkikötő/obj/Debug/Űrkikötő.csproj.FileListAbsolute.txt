@@ -1,0 +1,7 @@
+C:\Users\TEMP.AzureAD.000\Desktop\feladat\Űrkikötő\Űrkikötő\bin\Debug\Űrkikötő.exe.config
+C:\Users\TEMP.AzureAD.000\Desktop\feladat\Űrkikötő\Űrkikötő\bin\Debug\Űrkikötő.exe
+C:\Users\TEMP.AzureAD.000\Desktop\feladat\Űrkikötő\Űrkikötő\bin\Debug\Űrkikötő.pdb
+C:\Users\TEMP.AzureAD.000\Desktop\feladat\Űrkikötő\Űrkikötő\obj\Debug\Űrkikötő.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.000\Desktop\feladat\Űrkikötő\Űrkikötő\obj\Debug\Űrkikötő.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.000\Desktop\feladat\Űrkikötő\Űrkikötő\obj\Debug\Űrkikötő.exe
+C:\Users\TEMP.AzureAD.000\Desktop\feladat\Űrkikötő\Űrkikötő\obj\Debug\Űrkikötő.pdb

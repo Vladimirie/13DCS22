@@ -1,0 +1,7 @@
+C:\Users\TEMP.AzureAD\Desktop\c#\Sportstat\Sportstat\obj\Debug\Sportstat.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD\Desktop\c#\Sportstat\Sportstat\obj\Debug\Sportstat.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD\Desktop\c#\Sportstat\Sportstat\bin\Debug\Sportstat.exe.config
+C:\Users\TEMP.AzureAD\Desktop\c#\Sportstat\Sportstat\bin\Debug\Sportstat.exe
+C:\Users\TEMP.AzureAD\Desktop\c#\Sportstat\Sportstat\bin\Debug\Sportstat.pdb
+C:\Users\TEMP.AzureAD\Desktop\c#\Sportstat\Sportstat\obj\Debug\Sportstat.exe
+C:\Users\TEMP.AzureAD\Desktop\c#\Sportstat\Sportstat\obj\Debug\Sportstat.pdb

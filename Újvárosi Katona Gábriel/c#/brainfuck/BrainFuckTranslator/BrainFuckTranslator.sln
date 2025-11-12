@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainFuckTranslator", "BrainFuckTranslator\BrainFuckTranslator.csproj", "{1B99EDE9-0053-4881-AACC-B3FCBEB1FF6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B99EDE9-0053-4881-AACC-B3FCBEB1FF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B99EDE9-0053-4881-AACC-B3FCBEB1FF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B99EDE9-0053-4881-AACC-B3FCBEB1FF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B99EDE9-0053-4881-AACC-B3FCBEB1FF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D16A678-C727-4864-8B42-2D0AB5155BD3}
+	EndGlobalSection
+EndGlobal

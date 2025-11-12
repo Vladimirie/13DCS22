@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TEMP.AzureAD.000\\Desktop\\c#\\Konyvtarkezelo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0714C2FA-C539-46B3-BCBC-0B9CD1DCF56C}|Konyvtarkezelo\\Konyvtarkezelo.csproj|c:\\users\\temp.azuread.000\\desktop\\c#\\konyvtarkezelo\\konyvtarkezelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0714C2FA-C539-46B3-BCBC-0B9CD1DCF56C}|Konyvtarkezelo\\Konyvtarkezelo.csproj|solutionrelative:konyvtarkezelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.000\\Desktop\\c#\\Konyvtarkezelo\\Konyvtarkezelo\\Program.cs",
+              "RelativeDocumentMoniker": "Konyvtarkezelo\\Program.cs",
+              "ToolTip": "C:\\Users\\TEMP.AzureAD.000\\Desktop\\c#\\Konyvtarkezelo\\Konyvtarkezelo\\Program.cs",
+              "RelativeToolTip": "Konyvtarkezelo\\Program.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:12:41.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

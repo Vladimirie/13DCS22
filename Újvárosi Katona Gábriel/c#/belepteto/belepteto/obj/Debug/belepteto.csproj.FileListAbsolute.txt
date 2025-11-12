@@ -1,0 +1,7 @@
+C:\Users\TEMP.AzureAD.005\Desktop\belepteto\belepteto\bin\Debug\belepteto.exe.config
+C:\Users\TEMP.AzureAD.005\Desktop\belepteto\belepteto\bin\Debug\belepteto.exe
+C:\Users\TEMP.AzureAD.005\Desktop\belepteto\belepteto\bin\Debug\belepteto.pdb
+C:\Users\TEMP.AzureAD.005\Desktop\belepteto\belepteto\obj\Debug\belepteto.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.005\Desktop\belepteto\belepteto\obj\Debug\belepteto.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.005\Desktop\belepteto\belepteto\obj\Debug\belepteto.exe
+C:\Users\TEMP.AzureAD.005\Desktop\belepteto\belepteto\obj\Debug\belepteto.pdb

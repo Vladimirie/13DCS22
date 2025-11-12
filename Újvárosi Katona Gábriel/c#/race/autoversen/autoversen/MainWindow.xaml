@@ -1,0 +1,15 @@
+﻿<Window x:Class="autoversen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:autoversen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="INVISIBLE" HorizontalAlignment="Left" Height="51" Margin="209,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="309"/>
+        <Label Content="Versenyző keresés" HorizontalAlignment="Left" Height="35" Margin="223,78,0,0" VerticalAlignment="Top" Width="141"/>
+        <Button Click="Button_Click" Content="Keresés" HorizontalAlignment="Left" Height="53" Margin="283,207,0,0" VerticalAlignment="Top" Width="154"/>
+
+    </Grid>
+</Window>
