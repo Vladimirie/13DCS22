@@ -31,24 +31,24 @@
 					{
 						for(int j = 0; j < identical.Length;j++)
 						{
-							while (guess.Count >= 6)
+							while (guess.Count >= identical.Length)
 							{
 								guess.RemoveAt(0);
 							}
 							if (user[i] == identical[j])
 							{
 								//Console.Write(user[i]);
-								guess.Add(user[i]);
+								guess.Add(identical[i]);
 								if (guess[i] == '.')
 								{
-									guess[i] = user[i];
+									guess[i] = identical[i];
 								}
 							}
 							else
 							{
 								//Console.Write(".");
 								guess.Add('.');
-								if (guess[i] == user[i])
+								if (guess[i] == identical[i])
 								{
 
 								}

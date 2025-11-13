@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.deps.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\refint\SportStatistics.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\ref\SportStatistics.dll
+=======
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.deps.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\bin\Debug\net9.0\SportStatistics.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\refint\SportStatistics.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\SportStatistics.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\SportStatistics\obj\Debug\net9.0\ref\SportStatistics.dll
+>>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d
