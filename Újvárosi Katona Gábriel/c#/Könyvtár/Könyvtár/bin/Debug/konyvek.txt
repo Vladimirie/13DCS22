@@ -1,0 +1,50 @@
+Egri csillagok;797;1992;Gyermek
+A Pál utcai fiúk;647;1915;Művészet
+Az ember tragédiája;608;1911;Irodalom
+Tüskevár;362;1889;Történelem
+Ludas Matyi;199;1962;Művészet
+Sorstalanság;643;1862;Irodalom
+Iskola a határon;471;1936;Történelem
+A Pendragon legenda;436;1972;Tudomány
+A kőszívű ember fiai;310;1944;Művészet
+A láthatatlan ember;715;1896;Irodalom
+Nyugat;67;2014;Irodalom
+Szindbád;698;1922;Irodalom
+A sátán kutyája;216;1856;Irodalom
+A vörös oroszlán;323;1933;Vallás
+A gyertyák csonkig égnek;443;1876;Művészet
+A fehér király;725;1855;Irodalom
+A boldog ember;385;1935;Gyermek
+A kis herceg;448;1860;Gyermek
+Micimackó;242;1994;Történelem
+Alice Csodaországban;220;1954;Művészet
+Harry Potter és a bölcsek köve;662;1862;Művészet
+A Hobbit;157;2003;Tudomány
+Gyűrűk Ura;169;1935;Gyermek
+A tudás enciklopédiája;607;2022;Történelem
+Csillagászat alapjai;712;1904;Művészet
+Biológia mindenkinek;744;1883;Művészet
+Fizika egyszerűen;698;1947;Művészet
+Kémia titkai;154;1852;Gyermek
+Világtörténelem;792;1950;Irodalom
+Magyarország története;750;1851;Gyermek
+Művészettörténet;700;1894;Történelem
+Festészet mesterei;224;1992;Tudomány
+Szobrászat alapjai;198;1935;Tudomány
+Zene története;792;1895;Művészet
+Biblia;442;1961;Irodalom
+Korán;277;1898;Vallás
+Talmud;460;1998;Irodalom
+Hit és tudomány;113;1983;Művészet
+Filozófia alapjai;420;1898;Művészet
+Etika és erkölcs;470;1867;Gyermek
+Mesék gyerekeknek;612;1853;Művészet
+Grimm mesék;742;1997;Gyermek
+Andersen meséi;140;1889;Történelem
+Magyar népmesék;642;1881;Gyermek
+Bogyó és Babóca;363;1899;Művészet
+Pöttyös Panni;687;1954;Vallás
+Barbie története;597;1879;Vallás
+Kisvakond kalandjai;321;1923;Történelem
+Csipkerózsika;313;1918;Tudomány
+Hófehérke;98;1964;Tudomány

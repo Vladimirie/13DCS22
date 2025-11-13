@@ -1,0 +1,7 @@
+C:\Users\TEMP.AzureAD.007\Desktop\f\Mozi\Mozi\bin\Debug\Mozi.exe.config
+C:\Users\TEMP.AzureAD.007\Desktop\f\Mozi\Mozi\bin\Debug\Mozi.exe
+C:\Users\TEMP.AzureAD.007\Desktop\f\Mozi\Mozi\bin\Debug\Mozi.pdb
+C:\Users\TEMP.AzureAD.007\Desktop\f\Mozi\Mozi\obj\Debug\Mozi.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.007\Desktop\f\Mozi\Mozi\obj\Debug\Mozi.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.007\Desktop\f\Mozi\Mozi\obj\Debug\Mozi.exe
+C:\Users\TEMP.AzureAD.007\Desktop\f\Mozi\Mozi\obj\Debug\Mozi.pdb

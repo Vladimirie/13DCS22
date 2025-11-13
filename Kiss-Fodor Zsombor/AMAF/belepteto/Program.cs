@@ -64,6 +64,57 @@
             {
                 Console.WriteLine("Nem voltak többen, mint a menzán.");
             }
+
+            //6.
+            HashSet<string> bejelentkezo = new HashSet<string>();
+            HashSet<string> kijelentkezo = new HashSet<string>();
+            foreach (TanuloEvent diak in tanuloInfo)
+            {
+                DateTime ido = DateTime.ParseExact(diak.Ido, "HH:mm", System.Globalization.CultureInfo.CurrentCulture);
+                //Console.WriteLine(ido.ToString("HH:mm", System.Globalization.CultureInfo.CurrentCulture));           
+
+                if (ido < DateTime.ParseExact("10:45", "HH:mm", 
+                    System.Globalization.CultureInfo.CurrentCulture) 
+                    && diak.EsemenyKod == 1)
+                {
+                    bejelentkezo.Add(diak.ID);
+                }
+                else if (ido < DateTime.ParseExact("11:00", "HH:mm", 
+                    System.Globalization.CultureInfo.CurrentCulture) 
+                    && diak.EsemenyKod == 2)
+                {
+                    kijelentkezo.Add(diak.ID);
+                }
+            }
+
+            HashSet<string> dudeidkhelpme = new HashSet<string>();
+            foreach (string ID in bejelentkezo)
+            {
+                if (!kijelentkezo.Contains(ID))
+                {
+                    dudeidkhelpme.Add(ID);
+                }
+            }
+
+            foreach (TanuloEvent diak in tanuloInfo)
+            {
+                DateTime ido = DateTime.ParseExact(diak.Ido, "HH:mm", System.Globalization.CultureInfo.CurrentCulture);
+                if (ido > DateTime.ParseExact("10:45", "HH:mm", 
+                    System.Globalization.CultureInfo.CurrentCulture) 
+                    && diak.EsemenyKod == 1)
+                {
+                    if (ido < DateTime.ParseExact("11:00", "HH:mm", System.Globalization.CultureInfo.CurrentCulture) 
+                        && diak.EsemenyKod == 1)
+                    {
+                        if (dudeidkhelpme.Contains(diak.ID))
+                        {
+                            Console.Write($"{diak.ID} ");
+                        }
+                    }
+                }
+            }
+
+
         }
     }
 }

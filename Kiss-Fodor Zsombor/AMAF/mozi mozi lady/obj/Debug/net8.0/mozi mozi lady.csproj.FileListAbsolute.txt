@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\bin\Debug\net8.0\mozi mozi lady.exe
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\bin\Debug\net8.0\mozi mozi lady.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\bin\Debug\net8.0\mozi mozi lady.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\bin\Debug\net8.0\mozi mozi lady.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\bin\Debug\net8.0\mozi mozi lady.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\refint\mozi mozi lady.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\mozi mozi lady.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\mozi mozi lady\obj\Debug\net8.0\ref\mozi mozi lady.dll
