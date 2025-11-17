@@ -1,0 +1,289 @@
+<?PHP
+/*ECHO"<H1>HELLO WORLD</H1>";
+$SOMETHING="<H3>TEST</H3>";
+ECHO$SOMETHING;
+$A=10;
+$B=10;
+ECHO$A+$B;
+ECHO"</BR>";
+IF($A>$B)
+{
+  	ECHO"A IS BIGGER THAN B";
+}
+ELSEIF($B>$A)
+{
+  	ECHO"B IS BIGGER THAN A";
+}
+ELSE
+{
+  	ECHO"BOTH EQUAL";
+}
+ECHO"</BR>";
+FOR($I=0;$I<10;$I++)
+{
+  	ECHO$I;
+}
+$J=0;
+ECHO"</BR>";
+WHILE($J<10)
+{
+  	ECHO$J;
+  	$J++;
+}
+ECHO"</BR>";
+FOR($I=1;$I<=100;$I++)
+{
+  	IF($I%3==0)
+	{
+		ECHO$I;
+		ECHO" ";
+  	}
+}
+ECHO"</BR>";
+ECHO"<TABLE>";
+$NUM=1;
+FOR($I=0;$I<10;$I++)
+{
+	ECHO"<TR>";
+	FOR($J=0;$J<10;$J++)
+	{
+		IF($NUM%5==0)
+		{
+			ECHO"<TD><B>".$NUM."</TD>";
+		}
+		ELSE
+		{
+			ECHO"<TD>".$NUM."</TD>";
+		}
+		$NUM++;
+	}
+	ECHO"</TR>";
+}
+ECHO"</TABLE>";*/
+$NUM=[2,5,10,12,64,23,73,4,19,47];
+/*FOREACH($NUM AS $NUMBER)
+{
+	IF($NUMBER%2==0)
+	{
+		ECHO$NUMBER." ";
+	}
+}*/
+ECHO"<H1>PROGRAMOZÁSI TÉTELEK</H1>";
+ECHO"<B>A TÖMB ELEMEI: ";
+FOREACH($NUM AS $NUMBER)
+{
+	ECHO$NUMBER." ";
+}
+ECHO"</B>";
+ECHO"<H2>MAXIMUM KIVÁLASZTÁS</H2>";
+$MAX=$NUM[0];
+FOREACH($NUM AS $SEARCH)
+{
+	IF($SEARCH>$MAX)
+	{
+		$MAX=$SEARCH;
+	}
+}
+ECHO"A LEGNAGYOBB SZÁM: ".$MAX;
+ECHO"</BR>";
+ECHO"<H2>LINEÁRIS KERESÉS</H2>";
+$INDEX=0;
+$TALÁLAT=FALSE;
+WHILE(!$TALÁLAT&&$INDEX<COUNT($NUM))
+{
+	IF($NUM[$INDEX]==23)
+	{
+		$TALÁLAT=TRUE;
+	}
+	ELSE
+	{
+		$INDEX++;
+	}
+}
+IF($TALÁLAT)
+{
+	ECHO"A KERESETT SZÁM BENNE VAN, ÉS A ".($INDEX+1).". HELYEN TALÁLHATÓ.";
+}
+ELSE
+{
+	ECHO"A SZÁM NINCS A TÖMBBEN.";
+}
+ECHO"<H2>KIVÁLASZTÁS</H2>";
+$POS=0;
+FOR($I=0;$I<COUNT($NUM);$I++)
+{
+	$POS++;
+	IF($NUM[$I]==23)
+	{
+		ECHO"A SZÁM A(Z) ".$POS.". HELYEN VAN.";
+	}
+}
+ECHO"<H2>ELDÖNTÉS</H2>";
+$IN=FALSE;
+FOR($I=0;$I<COUNT($NUM);$I++)
+{
+	IF($NUM[$I]==23)
+	{
+		$IN=TRUE;
+	}
+}
+IF($IN)
+{
+	ECHO"A KERESETT SZÁM BENNE VAN A TÖMBBEN.";
+}
+ELSE
+{
+	ECHO"A KERESETT SZÁM NINCS A TÖMBBEN.";
+}
+ECHO"<H2>SOROZATSZÁMÍTÁS</H2>";
+$TOTAL=0;
+FOR($I=0;$I<COUNT($NUM);$I++)
+{
+	IF($NUM[$I]%2==1)
+	{
+		$TOTAL+=$NUM[$I];
+	}	
+}
+ECHO"A PÁRATLAN SZÁMOK ÖSSZEGE: ".$TOTAL;
+ECHO"<H2>MEGSZÁMOLÁS</H2>";
+$DB=0;
+FOREACH($NUM AS $COUNT)
+{
+	IF($COUNT%2==0)
+	{
+		$DB++;
+	}
+}
+ECHO$DB." DARAB PÁROS SZÁM VAN A TÖMBBEN.";
+//MATRIX
+ECHO"<H1>MÁTRIX</H1>";
+$HUMAN=
+[
+	["JÁNOS","BUDAPEST",17,"TANULÓ"],
+	["ELEMÉR","KECSKEMÉT",28,"RENDŐR"],
+	["FERENC","MISKOLC",58,"VÁLLALKOZÓ"],
+	["GÁBOR","BUDAPEST",31,"RENDŐR"],
+	["ISTVÁN","SZEGED",47,"PÉK"]
+];
+ECHO"<H3>1.</H3>";
+$NAMES=0;
+FOR($I=0;$I<COUNT($HUMAN);$I++)
+{
+	$NAMES++;
+	//ECHO$HUMAN[$I][0]."</BR>";
+}
+ECHO$NAMES." EMBERRŐL VAN ADATUNK.";
+ECHO"<H3>2.</H3>";
+//Budapestiek átlag kora
+$budapestiek = 0;
+$budapestikor = 0;
+foreach ($HUMAN as $krapek) {
+	if ($krapek[1] == "BUDAPEST") {
+		$budapestiek++;
+		$budapestikor += $krapek[2];
+	}
+}
+echo "Az átlag kor Budapesti embereknél az ".($budapestikor / $budapestiek)."év.";
+/*$BAKER=FALSE;
+$INDEX=0;
+$BAKERINDEX=0;
+WHILE(!$BAKER&&$INDEX<COUNT($HUMAN))...*/
+ECHO"<H1>FÜGGVÉNYEK, METÓDUSOK</H1>";
+FUNCTION TEST()
+{
+	ECHO"HELLO";
+}
+TEST();
+ECHO"<BR>";
+FUNCTION TEST2($VALUE)
+{
+	ECHO$VALUE;
+}
+TEST2(50);
+ECHO"<BR>";
+FUNCTION TEST3($VALUE)
+{
+	RETURN$VALUE;
+}
+ECHO TEST3(50);
+$BLOCK1=[51,2,67,-12,52,33,92,44];
+$BLOCK2=[21,-6,-52,1,32,69,-2,22];
+ECHO"<H2>1.</H2>";
+FUNCTION CALC($A)
+{
+	$SUM=0;
+	FOREACH($A AS$CALC)
+	{
+		$SUM+=$CALC;
+	}
+	RETURN "TOTAL: ".$SUM;
+}
+ECHO CALC($BLOCK1);
+ECHO"<BR>";
+ECHO CALC($BLOCK2);
+ECHO"<BR>";
+ECHO"<H2>2.</H2>";
+FUNCTION ODD($VAL)
+{
+	$COUNT=0;
+	/*FOR($I=0;$I<COUNT($VAL);$I++)
+	{
+		IF($VAL[$I]%2==1)
+		{
+			$COUNT++;
+		}
+	}*/
+	FOREACH($VAL AS$SEARCH)
+	{
+		IF($SEARCH%2==1)
+		{
+			$COUNT++;
+		}
+	}
+	ECHO"TOTAL ODD NUMS: ".$COUNT;
+}
+ODD($BLOCK1);
+ECHO"<BR>";
+ODD($BLOCK2);
+ECHO"<H2>3.</H2>";
+FUNCTION MINIMUM($MIN)
+{
+	$MINI=0;
+	FOREACH($MIN AS$COUNT)
+	{
+		IF($MINI>$COUNT)
+		{
+			$MINI=$COUNT;
+		}
+	}
+	ECHO"SMALLEST NUM: ".$MINI;
+}
+MINIMUM($BLOCK1);
+ECHO"<BR>";
+MINIMUM($BLOCK2);
+ECHO"<H2>4.</H2>";
+FUNCTION DIV7($A)
+{
+	$FOUND=FALSE;
+	$INDEX=0;
+	WHILE(!$FOUND&&$INDEX<COUNT($A))
+	{
+		IF($A[$INDEX]%7==0)
+		{
+			$FOUND=TRUE;
+		}
+		$INDEX++;
+	}
+	IF($FOUND)
+	{
+		ECHO"THERE'S A NUMBER THAT'S DIVISIBLE BY 7";
+	}
+	ELSE
+	{
+		ECHO"NO NUMBER FOUND THAT MATCHES THE CRITERIA.";
+	}
+}
+DIV7($BLOCK1);
+ECHO"<BR>";
+DIV7($BLOCK2);
+?>

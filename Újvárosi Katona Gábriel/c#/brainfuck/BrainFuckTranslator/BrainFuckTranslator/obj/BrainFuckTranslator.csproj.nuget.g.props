@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+<<<<<<<< HEAD:Újvárosi Katona Gábriel/c#/brainfuck/BrainFuckTranslator/BrainFuckTranslator/obj/BrainFuckTranslator.csproj.nuget.g.props
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Asus\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+========
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\MarcellSzollosy\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+>>>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d:Szöllősy Marcell/VF IL/albatrosz-F/albatrosz F/autoapp/autoapp/obj/autoapp.csproj.nuget.g.props
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<<< HEAD:Újvárosi Katona Gábriel/c#/brainfuck/BrainFuckTranslator/BrainFuckTranslator/obj/BrainFuckTranslator.csproj.nuget.g.props
+    <SourceRoot Include="C:\Users\Asus\.nuget\packages\" />
+========
+    <SourceRoot Include="C:\Users\MarcellSzollosy\.nuget\packages\" />
+>>>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d:Szöllősy Marcell/VF IL/albatrosz-F/albatrosz F/autoapp/autoapp/obj/autoapp.csproj.nuget.g.props
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+</Project>

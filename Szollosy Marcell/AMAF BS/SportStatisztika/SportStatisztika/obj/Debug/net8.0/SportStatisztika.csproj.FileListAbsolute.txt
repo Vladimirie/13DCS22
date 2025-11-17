@@ -1,0 +1,14 @@
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\bin\Debug\net8.0\SportStatisztika.exe
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\bin\Debug\net8.0\SportStatisztika.deps.json
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\bin\Debug\net8.0\SportStatisztika.runtimeconfig.json
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\bin\Debug\net8.0\SportStatisztika.dll
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\bin\Debug\net8.0\SportStatisztika.pdb
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\SportStatisztika.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\SportStatisztika.AssemblyInfoInputs.cache
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\SportStatisztika.AssemblyInfo.cs
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\SportStatisztika.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\SportStatisztika.dll
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\refint\SportStatisztika.dll
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\SportStatisztika.pdb
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\SportStatisztika.genruntimeconfig.cache
+C:\Users\MarcellSzollosy\source\repos\SportStatisztika\SportStatisztika\obj\Debug\net8.0\ref\SportStatisztika.dll

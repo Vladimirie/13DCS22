@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejelentkező oldal</title>
+    <link rel="icon" type="image/x-icon" href="burger.jpg">
+    <script src="app.js"></script>
+    <style>
+        body {
+            height: 90vh;
+        }
+
+        .loginwindow {
+            border: 0.3ch solid black;
+            background-color: lightgray;
+            margin: auto;
+            width: 30%;
+            text-align: center;
+            padding: 2ch;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .loginwindow > input{
+            margin-top: 2vh;
+            text-align: center;
+            width: 80%;
+        }
+
+        .loginwindow > label{
+            text-align: left;
+            margin-top: 2vh;
+            width: 80%;
+        }
+
+        .loginwindow > button{
+            margin-top: 2vh;
+            width: 50%;
+        }
+
+        .login {
+            background-color: red;
+        }
+        
+        .create {
+            border: none;
+            background-color: transparent;
+            color: blue;
+            text-decoration-line: underline;
+        }
+
+        .caps {
+            height: 2.3ch;
+            font-size: 2.3ch;
+            font-weight: bold;
+        }
+
+        .wrongpass{
+            color: crimson;
+            font-weight: bolder;
+            font-size: 2ch;
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body id="body">
+
+    <div class="loginwindow">
+        <h2>Bejelentkezés</h2>
+
+        <label for="email"> Email Cím: </label>
+        <input id="emailInput" name="email" type="text" placeholder="felhasznalo@email.com">
+
+        <label for="pass"> Jelszó: </label>
+        <input id ="passwordInput" name="pass" type="password" placeholder="Jelszó">
+
+        <p id="capswarning" class="caps"></p>
+
+        <button onclick="Login()" class="login">Bejelentkezés</button>
+        <button onclick="Create()" class="create">Nincs fiókod? Regisztrálj!</button>
+
+        <p id="wrongpass" class="wrongpass">AZ EMAIL VAGY JELSZÓ HELYTELEN!</p>
+    </div>
+
+</body>
+
+<script>
+    var site = document.getElementById("body");
+
+    var emailInput = document.getElementById("emailInput");
+    var pasInput = document.getElementById("passwordInput");
+
+    var capswarning = document.getElementById("capswarning");
+    var passwarning = document.getElementById("wrongpass");
+
+    site.addEventListener("keyup", function(event) {
+        if (event.getModifierState("CapsLock")) {
+            capswarning.innerText = 'A Caps Lock be van kapcsolva!';
+        }
+        else {
+            capswarning.innerText = ' ';
+        }
+    }); 
+    
+    function Login() {
+        if(emailInput.value.includes("@") && emailInput.value.includes(".") && pasInput.value.length > 3 && pasInput.value.length <16) {
+
+            emailInput.value = '';
+            pasInput.value = '';
+
+            passwarning.style.display = 'none';
+            alert("Üdvözöljük");
+            window.open("logged in site.html", "_self");
+        }else {
+
+            emailInput.value = '';
+            pasInput.value = '';
+
+            passwarning.style.display = 'block';
+        }
+    }
+
+    function Create() {
+        window.open("registration window.html", "_self")
+    }
+</script>
+
+</html>

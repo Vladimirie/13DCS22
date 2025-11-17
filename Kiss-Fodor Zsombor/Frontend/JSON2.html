@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Márka</h2>
+    <input type="text" id="make">
+    <h2>Modell</h2>
+    <input type="text" id="model">
+    <h2>Évjárat</h2>
+    <input type="text" id="year">
+    <button onclick="KocsiFelvetel()">Autó Hozzáadása</button>
+    <button onclick="KocsiKiIr()">Autó Kiírása</button>
+    <input type="text" id="filterYear">
+
+    <h3 id="carList"></h3>
+    <h3 id="carFilterList"></h3>
+</body>
+
+<script>
+    kocsik = [];
+
+    function KocsiFelvetel() {
+        kocsi = {
+            "kocsiMake": document.getElementById("make").value,
+            "kocsiModel": document.getElementById("model").value,
+            "kocsiEv": Number(document.getElementById("year").value)
+        }
+        document.getElementById("carList").textContent += kocsi.kocsiEv + " " + kocsi.kocsiMake + " " + kocsi.kocsiModel + ", "
+        kocsik.push(Object(kocsi));
+
+        document.getElementById("make").value = null;
+        document.getElementById("model").value = null;
+        document.getElementById("year").value = null;    
+    }
+
+    function KocsiKiIr() {
+        let filteredCars = ""
+        let filterBy = Number(document.getElementById("filterYear").value)
+        for (let i = 0; i < kocsik.length; i++) {
+            if(kocsik[i].kocsiEv >= filterBy) {
+                filteredCars += JSON.stringify(kocsik[i], null, 4 );
+            }
+        }
+        document.getElementById("carFilterList").textContent = filteredCars;
+    }
+</script>
+
+</html>

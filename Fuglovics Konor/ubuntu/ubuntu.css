@@ -1,0 +1,174 @@
+<<<<<<< HEAD
+body
+{
+	width: 1125px;
+	margin: 0 auto;
+}
+ #keret
+{
+	font-family: Ubuntu;
+	color: #4f4f4f;
+	background-color: #f9f9f9;
+	font-size: 14px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e0e0e0
+}
+#torzs
+{
+	width: 1125px;
+	margin: 0;
+	padding: 0;
+}
+#torzs h1
+{
+	color: #333333;
+	font-size: 32px;
+}
+#torzs h2
+{
+	color: #f15d22;
+	font-size: 24px;
+}
+#torzs img
+{
+	width: 500px;
+	display: block;
+}
+#torzs a
+{
+	font-weight: bold;
+	font-style: none;
+	text-decoration: none;
+	color: #f15d22
+}
+#torzs a:hover
+{
+	color: #a0a0a0;
+}
+#cikk
+{
+	float: left;
+	width: 720px;
+	margin: 0;
+	padding: 20px;
+	background-color: #ffffff;
+}
+#kommentek
+{
+	float: right;
+	width: 300px;
+	height: 1300px;
+	margin: 0;
+	padding: 20px;
+	background-color: #efefef
+}
+{}
+.komment
+{
+	margin: 20px;
+	padding: 5px;
+	background-color: #ffffff
+}
+#fejlec
+{
+	height: 300px;
+	background-image: url("omg.png");
+}
+#lablec
+{
+	clear: both;
+	color: #808080;
+	width: 1085px;
+	margin: 0;
+	padding: 20px;
+	background-color: #efefef;
+	text-align: center;
+=======
+body
+{
+	width: 1125px;
+	margin: 0 auto;
+}
+ #keret
+{
+	font-family: Ubuntu;
+	color: #4f4f4f;
+	background-color: #f9f9f9;
+	font-size: 14px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e0e0e0
+}
+#torzs
+{
+	width: 1125px;
+	margin: 0;
+	padding: 0;
+}
+#torzs h1
+{
+	color: #333333;
+	font-size: 32px;
+}
+#torzs h2
+{
+	color: #f15d22;
+	font-size: 24px;
+}
+#torzs img
+{
+	width: 500px;
+	display: block;
+}
+#torzs a
+{
+	font-weight: bold;
+	font-style: none;
+	text-decoration: none;
+	color: #f15d22
+}
+#torzs a:hover
+{
+	color: #a0a0a0;
+}
+#cikk
+{
+	float: left;
+	width: 720px;
+	margin: 0;
+	padding: 20px;
+	background-color: #ffffff;
+}
+#kommentek
+{
+	float: right;
+	width: 300px;
+	height: 1300px;
+	margin: 0;
+	padding: 20px;
+	background-color: #efefef
+}
+{}
+.komment
+{
+	margin: 20px;
+	padding: 5px;
+	background-color: #ffffff
+}
+#fejlec
+{
+	height: 300px;
+	background-image: url("omg.png");
+}
+#lablec
+{
+	clear: both;
+	color: #808080;
+	width: 1085px;
+	margin: 0;
+	padding: 20px;
+	background-color: #efefef;
+	text-align: center;
+>>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d
+}

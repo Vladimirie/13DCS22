@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+
+
+<form action="">
+
+    <label for="Name">Név</label>
+    <input type="text" name="Name" id="Name">
+   <div class="input-row">
+    <label for="time">Időpont</label>
+    <select name="time" id="time">
+
+        <option >8-10</option>
+        <option >1-12</option>
+        <option >12-16</option>
+        <option >16-22</option>
+
+
+    </select>
+
+   </div>
+ 
+
+
+   
+    <div class="input-row">
+        <label for="sportag">Sportág: </label>
+        <select name="sportag" id="sportag">
+            <option >Aerobik</option>
+            <option >Konditeren</option>
+            <option >Tenisz</option>
+            <option >Quash</option>
+        </select>
+
+    </div>
+    
+    <label for="berlet">Bérlet Száma</label>
+    <input type="text" name="berlet" id="berlet">
+
+    <div class="btn-row">
+        <button onclick="Save()">Mentés</button>
+        <button onclick="Read()">Megjelenítés</button>
+    </div>
+
+</form>
+<button onclick="Clear()">Clear</button>
+
+<div class="tabla" id="tabla">
+
+
+
+
+</div>
+
+<script src="./sport.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

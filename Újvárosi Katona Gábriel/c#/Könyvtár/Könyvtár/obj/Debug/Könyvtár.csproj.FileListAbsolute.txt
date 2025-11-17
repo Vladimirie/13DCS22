@@ -1,0 +1,7 @@
+C:\Users\TEMP.AzureAD.007\Desktop\könyvtár\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe.config
+C:\Users\TEMP.AzureAD.007\Desktop\könyvtár\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe
+C:\Users\TEMP.AzureAD.007\Desktop\könyvtár\Könyvtár\Könyvtár\bin\Debug\Könyvtár.pdb
+C:\Users\TEMP.AzureAD.007\Desktop\könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.007\Desktop\könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.007\Desktop\könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.exe
+C:\Users\TEMP.AzureAD.007\Desktop\könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.pdb
