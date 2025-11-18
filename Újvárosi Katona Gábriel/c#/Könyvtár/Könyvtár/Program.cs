@@ -54,14 +54,15 @@ namespace Könyvtár
 
                 Reszlegek[konyv.Reszleg].Add(konyv);
             }
-/*
+            /*
             foreach (var reszleg in Reszlegek.Keys)
             {
                 var rendezett = Reszlegek[reszleg]
                     .OrderByDescending(k => k.KiadasiEv)
-                    .ThenBy(k =>)
+                    .ThenBy(k => k.Oldalszal)
+                    .ThenBy(k => k.Cim);
             };
-*/
+            */
             foreach (var item in Reszlegek) { 
                 
                 item.Value.Sort();
