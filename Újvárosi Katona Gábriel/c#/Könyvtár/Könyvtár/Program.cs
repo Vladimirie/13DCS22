@@ -56,22 +56,34 @@ namespace Könyvtár
         //    }
             List<string> list = new List<string>(File.ReadAllLines("konyvek.txt"));
             List<Konyv> konyvek = new List<Konyv>();
+            List<string>  resz = new List<string>();
             foreach (string line in list) {
                 string[] split = line.Split(';');
                 konyvek.Add(new Konyv(split[0], int.Parse(split[1]), int.Parse(split[2]), split[3]));
-                
+                if (!resz.Contains(split[3]))
+                {
+                    resz.Add(split[3]);
+                }
             }
-
+            resz.Sort();
             konyvek.Sort();
 
-            //Dictionery ? maybe
+
+         
+            
+
             Dictionary<string, List<Konyv>> Reszlegek = new Dictionary<string, List<Konyv>>();
+            foreach (string line in resz) { 
+            
+               if (!Reszlegek.ContainsKey(line))
+                {
+                    Reszlegek.Add(line, new List<Konyv>());
+                }
+            
+            }
             foreach (Konyv konyv in konyvek)
             {
-                if (!Reszlegek.ContainsKey(konyv.Reszleg))
-                {
-                    Reszlegek.Add(konyv.Reszleg, new List<Konyv>());
-                }
+
                 Reszlegek[konyv.Reszleg].Add(konyv);
             }
 
