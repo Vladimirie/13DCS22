@@ -1,0 +1,68 @@
+body {
+    background-color: lightgray;
+    font-size: 1.3pc;
+    min-height: 100%;
+    
+    justify-content: center;
+    display: flex;
+}
+
+html {
+    height: 100%;
+}
+
+table {
+    margin: auto;
+    background-color: black;
+}
+
+th {
+    background-color: darkgray;
+}
+
+td {
+    background-color: white;
+    padding: 0.6ch;
+}
+
+.Divi {
+    border: 0.4pc solid black;
+    border-radius: 1pc;
+    padding: 2pc;
+    margin: auto;
+    
+    width: 50%;
+    background-color: white;
+}
+
+.DiviMaxi {
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 1pc;
+    margin-top: 1pc;
+    margin-bottom: 0.7pc;
+    padding: 0.6pc;
+    font-size: 1.3pc;
+}
+
+.Option {
+    padding: 1pc;
+    font-size: 1.3pc;
+    background-color: whitesmoke;
+}
+
+.ButtonDivi {
+    text-align: center;
+}
+
+.Butti {
+    background-color:royalblue;
+    color: white;
+    border-radius: 1pc;
+    padding: 1pc 2pc;
+    font-size: 1.3pc;
+}
+
+#adatok {
+    text-align: center;
+}

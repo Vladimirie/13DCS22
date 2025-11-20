@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\bin\Debug\net8.0\könyvtárkezelő.exe
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\bin\Debug\net8.0\könyvtárkezelő.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\bin\Debug\net8.0\könyvtárkezelő.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\bin\Debug\net8.0\könyvtárkezelő.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\bin\Debug\net8.0\könyvtárkezelő.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\refint\könyvtárkezelő.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\könyvtárkezelő.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS2\Kiss-Fodor Zsombor\AMAF\könyvtárkezelő\obj\Debug\net8.0\ref\könyvtárkezelő.dll

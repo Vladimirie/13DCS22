@@ -1,0 +1,14 @@
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\GalatikusKereskedelem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\GalatikusKereskedelem.AssemblyInfoInputs.cache
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\GalatikusKereskedelem.AssemblyInfo.cs
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\GalatikusKereskedelem.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\bin\Debug\net8.0\GalatikusKereskedelem.exe
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\bin\Debug\net8.0\GalatikusKereskedelem.deps.json
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\bin\Debug\net8.0\GalatikusKereskedelem.runtimeconfig.json
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\bin\Debug\net8.0\GalatikusKereskedelem.dll
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\bin\Debug\net8.0\GalatikusKereskedelem.pdb
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\GalatikusKereskedelem.dll
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\refint\GalatikusKereskedelem.dll
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\GalatikusKereskedelem.pdb
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\GalatikusKereskedelem.genruntimeconfig.cache
+C:\Users\MarcellSzollosy\source\repos\GalatikusKereskedelem\GalatikusKereskedelem\obj\Debug\net8.0\ref\GalatikusKereskedelem.dll
