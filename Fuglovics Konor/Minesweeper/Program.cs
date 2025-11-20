@@ -1,4 +1,6 @@
-﻿namespace Minesweeper
+﻿using System.Drawing;
+
+namespace Minesweeper
 {
 	internal class Game
 	{
@@ -16,6 +18,40 @@
 		{
 			Difficulty=diff;
 			Field=field;
+		}
+	}
+	internal class Field
+	{
+		public bool IsBomb
+		{
+			get;
+			set;
+		}
+		public bool IsFlagged
+		{
+			get;
+			set;
+		}
+		public int PosX
+		{
+			get;
+			set;
+		}
+		public int PosY
+		{
+			get;
+			set;
+		}
+		public Field(bool isbomb, bool isflagged, int posx, int posy)
+		{
+			IsBomb = isbomb;
+			IsFlagged = isflagged;
+			PosX = posx;
+			PosY = posy;
+		}
+		public override string ToString()
+		{
+			return $"{PosX},{PosY}";
 		}
 	}
 	internal class MineField
@@ -46,33 +82,101 @@
     {
         static void Main(string[] args)
         {
-            void CreateField(string user)
+			string? setupdiff = Console.ReadLine();
+			string d = setupdiff;
+			List<Field> area = [];
+			Dictionary<string, MineField> difficulty = [];
+			difficulty.Add("easy", new MineField(8, 8, 10));
+			difficulty.Add("normal", new MineField(16, 16, 40));
+			difficulty.Add("hard", new MineField(40, 16, 99));
+			void CreateField()
 			{
-				MineField normal = new MineField(16, 16, 40);
-				MineField hard = new MineField(40, 16, 99);
-				Dictionary<string, MineField> difficulty = [];
-				difficulty.Add("easy", new MineField(8,8,10));
-				difficulty.Add("normal", new MineField(16,16,40));
-				difficulty.Add("hard", new MineField(40,16,99));
 				Console.Clear();
 				foreach (var point in difficulty)
 				{
-					if(point.Key == user)
+					if(point.Key == setupdiff)
 					{
 						for (int y = 0; y < point.Value.SizeY; y++)
 						{
 							for (int x = 0; x < point.Value.SizeX; x++)
 							{
-								Console.Write("Π");
+								area.Add(new Field(false, false, x, y));
 							}
-							Console.Write("\n");
+						}
+					}
+				}
+				foreach(var bomb in area)
+				{
+					foreach(var a in difficulty)
+					{
+						int b = a.Value.Bombs;
+						if(a.Key == setupdiff)
+						{
+							for (int y = 0; y < a.Value.SizeY; y++)
+							{
+								for (int x = 0; x < a.Value.SizeX; x++)
+								{
+									if(b != 0 && x != 7 && y != 7)
+									{
+										Random rnd = new();
+										int rand = rnd.Next(0,10);
+										if(rand == 1)
+										{
+											if(bomb.PosX == x && bomb.PosY == y)
+											{
+												bomb.IsBomb = true;
+											}
+											b -= 1;
+										}
+									}
+								}
+							}
 						}
 					}
 				}
 			}
-			string setupdiff = Console.ReadLine();
-			CreateField(setupdiff);
-
+			void DisplayScreen()
+			{
+				Console.Clear();
+				bool ib = false;
+				foreach (var bmb in area)
+				{
+					foreach (var point in difficulty)
+					{
+						if(point.Key == d)
+						{
+							for (int y = 0; y < point.Value.SizeY; y++)
+							{
+								for (int x = 0; x < point.Value.SizeX; x++)
+								{
+									if(bmb.IsBomb == true)
+									{
+										ib = true;
+									}
+									else
+									{
+										ib = false;
+									}
+									if(ib == true)
+									{
+										Console.Write("X");
+									}
+									else
+									{
+										Console.Write("Π");
+									}
+								}
+								Console.Write("\n");
+							}
+						}
+					}
+				}
+			}
+			CreateField();
+			DisplayScreen();
+			string inputpos = Console.ReadLine();
+			string posinput = $"{inputpos[0]},{inputpos[1]}";
+			string setflag = $"{posinput} flag";
 			Console.ReadKey();
         }
     }
