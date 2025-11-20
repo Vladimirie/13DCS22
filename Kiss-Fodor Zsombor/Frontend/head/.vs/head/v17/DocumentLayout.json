@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13D\u00E9nes\\13DCS2\\Kiss-Fodor Zsombor\\Frontend\\head\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AA0EF-A529-4EB3-9A8E-0A56837C5845}|head.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\13d\u00E9nes\\13dcs2\\kiss-fodor zsombor\\frontend\\head\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AA0EF-A529-4EB3-9A8E-0A56837C5845}|head.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13D\u00E9nes\\13DCS2\\Kiss-Fodor Zsombor\\Frontend\\head\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13D\u00E9nes\\13DCS2\\Kiss-Fodor Zsombor\\Frontend\\head\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:12:11.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

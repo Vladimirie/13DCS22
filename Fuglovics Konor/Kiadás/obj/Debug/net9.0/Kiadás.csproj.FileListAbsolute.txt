@@ -1,0 +1,15 @@
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\bin\Debug\net9.0\Kiadás.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\bin\Debug\net9.0\Kiadás.deps.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\bin\Debug\net9.0\Kiadás.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\bin\Debug\net9.0\Kiadás.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\bin\Debug\net9.0\Kiadás.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\refint\Kiadás.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\Kiadás.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Kiadás\obj\Debug\net9.0\ref\Kiadás.dll

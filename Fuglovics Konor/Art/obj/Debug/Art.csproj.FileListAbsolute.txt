@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\bin\Debug\Art.exe.config
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\bin\Debug\Art.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\bin\Debug\Art.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.exe.config
+=======
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\bin\Debug\Art.exe.config
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\bin\Debug\Art.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\bin\Debug\Art.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\Art\obj\Debug\Art.exe.config
+>>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d

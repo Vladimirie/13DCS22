@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Submit in place: example</title></head>
+
+<body><form id="my_form" method="post" action="#" onsubmit="processForm();return false">
+  Stock symbol: <input type="text" name="symbol">
+  <input type="submit" value="Submit">
+</form><b>Symbol: </b><span id="sym_disp"></span><script>
+const my_form = document.getElementById("my_form");
+const sym_disp = document.getElementById("sym_disp");/* Displaying the symbol entry
+*/
+function processForm(){
+  sym_disp.innerHTML = my_form.symbol.value;
+}
+</script></body></html>

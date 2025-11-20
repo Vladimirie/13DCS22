@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="dikNev">
+    <input type="number" value="20" id="dikKor">
+    <input type="email" id="dikEmail">
+    <input type="text" id="dikJegyek">
+    <button onclick="Fonalositas()">JSON generálás</button>
+    <button onclick="Pariszolás()">Parse</button>
+    <p id="stringyoutput"></p>
+    <p id="parsyoutput"></p>
+</body>
+
+<script>
+        
+        function Fonalositas() {
+        var jegyek = [];
+        jegyek.push(document.getElementById("dikJegyek").value.split(","))
+        Tanulo = {
+            "nev": document.getElementById("dikNev").value,
+            "kor": Number(document.getElementById("dikKor").value),
+            "email": document.getElementById("dikEmail").value,
+            "jegyek": jegyek
+        };
+        JsonString = JSON.stringify(Tanulo, null, 4)
+        document.getElementById("stringyoutput").textContent = JsonString;
+        }
+
+        function Pariszolás() {
+            const JsonParse = JSON.parse(JsonString);
+            document.getElementById("parsyoutput").textContent = "Diák Neve: " + JsonParse.nev + ". Kora: " + JsonParse.kor + ". Emailje: " + JsonParse.email + ". És jegyei: " + JsonParse.jegyek + ".";
+        }
+</script>
+</html>
