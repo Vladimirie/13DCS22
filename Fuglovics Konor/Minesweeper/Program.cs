@@ -122,7 +122,7 @@ namespace Minesweeper
 										int rand = rnd.Next(0,10);
 										if(rand == 1)
 										{
-											if(bomb.PosX == x && bomb.PosY == y)
+											if(x == bomb.PosX && y == bomb.PosY)
 											{
 												bomb.IsBomb = true;
 											}
@@ -139,35 +139,32 @@ namespace Minesweeper
 			{
 				Console.Clear();
 				bool ib = false;
-				foreach (var bmb in area)
+				foreach (var point in difficulty)
 				{
-					foreach (var point in difficulty)
+					if(point.Key == d)
 					{
-						if(point.Key == d)
+						for (int y = 0; y < point.Value.SizeY; y++)
 						{
-							for (int y = 0; y < point.Value.SizeY; y++)
+							for (int x = 0; x < point.Value.SizeX && x < area.Count; x++)
 							{
-								for (int x = 0; x < point.Value.SizeX; x++)
+								if (area[x].IsBomb == true)
 								{
-									if(bmb.IsBomb == true)
-									{
-										ib = true;
-									}
-									else
-									{
-										ib = false;
-									}
-									if(ib == true)
-									{
-										Console.Write("X");
-									}
-									else
-									{
-										Console.Write("Π");
-									}
+									ib = true;
 								}
-								Console.Write("\n");
+								else
+								{
+									ib = false;
+								}
+								if (ib == true)
+								{
+									Console.Write("×");
+								}
+								else
+								{
+									Console.Write("Π");
+								}
 							}
+							Console.Write("\n");
 						}
 					}
 				}
