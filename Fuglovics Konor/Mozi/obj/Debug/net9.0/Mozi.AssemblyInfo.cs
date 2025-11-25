@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mozi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53b1e6ebd9cd695b55031eaa8c5de97002bb36ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26df15395202a41a747cb5f9bfb4a7a226815d7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mozi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mozi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

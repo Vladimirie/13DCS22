@@ -116,18 +116,12 @@ namespace Minesweeper
 							{
 								for (int x = 0; x < a.Value.SizeX; x++)
 								{
-									if(b != 0 && x != 7 && y != 7)
+									Random rnd = new();
+									int rand = rnd.Next(0, area.Count);
+									if (rand == 1)
 									{
-										Random rnd = new();
-										int rand = rnd.Next(0,10);
-										if(rand == 1)
-										{
-											if(x == bomb.PosX && y == bomb.PosY)
-											{
-												bomb.IsBomb = true;
-											}
-											b -= 1;
-										}
+										bomb.IsBomb = true;
+										b -= 1;
 									}
 								}
 							}
