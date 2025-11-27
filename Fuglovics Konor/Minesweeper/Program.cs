@@ -91,6 +91,8 @@ namespace Minesweeper
 			difficulty.Add("hard", new MineField(40, 16, 99));
 			void CreateField()
 			{
+				bool[] ab = {true, false};
+				Random rng = new();
 				Console.Clear();
 				foreach (var point in difficulty)
 				{
@@ -100,12 +102,12 @@ namespace Minesweeper
 						{
 							for (int x = 0; x < point.Value.SizeX; x++)
 							{
-								area.Add(new Field(false, false, x, y));
+								area.Add(new Field(ab[rng.Next(0, 2)], false, x, y));
 							}
 						}
 					}
 				}
-				foreach(var bomb in area)
+				/*foreach(var bomb in area)
 				{
 					foreach(var a in difficulty)
 					{
@@ -116,18 +118,15 @@ namespace Minesweeper
 							{
 								for (int x = 0; x < a.Value.SizeX; x++)
 								{
-									Random rnd = new();
-									int rand = rnd.Next(0, area.Count);
-									if (rand == 1)
+									if(bomb.IsBomb = true)
 									{
-										bomb.IsBomb = true;
-										b -= 1;
+										b--;
 									}
 								}
 							}
 						}
 					}
-				}
+				}*/
 			}
 			void DisplayScreen()
 			{
@@ -143,7 +142,10 @@ namespace Minesweeper
 							{
 								if (area[x].IsBomb == true)
 								{
-									ib = true;
+									if(area[y].IsBomb == true)
+									{
+										ib = true;
+									}
 								}
 								else
 								{

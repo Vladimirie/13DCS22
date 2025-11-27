@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Szoftverfejlesztő – Teljes Quiz</title>
+<style>
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0; padding: 0;
+  background: #66f00c;
+  color: #fff;
+  overflow-y: hidden;
+}
+.slide-container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+.slide {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px 50px;
+  scroll-snap-align: start;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  box-sizing: border-box;
+}
+.slide h2 {
+  font-size: 2em;
+  color: #4CAF50;
+  margin-bottom: 0.4em;
+}
+.question {
+  font-size: 1.2em;
+  max-width: 900px;
+  margin-bottom: 0.8em;
+    color: #0000FF;
+}
+.options button {
+  width: 100%;
+  background: #222;
+  border: none;
+  color: #fff;
+  padding: 12px 15px;
+  margin: 5px 0;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+.options button:hover:not(:disabled) {
+  background-color: #333;
+}
+.options button:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+.result {
+  margin-top: 15px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.correct {
+  color: #0020ff;
+}
+.wrong {
+  color: rgba(255, 0, 0, 0.92);
+}
+.title-slide {
+  background-color: #1a1a1a;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-slide h1 {
+  font-size: 3.5em;
+  color: #007bff;
+  margin-bottom: 0.5em;
+}
+.title-slide p {
+  font-size: 1.5em;
+  color: #aaa;
+}
+</style>
+</head>
+<body>
+<div class="slide-container">
+
+<div class="slide title-slide">
+  <h1>Szoftverfejlesztő – Teljes Teszt Quiz</h1>
+  <p>Kattints a válaszokra, a jó megoldás azonnal megjelenik!</p>
+</div>
+
+<!-- Kérdések jönnek itt -->
+
+<div class="slide" id="q1">
+  <h2>1. Feladat</h2>
+  <p class="question">Egy elektromos berendezés kiválasztásánál szükséges lenne tudnunk, hogy mennyi annak a maximális áramfelvétele. Az eszköz 110V-os feszültséget igényel és 22W teljesítményű. Mennyi lesz az áramfelvétel?]</p>
+  <div class="options">
+    <button onclick="checkAnswer(1,'a')" id="q1a">a) 1 A</button>
+    <button onclick="checkAnswer(1,'b')" id="q1b">b) 1 mA</button>
+    <button onclick="checkAnswer(1,'c')" id="q1c">c) 200 mA</button>
+    <button onclick="checkAnswer(1,'d')" id="q1d">d) 100 μA</button>
+  </div>
+  <div class="result" id="result-1"></div>
+</div>
+
+<div class="slide" id="q2">
+  <h2>2. Feladat</h2>
+  <p class="question">Igaz-e a következő állítás? A feszültségmérőt a fogyasztóval sorosan kell bekötni az áramkörbe.]</p>
+  <div class="options">
+    <button onclick="checkAnswer(2,'a')" id="q2a">a) A fenti állítás minden esetben hamis.</button>
+    <button onclick="checkAnswer(2,'b')" id="q2b">b) A fenti állítás minden esetben igaz.</button>
+    <button onclick="checkAnswer(2,'c')" id="q2c">c) A fenti állítás bizonyos esetekben hamis.</button>
+    <button onclick="checkAnswer(2,'d')" id="q2d">d) A fenti állítás bizonyos esetekben igaz.</button>
+    <button onclick="checkAnswer(2,'e')" id="q2e">e) A rendelkezésre álló adatok alapján nem eldönthető.</button>
+  </div>
+  <div class="result" id="result-2"></div>
+</div>
+
+<div class="slide" id="q3">
+  <h2>3. Feladat</h2>
+  <p class="question">Melyik alkatrész szolgál egy áramkörben az elektromos energia tárolására?]</p>
+  <div class="options">
+    <button onclick="checkAnswer(3,'a')" id="q3a">a) tranzisztor</button>
+    <button onclick="checkAnswer(3,'b')" id="q3b">b) kondenzátor</button>
+    <button onclick="checkAnswer(3,'c')" id="q3c">c) tekercs</button>
+    <button onclick="checkAnswer(3,'d')" id="q3d">d) dióda</button>
+  </div>
+  <div class="result" id="result-3"></div>
+</div>
+
+<div class="slide" id="q4">
+  <h2>4. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(4,'a')" id="q4a">a) Stabilizálja a feszültséget.</button>
+    <button onclick="checkAnswer(4,'b')" id="q4b">b) Egyen irányítja az áramot.</button>
+    <button onclick="checkAnswer(4,'c')" id="q4c">c) Tárolja az elektromos töltést.</button>
+    <button onclick="checkAnswer(4,'d')" id="q4d">d) Védelmet nyújt a túlfeszültség ellen.</button>
+    <button onclick="checkAnswer(4,'e')" id="q4e">e) Csökkenti az áram erősségét.</button>
+  </div>
+  <div class="result" id="result-4"></div>
+</div>
+
+<div class="slide" id="q5">
+  <h2>5. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(5,'a')" id="q5a">a) i286</button>
+    <button onclick="checkAnswer(5,'b')" id="q5b">b) i386</button>
+    <button onclick="checkAnswer(5,'c')" id="q5c">c) Alpha</button>
+    <button onclick="checkAnswer(5,'d')" id="q5d">d) Sparc</button>
+    <button onclick="checkAnswer(5,'e')" id="q5e">e) AMD</button>
+  </div>
+  <div class="result" id="result-5"></div>
+</div>
+
+<div class="slide" id="q6">
+  <h2>6. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(6,'a')" id="q6a">a) Android</button>
+    <button onclick="checkAnswer(6,'b')" id="q6b">b) Linux</button>
+    <button onclick="checkAnswer(6,'c')" id="q6c">c) MacOS</button>
+    <button onclick="checkAnswer(6,'d')" id="q6d">d) Unix</button>
+    <button onclick="checkAnswer(6,'e')" id="q6e">e) Windows</button>
+  </div>
+  <div class="result" id="result-6"></div>
+</div>
+
+<div class="slide" id="q7">
+  <h2>7. Feladat</h2>
+  <p class="question">Melyik operációs rendszert vette alapul Torvalds a Linux operációs rendszer kifejlesztéséhez?]</p>
+  <div class="options">
+    <button onclick="checkAnswer(7,'a')" id="q7a">a) iOS</button>
+    <button onclick="checkAnswer(7,'b')" id="q7b">b) IOS</button>
+    <button onclick="checkAnswer(7,'c')" id="q7c">c) MINIX</button>
+    <button onclick="checkAnswer(7,'d')" id="q7d">d) Unix</button>
+    <button onclick="checkAnswer(7,'e')" id="q7e">e) Windows</button>
+  </div>
+  <div class="result" id="result-7"></div>
+</div>
+
+<div class="slide" id="q8">
+  <h2>8. Feladat</h2>
+  <p class="question">Torvalds operációs rendszere esetében melyik komponens felel a hardware elemek vezérléséért?]</p>
+  <div class="options">
+    <button onclick="checkAnswer(8,'a')" id="q8a">a) Kernel</button>
+    <button onclick="checkAnswer(8,'b')" id="q8b">b) GUI</button>
+    <button onclick="checkAnswer(8,'c')" id="q8c">c) CLI</button>
+    <button onclick="checkAnswer(8,'d')" id="q8d">d) Shell</button>
+    <button onclick="checkAnswer(8,'e')" id="q8e">e) BASH</button>
+  </div>
+  <div class="result" id="result-8"></div>
+</div>
+
+<div class="slide" id="q9">
+  <h2>9. Feladat</h2>
+  <p class="question">Egy 32 bites architektúra esetén mekkora a legnagyobb megcímezhető memória mérete?]</p>
+  <div class="options">
+    <button onclick="checkAnswer(9,'a')" id="q9a">a) 2 GB</button>
+    <button onclick="checkAnswer(9,'b')" id="q9b">b) 4 GB</button>
+    <button onclick="checkAnswer(9,'c')" id="q9c">c) 8 GB</button>
+    <button onclick="checkAnswer(9,'d')" id="q9d">d) 32 GB</button>
+    <button onclick="checkAnswer(9,'e')" id="q9e">e) 4 MB</button>
+  </div>
+  <div class="result" id="result-9"></div>
+</div>
+
+<div class="slide" id="q10">
+  <div class="options">
+    <button onclick="checkAnswer(10,'a')" id="q10a">a) Core</button>
+    <button onclick="checkAnswer(10,'b')" id="q10b">b) CPU</button>
+    <button onclick="checkAnswer(10,'c')" id="q10c">c) GPU</button>
+    <button onclick="checkAnswer(10,'d')" id="q10d">d) Socket</button>
+    <button onclick="checkAnswer(10,'e')" id="q10e">e) VRAM</button>
+  </div>
+  <div class="result" id="result-10"></div>
+</div>
+
+<div class="slide" id="q11">
+  <h2>11. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(11,'a')" id="q11a">a) BNC</button>
+    <button onclick="checkAnswer(11,'b')" id="q11b">b) DVI</button>
+    <button onclick="checkAnswer(11,'c')" id="q11c">c) HDMI</button>
+    <button onclick="checkAnswer(11,'d')" id="q11d">d) PS/2</button>
+    <button onclick="checkAnswer(11,'e')" id="q11e">e) RCA</button>
+  </div>
+  <div class="result" id="result-11"></div>
+</div>
+
+<div class="slide" id="q12">
+  <h2>12. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(12,'a')" id="q12a">a) Különálló logikai tárolóegységet hozunk létre a meghajtón.</button>
+    <button onclick="checkAnswer(12,'b')" id="q12b">b) Különálló fizikai tárolóegységet hozunk létre a meghajtón.</button>
+    <button onclick="checkAnswer(12,'c')" id="q12c">c) Új szilárdtest tárolókat alakítunk ki a meghajtón.</button>
+    <button onclick="checkAnswer(12,'d')" id="q12d">d) Az SSD meghajtók fizikai szektorainak manuális átrendezése.</button>
+    <button onclick="checkAnswer(12,'e')" id="q12e">e) Az SSD meghajtók esetében nem engedélyezett.</button>
+  </div>
+  <div class="result" id="result-12"></div>
+</div>
+
+<div class="slide" id="q13">
+  <h2>13. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(13,'a')" id="q13a">a) Az eszközök teljesítményének növelése.</button>
+    <button onclick="checkAnswer(13,'b')" id="q13b">b) Az energiafogyasztás csökkentése.</button>
+    <button onclick="checkAnswer(13,'c')" id="q13c">c) Az eszközelemek gyorsabb cseréje.</button>
+    <button onclick="checkAnswer(13,'d')" id="q13d">d) A karbantartási költségek növelése.</button>
+    <button onclick="checkAnswer(13,'e')" id="q13e">e) A rendszerhiba kockázatának csökkentése.</button>
+  </div>
+  <div class="result" id="result-13"></div>
+</div>
+
+<div class="slide" id="q14">
+  <h2>14. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(14,'a')" id="q14a">a) A szoftver teljesítményének javítása.</button>
+    <button onclick="checkAnswer(14,'b')" id="q14b">b) Az energiafogyasztás csökkentése.</button>
+    <button onclick="checkAnswer(14,'c')" id="q14c">c) A hűtés hatékonyságának fenntartása.</button>
+    <button onclick="checkAnswer(14,'d')" id="q14d">d) Az operációs rendszer gyorsítása.</button>
+    <button onclick="checkAnswer(14,'e')" id="q14e">e) A számítógép cseréjének elkerülése.</button>
+  </div>
+  <div class="result" id="result-14"></div>
+</div>
+
+<div class="slide" id="q15">
+  <h2>15. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(15,'a')" id="q15a">a) Internet of Things</button>
+    <button onclick="checkAnswer(15,'b')" id="q15b">b) Information of Technology</button>
+    <button onclick="checkAnswer(15,'c')" id="q15c">c) Information over Tunnel</button>
+    <button onclick="checkAnswer(15,'d')" id="q15d">d) Intelligence of Things</button>
+    <button onclick="checkAnswer(15,'e')" id="q15e">e) Internet of Technology</button>
+  </div>
+  <div class="result" id="result-15"></div>
+</div>
+
+<div class="slide" id="q16">
+  <h2>16. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(16,'a')" id="q16a">a) Internet</button>
+    <button onclick="checkAnswer(16,'b')" id="q16b">b) Szállítási</button>
+    <button onclick="checkAnswer(16,'c')" id="q16c">c) Hozzáférési</button>
+    <button onclick="checkAnswer(16,'d')" id="q16d">d) Alkalmazási</button>
+    <button onclick="checkAnswer(16,'e')" id="q16e">e) Protokoll</button>
+  </div>
+  <div class="result" id="result-16"></div>
+</div>
+
+<div class="slide" id="q17">
+  <h2>17. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(17,'a')" id="q17a">a) 960.000.000</button>
+    <button onclick="checkAnswer(17,'b')" id="q17b">b) 480.000.000</button>
+    <button onclick="checkAnswer(17,'c')" id="q17c">c) 180.000.000</button>
+    <button onclick="checkAnswer(17,'d')" id="q17d">d) 120.000.000</button>
+    <button onclick="checkAnswer(17,'e')" id="q17e">e) 60.000.000</button>
+  </div>
+  <div class="result" id="result-17"></div>
+</div>
+
+<div class="slide" id="q18">
+  <h2>18. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(18,'a')" id="q18a">a) 128</button>
+    <button onclick="checkAnswer(18,'b')" id="q18b">b) 48</button>
+    <button onclick="checkAnswer(18,'c')" id="q18c">c) 32</button>
+    <button onclick="checkAnswer(18,'d')" id="q18d">d) 16</button>
+    <button onclick="checkAnswer(18,'e')" id="q18e">e) 4</button>
+  </div>
+  <div class="result" id="result-18"></div>
+</div>
+
+<div class="slide" id="q19">
+  <h2>19. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(19,'a')" id="q19a">a) Point-to-Point</button>
+    <button onclick="checkAnswer(19,'b')" id="q19b">b) Point-to-Peer</button>
+    <button onclick="checkAnswer(19,'c')" id="q19c">c) Peer-to-Point</button>
+    <button onclick="checkAnswer(19,'d')" id="q19d">d) Peer-to-Peer</button>
+    <button onclick="checkAnswer(19,'e')" id="q19e">e) Single-to-Single</button>
+  </div>
+  <div class="result" id="result-19"></div>
+</div>
+
+<div class="slide" id="q20">
+  <h2>20. Feladat</h2>
+  <div class="options">
+    <button onclick="checkAnswer(20,'a')" id="q20a">a) 12.212.100.3</button>
+    <button onclick="checkAnswer(20,'b')" id="q20b">b) 172.20.100.3</button>
+    <button onclick="checkAnswer(20,'c')" id="q20c">c) 172.15.100.3</button>
+    <button onclick="checkAnswer(20,'d')" id="q20d">d) 192.200.100.3</button>
+    <button onclick="checkAnswer(20,'e')" id="q20e">e) 192.169.100.3</button>
+  </div>
+  <div class="result" id="result-20"></div>
+</div>
+
+<div class="slide title-slide">
+  <h1>Köszönöm a figyelmet!</h1>
+  <p>Görgess vissza bármelyik kérdéshez, és próbáld újra a válaszokat.</p>
+</div>
+
+</div>
+
+<script>
+const correctAnswers = {
+  1: 'c',
+  2: 'a',
+  3: 'b',
+  4: 'e',
+  5: 'b',
+  6: 'b',
+  7: 'c',
+  8: 'a',
+  9: 'b',
+  10: 'c',
+  11: 'd',
+  12: 'a',
+  13: 'e',
+  14: 'c',
+  15: 'a',
+  16: 'c',
+  17: 'a',
+  18: 'a',
+  19: 'd',
+  20: 'b'
+};
+
+function checkAnswer(qNum, selected) {
+  const res = document.getElementById('result-' + qNum);
+  // Disable all buttons for this question
+  for(let option of document.querySelectorAll(`#q${qNum} .options button`)) {
+    option.disabled = true;
+  }
+  if (correctAnswers[qNum] === selected) {
+    res.textContent = 'Helyes válasz! A jó megoldás: ' + selected + ').';
+    res.className = 'result correct';
+  } else {
+    res.textContent = 'Nem jó válasz. A helyes megoldás: ' + correctAnswers[qNum] + ').';
+    res.className = 'result wrong';
+  }
+}
+</script>
+</body>
+</html>
