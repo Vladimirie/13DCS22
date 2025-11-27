@@ -7,7 +7,6 @@
 </head>
 <body>
     
-
     <form action="" method="post">
         <label for="name">Username:  </label>
         <input type="text" name="name" id="name">
@@ -18,14 +17,8 @@
         <input type="submit" name="login" value="Login">
     </form>
 
-
-
-
-
 </body>
 </html>
-
-
 
 
 <?php
@@ -38,9 +31,5 @@ if (isset($_POST['login'])) {
     } else {
         echo "Felhasználó név vagy jelszó hejtelen";
     }
-
-
 }
-
-
 ?>
