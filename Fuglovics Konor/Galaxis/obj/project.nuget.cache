@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "GjQpq+UpDAk=",
@@ -6,13 +5,4 @@
   "projectFilePath": "C:\\Users\\Sound Crafter\\Documents\\13DCS2\\Fuglovics Konor\\Galaxis\\Galaxis.csproj",
   "expectedPackageFiles": [],
   "logs": []
-=======
-{
-  "version": 2,
-  "dgSpecHash": "GjQpq+UpDAk=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Sound Crafter\\Documents\\13DCS2\\Fuglovics Konor\\Galaxis\\Galaxis.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
->>>>>>> 508682966dc1c50aeb4017a64c1f9d921eaa4e6d
 }
