@@ -29,7 +29,8 @@ foreach ($stmt as $row) {
     echo "<td><input type='text' name='username' value='"  .$row["username"] ."'></td>" ;
     echo "<td><input type='text' name='fullname' value='".$row["fullname"] . "'></td>" ;
     echo "<td><input type='email' name='email' value='".$row["email"] ."'></td>";
-    echo "<td><input type='submit' value='Módosit' name='update'> </td>";
+    echo "<td><input type='submit' value='Módosit' name='update'><input type='submit' name='delete'  value='Törlés'</td> ";
+
     
     echo "</tr>";
     echo "</form>";
@@ -70,6 +71,16 @@ if (isset($_POST['update'])) {
     echo $_POST['username'];
 }
 
+if (isset($_POST['delete'])) {
+    $sql2 = "DELETE FROM user WHERE id = :id";
+    $stm3 = $db->prepare($sql2) ;
+    $stm3->execute([
+        ':id' => $_POST['id']
+    ]);
+        
+    
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -90,7 +101,7 @@ if (isset($_POST['update'])) {
         <input type="submit" name="create" value="Felvétel">
 
 
-
+        
 </form>
 </body>
 </html>
