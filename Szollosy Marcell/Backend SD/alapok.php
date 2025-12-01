@@ -1,381 +1,289 @@
-<?php
-/*
-echo "<h1>Hello World</h1>";
-
-$valami = "<h3>teszt</h3>";
-
-echo $valami;
-
-
-$a = 50;
-$b = 50;
-
-echo $a + $b;
-
-echo "<br>";
-
-if ($a > $b) {
-    echo " Az A nagyobb, mint a B";
-}else if($b > $a){
-    echo "A B nagyobb, mint az A";
-}else{
-    echo "A két szám egyenlő";
+<?PHP
+/*ECHO"<H1>HELLO WORLD</H1>";
+$SOMETHING="<H3>TEST</H3>";
+ECHO$SOMETHING;
+$A=10;
+$B=10;
+ECHO$A+$B;
+ECHO"</BR>";
+IF($A>$B)
+{
+  	ECHO"A IS BIGGER THAN B";
 }
-
-echo "<br>";
-
-for ($i=0; $i < 10; $i++) { 
-    echo $i;
+ELSEIF($B>$A)
+{
+  	ECHO"B IS BIGGER THAN A";
 }
-
-$j = 0;
-while ($j < 10) {
-    echo $j;
-    $j++;
+ELSE
+{
+  	ECHO"BOTH EQUAL";
 }
-
-// 1-tőé 100-ig jelenlenek meg
-// 3-mal osztható számok
-
-for ($j = 1; $j < 101; $j++) {
-    if ($j % 3 == 0){
-        echo "<bra>";
-        echo $j;
-    }
+ECHO"</BR>";
+FOR($I=0;$I<10;$I++)
+{
+  	ECHO$I;
 }
-
-echo "<br>";
-//1-től 100 -ig legyenek kiírva és
-//az 5 többszörösei legyenek félkövérek
-echo "<table>";
-$szam = 1;
-for ($i=0; $i < 10; $i++) {
-    echo "<tr>";
-    for ($j=0; $j < 10; $j++) {
-        if ($szam % 5 == 0) {
-            echo "<td><b>".$szam."</b></td>";
-        }else{
-            echo "<td>".$szam."</td>";
-        }
-        $szam++;
-    }
-    echo "</tr>";
+$J=0;
+ECHO"</BR>";
+WHILE($J<10)
+{
+  	ECHO$J;
+  	$J++;
 }
-echo "</table>";
-*/
-
-$szamok = [2, 5, 10, 12, 64, 23, 73, 4, 19, 47];
-/*
-foreach ( $szamok as $szam) {
-    if ($szam % 2 == 0) {
-        echo $szam." ";
-    }
-*/
-/*
-echo "<h1>Programozási tételek</h1>";
-
-echo "<b> Tömb elemei: ";
-foreach ($szamok as $szam) {
-    echo $szam." ";
+ECHO"</BR>";
+FOR($I=1;$I<=100;$I++)
+{
+  	IF($I%3==0)
+	{
+		ECHO$I;
+		ECHO" ";
+  	}
 }
-
-echo "<h2>1. Maximum Kiválasztás</h2>";
-
-$max = $szamok[0];
-foreach ($szamok as $maxkeres) {
-    if ($maxkeres > $max) {
-        $max = $maxkeres;
-    }
+ECHO"</BR>";
+ECHO"<TABLE>";
+$NUM=1;
+FOR($I=0;$I<10;$I++)
+{
+	ECHO"<TR>";
+	FOR($J=0;$J<10;$J++)
+	{
+		IF($NUM%5==0)
+		{
+			ECHO"<TD><B>".$NUM."</TD>";
+		}
+		ELSE
+		{
+			ECHO"<TD>".$NUM."</TD>";
+		}
+		$NUM++;
+	}
+	ECHO"</TR>";
 }
-
-echo "A legnagyobb szám: ".$max;
-
-echo "<h2>2. Lineáris keresés</h2>";
-
-$index = 0;
-$found = false;
-while (!$found && $index < count($szamok)) {
-    if ($szamok[$index] == 23) {
-        $found = true;
-    }else{
-        $index++;
-    }
+ECHO"</TABLE>";*/
+$NUM=[2,5,10,12,64,23,73,4,19,47];
+/*FOREACH($NUM AS $NUMBER)
+{
+	IF($NUMBER%2==0)
+	{
+		ECHO$NUMBER." ";
+	}
+}*/
+ECHO"<H1>PROGRAMOZÁSI TÉTELEK</H1>";
+ECHO"<B>A TÖMB ELEMEI: ";
+FOREACH($NUM AS $NUMBER)
+{
+	ECHO$NUMBER." ";
 }
-
-if ($found){
-    echo " A keresett szám megtalálható a ".($index + 1 ).". helyen.";
-}else{
-    echo " A keresett szám nincs benne a tömben.";
+ECHO"</B>";
+ECHO"<H2>MAXIMUM KIVÁLASZTÁS</H2>";
+$MAX=$NUM[0];
+FOREACH($NUM AS $SEARCH)
+{
+	IF($SEARCH>$MAX)
+	{
+		$MAX=$SEARCH;
+	}
 }
-
-echo "<h2>3. Kiválasztás</h2>";
-
-$pos = 0;
-$found = false;
-
-while (!$found && $pos < count($szamok)) {
-    if ($szamok[$pos] == 23){
-        $found = true;
-    }
-    $pos++;
+ECHO"A LEGNAGYOBB SZÁM: ".$MAX;
+ECHO"</BR>";
+ECHO"<H2>LINEÁRIS KERESÉS</H2>";
+$INDEX=0;
+$TALÁLAT=FALSE;
+WHILE(!$TALÁLAT&&$INDEX<COUNT($NUM))
+{
+	IF($NUM[$INDEX]==23)
+	{
+		$TALÁLAT=TRUE;
+	}
+	ELSE
+	{
+		$INDEX++;
+	}
 }
-
-if($found) {
-    echo "A szám a ".$pos.". helyen van.";
+IF($TALÁLAT)
+{
+	ECHO"A KERESETT SZÁM BENNE VAN, ÉS A ".($INDEX+1).". HELYEN TALÁLHATÓ.";
 }
-
-echo "<h2>4. Eldöntés</h2>";
-
-$index = 0;
-$found = false;
-
-while (!$found && $index < count($szamok)) {
-    if ($szamok[$index] == 23){
-        $found = true;
-    }
-    $index++;
+ELSE
+{
+	ECHO"A SZÁM NINCS A TÖMBBEN.";
 }
-
-if ($found) {
-    echo "Benne van a tömben a szám";
-}else{
-    echo "nincs benne a tömbben a szám.";
+ECHO"<H2>KIVÁLASZTÁS</H2>";
+$POS=0;
+FOR($I=0;$I<COUNT($NUM);$I++)
+{
+	$POS++;
+	IF($NUM[$I]==23)
+	{
+		ECHO"A SZÁM A(Z) ".$POS.". HELYEN VAN.";
+	}
 }
-
-echo "<h2>5. Sorozatszámítás</h2>";
-
-$sum = 0;
-
-foreach ($szamok as $szam) {
-    if ($szam % 2 != 0) {
-        $sum += $szam;
-    }
+ECHO"<H2>ELDÖNTÉS</H2>";
+$IN=FALSE;
+FOR($I=0;$I<COUNT($NUM);$I++)
+{
+	IF($NUM[$I]==23)
+	{
+		$IN=TRUE;
+	}
 }
-echo "A páratlan számok összege: ".$sum;
-
-echo "<h2>6. Megszámlálás</h2>";
-
-$db = 0;
-
-foreach ($szamok as $szam) {
-    if ($szam % 2 == 0) {
-        $db++;
-    }
+IF($IN)
+{
+	ECHO"A KERESETT SZÁM BENNE VAN A TÖMBBEN.";
 }
-
-echo $db. " db paros szám található";
-*/
-/*
-
-echo "<h1>Mátrixok</h1>";
-
-$emberek = [
-    ["János", "Budapest", 17, "tanuló"],
-    ["Elemér", "Kecskemét", 28, "orvos"],
-    ["Károly", "Budapest", 33, "rendőr"],
-    ["Ference", "Miskolc", 58, "üzletvezető"],
-    ["Gábor", "Budapest", 31, "rendőr"],
-    ["István", "Szeged", 47, "pék"]
+ELSE
+{
+	ECHO"A KERESETT SZÁM NINCS A TÖMBBEN.";
+}
+ECHO"<H2>SOROZATSZÁMÍTÁS</H2>";
+$TOTAL=0;
+FOR($I=0;$I<COUNT($NUM);$I++)
+{
+	IF($NUM[$I]%2==1)
+	{
+		$TOTAL+=$NUM[$I];
+	}	
+}
+ECHO"A PÁRATLAN SZÁMOK ÖSSZEGE: ".$TOTAL;
+ECHO"<H2>MEGSZÁMOLÁS</H2>";
+$DB=0;
+FOREACH($NUM AS $COUNT)
+{
+	IF($COUNT%2==0)
+	{
+		$DB++;
+	}
+}
+ECHO$DB." DARAB PÁROS SZÁM VAN A TÖMBBEN.";
+//MATRIX
+ECHO"<H1>MÁTRIX</H1>";
+$HUMAN=
+[
+	["JÁNOS","BUDAPEST",17,"TANULÓ"],
+	["ELEMÉR","KECSKEMÉT",28,"RENDŐR"],
+	["FERENC","MISKOLC",58,"VÁLLALKOZÓ"],
+	["GÁBOR","BUDAPEST",31,"RENDŐR"],
+	["ISTVÁN","SZEGED",47,"PÉK"]
 ];
-
-//1. Feladat
-//Mennyi emberről van adatunk?
-echo count($emberek), "  darab emberről van adatunk";
-
-//2. Feladat
-//Mennyi a budapesti lakosok átlad életkora?
-
+ECHO"<H3>1.</H3>";
+$NAMES=0;
+FOR($I=0;$I<COUNT($HUMAN);$I++)
+{
+	$NAMES++;
+	//ECHO$HUMAN[$I][0]."</BR>";
+}
+ECHO$NAMES." EMBERRŐL VAN ADATUNK.";
+ECHO"<H3>2.</H3>";
+//Budapestiek átlag kora
 $budapestiek = 0;
-$atlagelet = 0;
-
-foreach ($emberek as $budapesti) {
-    if ($budapesti[1] == "Budapest") {
-        $budapestiek++;
-        $atlagelet += $budapesti[2];
-    }
+$budapestikor = 0;
+foreach ($HUMAN as $krapek) {
+	if ($krapek[1] == "BUDAPEST") {
+		$budapestiek++;
+		$budapestikor += $krapek[2];
+	}
 }
-
-echo "Budapestiek átlagáletkore: ".($atlagelet / $budapestiek);
-
-//3. Feladat
-//Melyik a legfiatalabb rendőr?
-
-echo "<h3>3. feladat"
-
-$min = 0;
-$minvan = false;
-$minnev = "";
-
-foreach ($emberek as $emberek) {
-    if ($ember[3] == "rendör"){
-        if (!$minvan) {
-            $min = $ember[2];
-            $minvan = true;
-            $minnev = $ember[0];
-        }elseif ($min > $ember[2]) {
-            $min = $emner[2];
-            $minnev = $ember[0];
-        }
-    }
+echo "Az átlag kor Budapesti embereknél az ".($budapestikor / $budapestiek)."év.";
+/*$BAKER=FALSE;
+$INDEX=0;
+$BAKERINDEX=0;
+WHILE(!$BAKER&&$INDEX<COUNT($HUMAN))...*/
+ECHO"<H1>FÜGGVÉNYEK, METÓDUSOK</H1>";
+FUNCTION TEST()
+{
+	ECHO"HELLO";
 }
-
-echo "A legfiatalabb rendör: ".$minnev;
-
-//4. Feladat
-//Van-e az emberek között pék? 
-//Ha igen, milyen idős és hol lakik?
-
-echo
-
-
-$vanpek = false;
-$index = 0;
-$pekindex = 0;
-while (!$vanpek && $index < count($emberek)) {
-    if($emberek[$index][3] == "pék") {
-        $vanpek = true;
-        $pekindex = $index;
-    }
-    $index++;
+TEST();
+ECHO"<BR>";
+FUNCTION TEST2($VALUE)
+{
+	ECHO$VALUE;
 }
-
-if ($vanpek) {
-    echo "A pék". $emberek[$pekindex][20]." éves és ". $emberek[$pekindex][]
-}else{
-    echo "nincsen pék"
+TEST2(50);
+ECHO"<BR>";
+FUNCTION TEST3($VALUE)
+{
+	RETURN$VALUE;
 }
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-echo "<h1>Függvények, metódusok</h1>";
-
-function teszt(){
-    echo "Hello World";
+ECHO TEST3(50);
+$BLOCK1=[51,2,67,-12,52,33,92,44];
+$BLOCK2=[21,-6,-52,1,32,69,-2,22];
+ECHO"<H2>1.</H2>";
+FUNCTION CALC($A)
+{
+	$SUM=0;
+	FOREACH($A AS$CALC)
+	{
+		$SUM+=$CALC;
+	}
+	RETURN "TOTAL: ".$SUM;
 }
-
-teszt();
-echo "<br>";
-
-
-function teszt2($ertek){
-    echo $ertek;
+ECHO CALC($BLOCK1);
+ECHO"<BR>";
+ECHO CALC($BLOCK2);
+ECHO"<BR>";
+ECHO"<H2>2.</H2>";
+FUNCTION ODD($VAL)
+{
+	$COUNT=0;
+	/*FOR($I=0;$I<COUNT($VAL);$I++)
+	{
+		IF($VAL[$I]%2==1)
+		{
+			$COUNT++;
+		}
+	}*/
+	FOREACH($VAL AS$SEARCH)
+	{
+		IF($SEARCH%2==1)
+		{
+			$COUNT++;
+		}
+	}
+	ECHO"TOTAL ODD NUMS: ".$COUNT;
 }
-
-teszt2(50);
-echo "<br>";
-
-function teszt3($ertek){
-    return $ertek;
+ODD($BLOCK1);
+ECHO"<BR>";
+ODD($BLOCK2);
+ECHO"<H2>3.</H2>";
+FUNCTION MINIMUM($MIN)
+{
+	$MINI=0;
+	FOREACH($MIN AS$COUNT)
+	{
+		IF($MINI>$COUNT)
+		{
+			$MINI=$COUNT;
+		}
+	}
+	ECHO"SMALLEST NUM: ".$MINI;
 }
-
-echo teszt3(20);
-echo "<br>";
-
-
-$tomb1 = [51, 2, 67, -12, 52, 33, 92, 44];
-$tomb2 = [21, -6, -52, 1, 32, 69, -2, 22];
-
-//1. Feladata
-//Írj egy olyan függvényt, amely mind a két tömbre
-//alkalmazható és összeadja a tömb értékeinek összegét
-
-echo "<h2> 1. Feladat</h2>";
-
-function tombOsszeg($tomb) {
-    $ossz = 0;
-    foreach ($tomb as $elem) {
-        $ossz += $elem;
-    }
-    return $ossz;
+MINIMUM($BLOCK1);
+ECHO"<BR>";
+MINIMUM($BLOCK2);
+ECHO"<H2>4.</H2>";
+FUNCTION DIV7($A)
+{
+	$FOUND=FALSE;
+	$INDEX=0;
+	WHILE(!$FOUND&&$INDEX<COUNT($A))
+	{
+		IF($A[$INDEX]%7==0)
+		{
+			$FOUND=TRUE;
+		}
+		$INDEX++;
+	}
+	IF($FOUND)
+	{
+		ECHO"THERE'S A NUMBER THAT'S DIVISIBLE BY 7";
+	}
+	ELSE
+	{
+		ECHO"NO NUMBER FOUND THAT MATCHES THE CRITERIA.";
+	}
 }
-
-echo "tomb1 összege: " . tombOsszeg($tomb1)  . "\n";
-echo "<br>tomb2 összege: " . tombOsszeg($tomb2)  . "\n";
-
-//2.Feladat
-//Írj egy olyan függvényt, amely mind a két tömbre
-//alkalmazható és megmondja mennyi páratlan szám található
-
-echo "<h2>2. Feladat</h2>";
-
-function paratlanokSzama($tomb) {
-    $darab = 0;
-    foreach ($tomb as $elem) {
-        if ($elem % 2 != 0) {
-            $darab++;
-        }
-    }
-    return $darab;
-}
-
-echo "Tomb1 páratlanjai: " . paratlanokSzama($tomb1) . "\n";
-echo "<br>Tomb2 páratlanjai: " . paratlanokSzama($tomb2) . "\n";
-
-//3. Feladat
-//Írj egy olyan függvényt, amely mind a két tömbre
-//alkalmazható és meghatározza, melyik a legkisebb szám
-
-echo "<h2>3. Feladat</h2";
-echo "<br>";
-function legkisebbSzam($tomb) {
-    if (empty($tomb)) {
-        return null;
-    }
-    $legkisebb = $tomb[0];
-    for ($i = 1; $i < count($tomb); $i++) {
-        if ($tomb[$i] < $legkisebb) {
-            $legkisebb = $tomb[$i];
-        }
-    }
-    return $legkisebb;
-}
-
-echo "<br>A tomb1 legkisebb eleme: " . legkisebbSzam($tomb1) . "\n";
-echo "<br>A tomb2 legkisebb eleme: " . legkisebbSzam($tomb2) . "\n";
-
-
-
-//4. Feladat
-//Írj egy olyan függvényt, amely mind a két tömbre
-//alkalmazható és meghatározza, hogy van-e olyan szám ami osztható-e 7-tel?
-
-echo "<h2>4. Feladat</h2>";
-
-function hetes($tomb) {
-    $i = 0;
-    $van = false;
-    while (!$van && $i < count($tomb)) {
-        if ($tomb[$i] % 7 == 0) {
-            $van = true;
-        }
-        $i++;
-    }
-
-    return $van;
-}
-
-if (hetes($tomb1)) {
-    echo "Van benne";
-}else{
-    echo "Nincs benne";
-}
-
-echo "<br>";
-
-if (hetes($tomb2)){
-    echo "Van ilyen szám";
-}else{
-    echo "Nincs ilyen szám.";
-}
-
+DIV7($BLOCK1);
+ECHO"<BR>";
+DIV7($BLOCK2);
 ?>

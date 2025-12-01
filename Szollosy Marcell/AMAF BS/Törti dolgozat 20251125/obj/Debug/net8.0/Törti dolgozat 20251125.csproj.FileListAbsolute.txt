@@ -1,0 +1,5 @@
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Törti dolgozat 20251125\obj\Debug\net8.0\Törti dolgozat 20251125.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Törti dolgozat 20251125\obj\Debug\net8.0\Törti dolgozat 20251125.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Törti dolgozat 20251125\obj\Debug\net8.0\Törti dolgozat 20251125.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Törti dolgozat 20251125\obj\Debug\net8.0\Törti dolgozat 20251125.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Törti dolgozat 20251125\obj\Debug\net8.0\Törti dolgozat 20251125.sourcelink.json
