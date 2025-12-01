@@ -29,4 +29,61 @@ foreach ($stmt as $row) {
     echo "</tr>";
 }
 echo "</table>";
+
+
+//CRUD
+
+
+//Create
+if (isset($_POST['create'])) {
+    $sql = "INSERT INTO user (username, password, fullname, email)
+            VALUES (:username, :password, :fullname, :email";
+
+    $stmt1 = $db->prepare($sql);
+    $stmt1->execute([
+        ':username' => $_POST['username'],
+        ':password' => $_POST['password'],
+        ':fullname' => $_POST['fullname'],
+        ':email' => $_POST['email']
+    ]);
+
+    echo "<h1>Sikeres hozzáadás</h1>";
+}
+
+
+//Update
+if (isset($_POST['update'])) {
+    $sql1 = "UPDATE user SET username = :usernam, fullname = :fullname, email = :email WHERE id = :id";
+    $stmt2 = $db->prepare($sql);
+    $stmt2->execute([
+        ':username' => $_POST['username'],
+        ':fullname' => $_POST['fullname'],
+        ':email' => $_POST['email']
+    ]);
+
+    echo "<h1>Sikeres módosítás</h1>";
+}
 ?>
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+</head>
+<body>
+    <h2>Új felhasználó hozzáadás</h2>
+    <form action="" method="post">
+        <input type="text" name="username" placeholder="Felhasználónév">
+        <input type="password" name="password" placeholder="Jelszó">
+        <input type="text" name="fullname" placeholder="Teljes Név">
+        <input type="email" name="email" placeholder="E-mail">
+
+        <input type="submit" value="Felvétel" name="create">
+    </form>
+
+
+    
+</body>
+</html>
