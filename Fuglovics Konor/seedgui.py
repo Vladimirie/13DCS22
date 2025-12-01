@@ -11,10 +11,7 @@ def ask():
 	msgbox = messagebox.askyesno("Warning!", "Are you sure you want to quit?")
 	if(msgbox == True):
 		t.cancel()
-		if(t2.is_alive()==True):
-			t2.cancel()
-		else:
-			root.destroy()
+		root.destroy()
 def about():
 	aboutdialog = Toplevel(root)
 	aboutdialog.geometry("300x250")
