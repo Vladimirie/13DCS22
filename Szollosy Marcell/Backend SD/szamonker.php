@@ -1,86 +1,91 @@
 <?php
-$gyumolcsok = [
+
+$gyumi = [
     ['Alma', 'piros', 359],
     ['Körte', 'sárga', 489],
-    ['Citrom', 'sárga', 519],
-    ['Eper', 'piros', 259],
+    ['Cirton', 'sárga', 519],
+    ['Eper','piros', 259],
     ['Banán', 'sárga', 679],
-    ['Egres', 'piros', 689]
+    ['Egres','piros', 689]
 ];
 
-echo "<!DOCTYPE html>";
-echo "<html lang='hu'>";
-echo "<head><meta charset='UTF-8'><title>Gyümölcsök elemzése</title></head>";
-echo "<body>";
-echo "<h2>Gyümölcsök elemzése</h2>";
 
-$pirosDb = 0;
-$sargaDb = 0;
+//mennyi sárga és piros
+$sarga = 0;
+$piros = 0;
 
-foreach ($gyumolcsok as $gyumolcs) {
-    if ($gyumolcs[1] === 'piros') $pirosDb++;
-    if ($gyumolcs[1] === 'sárga') $sargaDb++;
+foreach ($gyumi as $gyumocs) {
+    if($gyumocs[1] == 'piros') {
+        $piros++;
+    }
+    else {
+        $sarga++;
+    }
 }
+echo ('<p>ennyi sárga gyümi van: '. $sarga .'<br> és ennyi piros van: '. $piros.'</p>');
+//legolcsóbb
+$legolcsobb = $gyumi[0][2];
+$legolcsobbnev = $gyumi[0][0];
+foreach ($gyumi as $gyumocs) {
+    if($gyumocs[2] < $legolcsobb) {
+        $legolcsobb = $gyumocs[2];
+        $legolcsobbnev = $gyumocs[0];
+    }
+}
+echo ('<p>a legolcsóbb gyümölcs az a(z): '. $legolcsobbnev . '</p>');
+//szín drága
+$pirosar = $gyumi[0][2];
+$sargaar = $gyumi[0][2];
 
-echo "1. Piros gyümölcsök száma: $pirosDb<br>";
-echo "      Sárga gyümölcsök száma: $sargaDb<br><br>";
 
-$legolcsobb = $gyumolcsok[0];
-foreach ($gyumolcsok as $gyumolcs) {
-    if ($gyumolcs[2] < $legolcsobb[2]) {
-        $legolcsobb = $gyumolcs;
+foreach ($gyumi as $gyumocs) {
+    if($gyumocs[1] == 'piros') {
+        if($pirosar < $gyumocs[2]) {
+            $pirosar += $gyumocs[2];
+        }
+    }
+    else {
+        if($sargaar < $gyumocs[2]) {
+            $sargaar += $gyumocs[2];
+        }
     }
 }
 
-echo "2. Legolcsóbb gyümölcs: {$legolcsobb[0]} ({$legolcsobb[2]} Ft/kg)<br><br>";
+$arkulombseg = 0;
+if ($sargaar > $pirosar) {
+    $arkulombseg = $sargaar - $pirosar;
+    echo ('<p> a sárgák a drágábbak ' . $arkulombseg .  ' forintal </p>');
 
-$osszPiros = 0;
-$osszSarga = 0;
-$dbPiros = 0;
-$dbSarga = 0;
-
-foreach ($gyumolcsok as $gyumolcs) {
-    if ($gyumolcs[1] === 'piros') {
-        $osszPiros += $gyumolcs[2];
-        $dbPiros++;
-    } elseif ($gyumolcs[1] === 'sárga') {
-        $osszSarga += $gyumolcs[2];
-        $dbSarga++;
-    }
-}
-
-$atlagPiros = $osszPiros / $dbPiros;
-$atlagSarga = $osszSarga / $dbSarga;
-
-$kulonbseg = abs($atlagPiros - $atlagSarga);
-if ($atlagPiros > $atlagSarga) {
-    echo "3. A piros gyümölcsök drágábbak {$kulonbseg} Ft-tal (átlagban).<br><br>";
-} elseif ($atlagSarga > $atlagPiros) {
-    echo "3. A sárga gyümölcsök drágábbak {$kulonbseg} Ft-tal (átlagban).<br><br>";
 } else {
-    echo "3. A piros és sárga gyümölcsök átlagára megegyezik.<br><br>";
+    $arkulombseg = $pirosar - $sargaar;
+    echo ('<p> a pirosak a drágábbak ' . $arkulombseg .  ' forintal </p>');
 }
+//650-él drággább
 
-$vanDragabb = false;
-foreach ($gyumolcsok as $gyumolcs) {
-    if ($gyumolcs[2] > 650) {
-        $vanDragabb = true;
-        break;
+$i = 0;
+$foundexpensive = false;
+while ($i < count($gyumi) && !$foundexpensive) {
+    if ($gyumi[$i][2] > 650) {
+        $foundexpensive = true;
     }
+    $i++;
 }
 
-echo "4. Van 650 Ft-nál drágább gyümölcs: " . ($vanDragabb ? "Igen" : "Nem") . "<br><br>";
-
-echo "5. Átlagár (piros): " . round($atlagPiros, 2) . " Ft/kg<br>";
-echo "   Átlagár (sárga): " . round($atlagSarga, 2) . " Ft/kg<br>";
-
-if ($atlagPiros < $atlagSarga) {
-    echo "   A piros gyümölcsök olcsóbbak átlagosan.<br>";
-} elseif ($atlagSarga < $atlagPiros) {
-    echo "   A sárga gyümölcsök olcsóbbak átlagosan.<br>";
+if ($foundexpensive) {
+    echo ('<p> van 650 forintnál drágább gyümölcs </p>');
 } else {
-    echo "   A piros és sárga gyümölcsök átlagára megegyezik.<br>";
+    echo ('<p> nincs 650 forintnál drágább gyümölcs </p>');
 }
 
-echo "</body></html>";
+//átlag árak szín és olcsóbb
+
+$pirosatlag = $pirosar / $piros;
+$sargaatlag = $sargaar / $sarga;
+if ($sargaatlag > $pirosatlag) {
+    $arkulombseg = $sargaatlag - $pirosatlag;
+    echo ('<p> a pirosak átlagosan az olcsóbbak ' . round($arkulombseg) .  ' forintal </p>');
+} else {
+    $arkulombseg = $pirosatlag - $sargaatlag;
+    echo ('<p> a sárgák átlagosan az olcsóbbak ' . round($arkulombseg) .  ' forintal </p>');
+}
 ?>

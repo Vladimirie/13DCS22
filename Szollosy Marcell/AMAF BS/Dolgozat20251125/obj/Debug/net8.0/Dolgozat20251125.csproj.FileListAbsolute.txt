@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\bin\Debug\net8.0\Dolgozat20251125.exe
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\bin\Debug\net8.0\Dolgozat20251125.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\bin\Debug\net8.0\Dolgozat20251125.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\bin\Debug\net8.0\Dolgozat20251125.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\bin\Debug\net8.0\Dolgozat20251125.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\refint\Dolgozat20251125.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\Dolgozat20251125.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\AMAF\Dolgozat20251125\obj\Debug\net8.0\ref\Dolgozat20251125.dll

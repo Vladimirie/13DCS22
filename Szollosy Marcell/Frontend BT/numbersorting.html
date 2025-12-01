@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tömb generálása és rendezése</title>
+    <link rel="icon" type="image/x-icon" href="burger.jpg">
+
+</head>
+<body>
+    <button onclick="numberchanger('+')">+</button>
+    <h2 id="NAKED">2</h2>
+    <button onclick="numberchanger('-')">-</button>
+    <h1 id="LIQUID"></h1>
+    <h1 id="SOLID"></h1>
+    <button onclick="GenArray()">Generate Numbers</button>
+    <button onclick="ArraySort()" id="SOLIDUS" style="display: none;">Sort Numbers</button>
+</body>
+
+<script> 
+    let arrayu = [];
+    let generatingNumbers = 2;
+    dispiNumber = document.getElementById("NAKED");
+
+    function numberchanger(increment) {
+        //console.log(increment);
+        if (increment == "+") {
+            generatingNumbers++;
+        }
+        else if (increment == '-') {
+            if (generatingNumbers > 2) {
+                generatingNumbers--;
+            }
+        }
+        dispiNumber.textContent = generatingNumbers;
+    }
+
+    function ShowGeneration() {
+        testH = document.getElementById("LIQUID");
+        testH.textContent = arrayu;
+        sortbutton = document.getElementById("SOLIDUS");
+        sortbutton.style.display = "inline";
+    }
+
+    function GenArray() {
+        if (generatingNumbers > 1) {
+            arrayu = [];
+        for(i = 0; i < generatingNumbers; i++) {
+            arrayu[i] = Math.floor(Math.random() * 101);
+        }
+        //console.log(arrayu);
+        ShowGeneration();
+        } else {
+            alert("kérlek adj meg többet mint 1!")
+        }
+        
+    }
+
+    function ArraySort() {
+        arrayu.sort();
+        testH2 = document.getElementById("SOLID");
+        testH2.textContent = arrayu;
+    }
+
+    //window.onload = test;
+</script>
+</html>

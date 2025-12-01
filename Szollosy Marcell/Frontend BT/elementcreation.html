@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<style>
+    div {
+        border: 0.2pc solid black;
+        text-align: center;
+        width: 30%;
+    }
+
+    #iAmTheTable {
+        border: 0.1pc solid blue;
+        width: 100%;
+    }
+
+    th {
+        background-color: steelblue;
+        color: whitesmoke;
+        padding: 2%;
+    }
+
+    td {      
+        background-color: steelblue;
+        color: whitesmoke;
+        height: 2pc;
+        
+    }
+    tr {
+        
+    }
+
+    .deleteBtn {
+        background-color: crimson;
+    }
+
+    .makingButton {
+        padding:3ch;
+        color:beige;
+        background-color: black;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Új Div tag kreálás</title>
+    <link rel="icon" type="image/x-icon" href="burger.jpg">
+
+</head>
+<body>
+    <div>
+        <h1>
+            Table
+        </h1>
+        <table id="iAmTheTable">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Button</th>
+            </tr>
+            
+        </table>
+        <button onclick="MakeNewTable()" class="makingButton"> 
+            sex 
+        </button> 
+    </div>
+
+    <div>  
+
+    </div>
+    
+    <div>  
+
+    </div>
+    
+</body>
+</html>
+
+<script>
+
+    tableNumber = 0;
+
+    function MakeNewTable() {
+        const table = document.getElementById("iAmTheTable");
+        const newRow = table.insertRow();
+        newRow.id = "Row" + (tableNumber);
+        newRow.insertCell(0).textContent = "yap" + (tableNumber);
+        newRow.insertCell(1).textContent = "yap" + (tableNumber);
+        const newDeleteCell = newRow.insertCell(2);
+        newDeleteCell.innerHTML = '<button onclick="DeleteRow('+ tableNumber++ + ')" class="deleteBtn"> Delete </button>'
+    }
+    
+    function Delete(aas) {
+        ass.parentElemet.remove();
+    }
+    function DeleteRow(aas) {
+        const thisShit = document.getElementById("Row" + aas)
+        thisShit.remove();
+    }
+
+</script>

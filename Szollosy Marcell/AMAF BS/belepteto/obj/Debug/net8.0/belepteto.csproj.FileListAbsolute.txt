@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\bin\Debug\net8.0\belepteto.exe
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\bin\Debug\net8.0\belepteto.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\bin\Debug\net8.0\belepteto.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\bin\Debug\net8.0\belepteto.dll
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\bin\Debug\net8.0\belepteto.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.dll
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\refint\belepteto.dll
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\belepteto.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\Github\13DCS22\Kiss-Fodor Zsombor\AMAF\belepteto\obj\Debug\net8.0\ref\belepteto.dll
