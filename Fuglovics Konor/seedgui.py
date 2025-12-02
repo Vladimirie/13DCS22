@@ -30,13 +30,8 @@ def onclick():
 	seednum = rnd
 	lbl.config(textvariable=rng)
 def copyclip():
-	global t2
 	def change():
 		copy.config(text="Generate a seed.", style="Copy.TLabel")
-	if(lbl.cget("textvariable")==0):
-		t2 = Timer(2.0,change)
-		copy.config(text="No seed copied!", style="Error.TLabel")
-		t2.start()
 	global t
 	t = Timer(5.0,change)
 	root.clipboard_clear()
