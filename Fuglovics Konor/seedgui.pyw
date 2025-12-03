@@ -6,7 +6,14 @@ from threading import Timer
 import random
 import time
 root = Tk()
-root.geometry("350x140")
+w = 350
+h = 140
+sw = root.winfo_screenwidth()
+sh = root.winfo_screenheight()
+x = (sw/2)-(w/2)
+y = (sh/2)-(h/2)
+print(f"{x}\n{y}")
+root.geometry(f"{w}x{h}+{int(x)}+{int(y)-20}")
 def ask():
     msgbox = messagebox.askyesno("Warning!", "Are you sure you want to quit?")
     if msgbox == True:
