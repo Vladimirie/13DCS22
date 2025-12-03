@@ -15,7 +15,7 @@ while on:
         after = input("")
         while after != "q":
             if after == "help":
-                print("All available commands:\nhelp - displays this\nq - quits from the console")
+                print("All available commands:\nhelp\t displays this\nq\tquits from the console")
                 after = input("")
             else:
                 print(f"Unknown command: {after}")
