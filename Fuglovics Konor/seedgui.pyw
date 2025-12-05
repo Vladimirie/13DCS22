@@ -20,7 +20,11 @@ def ask():
         root.destroy()
 def about():
     aboutdialog = Toplevel(root)
-    aboutdialog.geometry("300x250")
+    aw = 300
+    ah = 250
+    ax = (sw/2)-(aw/2)
+    ay = (sh/2)-(ah/2)
+    aboutdialog.geometry(f"{aw}x{ah}+{int(ax)}+{int(ay)-20}")
     aboutdialog.resizable(False, False)
     aboutdialog.title("About Seed Generator")
     aboutdialog.transient()
