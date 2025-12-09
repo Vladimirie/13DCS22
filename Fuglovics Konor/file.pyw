@@ -10,7 +10,7 @@ import pdb
 root = Tk()
 root.title("File writing test")
 ctframe = Frame(root)
-ctframe.grid(row=3, column=0, columnspan=2)
+ctframe.grid(row=4, column=0, columnspan=2)
 w = 220
 h = 260
 sw = root.winfo_screenwidth()
@@ -37,10 +37,12 @@ def charlimit(inp):
 Label(root, text="File name:").grid(row=0, column=0, pady=5, padx=5)
 filename = Entry(root, justify="center", width=16, validate="key", validatecommand=(root.register(charlimit),'%P'))
 filename.grid(row=0, column=1, pady=(5,0), padx=10)
-Label(root, text="Mode:").grid(row=1, column=0, padx=5, pady=5)
+filesystem = Checkbutton(root, text="Enable modern naming system")
+filesystem.grid(row=1, column=0, columnspan=2)
+Label(root, text="Mode:").grid(row=2, column=0, padx=5, pady=5)
 modes = Combobox(root, state="readonly", values=writemodes)
-modes.grid(row=1, column=1)
-Label(root, text="Contents:").grid(row=2, column=0, pady=(5,2), padx=5)
+modes.grid(row=2, column=1)
+Label(root, text="Contents:").grid(row=3, column=0, padx=5)
 scrlx = Scrollbar(ctframe)
 scrlx.grid(row=0, column=1, sticky="ns")
 text = Text(ctframe, height=8, font="TkTextFont", wrap="none", yscrollcommand=scrlx.set)
@@ -68,16 +70,17 @@ def writeinput():
 				text.insert('end', wrtext.read())
 			else:
 				wrtext.write(f"{text.get(1.0,'end-1c')}")
+				text.delete('1.0', 'end')
 	except Exception as e:
 		messagebox.showerror("An error occured", e)
 def buttonswitch(*args):
 	if writemodes[modes.current()] == "r":
-		Button(root, text="Read file", width=20, command=writeinput).grid(row=4, column=0, columnspan=2, pady=6)
+		Button(root, text="Read file", width=20, command=writeinput).grid(row=5, column=0, columnspan=2, pady=6)
 	else:
-		Button(root, text="Create file", width=20, command=writeinput).grid(row=4, column=0, columnspan=2, pady=6)
+		Button(root, text="Create file", width=20, command=writeinput).grid(row=5, column=0, columnspan=2, pady=6)
 modes.bind("<<ComboboxSelected>>", buttonswitch)
 root.columnconfigure(1, weight=1)
-root.rowconfigure(4, weight=1)
+root.rowconfigure(5, weight=1)
 ctframe.columnconfigure(0, weight=1)
 root.bind('<Map>', override)
 root.mainloop()
