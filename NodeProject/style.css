@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+header {
+  background: linear-gradient(45deg, #4caf50, #45a049);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.mysql-info {
+  background: linear-gradient(45deg, #2196f3, #21cbf3);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.form-section {
+  padding: 30px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #eee;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+input {
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+}
+button {
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #4caf50, #45a049);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
+}
+.delete-btn {
+  background: linear-gradient(45deg, #f44336, #da190b) !important;
+}
+.table-section {
+  padding: 30px;
+  overflow: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+th {
+  background: linear-gradient(45deg, #4caf50, #45a049);
+  color: white;
+  padding: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+td {
+  padding: 18px 20px;
+  border-bottom: 1px solid #eee;
+}
+tr:nth-child(even) {
+  background: #f8f9fa;
+}
+tr:hover {
+  background: #e3f2fd !important;
+}
+td[contenteditable='true']:focus {
+  background: #e3f8fd;
+  outline: 2px solid #4caf50;
+}
+.loading {
+  text-align: center;
+  padding: 50px;
+  color: #666;
+}
