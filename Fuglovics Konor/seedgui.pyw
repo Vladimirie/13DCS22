@@ -43,11 +43,15 @@ def copyclip():
     def change():
             copy.config(text="Generate a seed.", style="Copy.TLabel")
     t = Timer(1.0,change)
-    root.clipboard_clear()
-    root.clipboard_append(f"{rng.get()}")
-    root.update()
-    copy.config(text="Seed copied!", style="SeedCopied.TLabel")
-    t.start()
+    if lbl["text"] == "":
+        copy.config(text="No seed generated!", style="Error.TLabel")
+        t.start()
+    else:
+        root.clipboard_clear()
+        root.clipboard_append(f"{rng.get()}")
+        root.update()
+        copy.config(text="Seed copied!", style="SeedCopied.TLabel")
+        t.start()
 style = Style()
 style.configure("Copy.TLabel", sticky="ew", padding=(0,10))
 style.configure("SeedCopied.TLabel", sticky="ew", padding=(0,10), foreground='#0a0')
