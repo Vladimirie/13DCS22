@@ -1,0 +1,16 @@
+Mi a karácsonyi alkalmazás témája?
+
+Az alkalmazás egy személyes karácsonyi ajándéklista-kezelő rendszer, amellyel a felhasználó nyilvántarthatja, kinek (megajándékozottak) milyen ajándékot szeretne vásárolni, valamint képet is feltölthet az ajándékról. Segít átláthatóvá és szervezettebbé tenni a karácsonyi vásárlást.
+
+Hogyan kell futtatni?
+
+Importáld az Karácsony.sql fájlt a MySQL adatbázis-kezelődbe.
+Győződj meg róla, hogy az adatbázis neve pontosan Karácsony.sql
+
+Helyezd a projekt mappát egy PHP-kompatibilis webszerver gyökérkönyvtárába (pl. XAMPP /htdocs).
+Biztosítsd, hogy a /uploads mappa létezzen és írható legyen.
+
+Nyisd meg a db.php fájlt.
+Add meg a saját adatbázis hosztot, felhasználónevet, jelszót és adatbázisnevet.
+
+Nyisd meg a projektet a böngészőbe
