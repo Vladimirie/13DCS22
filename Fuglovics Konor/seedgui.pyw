@@ -15,43 +15,43 @@ y = (sh/2)-(h/2)
 print(f"{x}\n{y}")
 root.geometry(f"{w}x{h}+{int(x)}+{int(y)-20}")
 def ask():
-    msgbox = messagebox.askyesno("Warning!", "Are you sure you want to quit?")
-    if msgbox == True:
-        root.destroy()
+	msgbox = messagebox.askyesno("Warning!", "Are you sure you want to quit?")
+	if msgbox == True:
+		root.destroy()
 def about():
-    aboutdialog = Toplevel(root)
-    aw = 300
-    ah = 250
-    ax = (sw/2)-(aw/2)
-    ay = (sh/2)-(ah/2)
-    aboutdialog.geometry(f"{aw}x{ah}+{int(ax)}+{int(ay)-20}")
-    aboutdialog.resizable(False, False)
-    aboutdialog.title("About Seed Generator")
-    aboutdialog.transient()
-    Label(aboutdialog, text="Minecraft Seed Generator Version 0.1").grid(row=0, column=0)
-    Label(aboutdialog, text="Created by Sound Crafter").grid(row=1, column=0)
-    Button(aboutdialog, text="Close", width=10, command=aboutdialog.destroy).grid(row=2, column=0)
-    aboutdialog.columnconfigure(0, weight=1)
-    aboutdialog.rowconfigure(2, weight=1)
-    aboutdialog.mainloop()
+	aboutdialog = Toplevel(root)
+	aw = 300
+	ah = 250
+	ax = (sw/2)-(aw/2)
+	ay = (sh/2)-(ah/2)
+	aboutdialog.geometry(f"{aw}x{ah}+{int(ax)}+{int(ay)-20}")
+	aboutdialog.resizable(False, False)
+	aboutdialog.title("About Seed Generator")
+	aboutdialog.transient()
+	Label(aboutdialog, text="Minecraft Seed Generator Version 0.1").grid(row=0, column=0)
+	Label(aboutdialog, text="Created by Sound Crafter").grid(row=1, column=0)
+	Button(aboutdialog, text="Close", width=10, command=aboutdialog.destroy).grid(row=2, column=0)
+	aboutdialog.columnconfigure(0, weight=1)
+	aboutdialog.rowconfigure(2, weight=1)
+	aboutdialog.mainloop()
 def onclick():
-    rnd = random.randint(-(2**63), (2**63)-1)
-    rng.set(rnd)
-    seednum = rnd
-    lbl.config(textvariable=rng)
+	rnd = random.randint(-(2**63), (2**63)-1)
+	rng.set(rnd)
+	seednum = rnd
+	lbl.config(textvariable=rng)
 def copyclip():
-    def change():
-            copy.config(text="Generate a seed.", style="Copy.TLabel")
-    t = Timer(1.0,change)
-    if lbl["text"] == "":
-        copy.config(text="No seed generated!", style="Error.TLabel")
-        t.start()
-    else:
-        root.clipboard_clear()
-        root.clipboard_append(f"{rng.get()}")
-        root.update()
-        copy.config(text="Seed copied!", style="SeedCopied.TLabel")
-        t.start()
+	def change():
+		copy.config(text="Generate a seed.", style="Copy.TLabel")
+	t = Timer(1.0,change)
+	if lbl["text"] == "":
+		copy.config(text="No seed generated!", style="Error.TLabel")
+		t.start()
+	else:
+		root.clipboard_clear()
+		root.clipboard_append(f"{rng.get()}")
+		root.update()
+		copy.config(text="Seed copied!", style="SeedCopied.TLabel")
+		t.start()
 style = Style()
 style.configure("Copy.TLabel", sticky="ew", padding=(0,10))
 style.configure("SeedCopied.TLabel", sticky="ew", padding=(0,10), foreground='#0a0')
