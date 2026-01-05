@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive Delights</title>
+    <link rel="icon" type="image/x-icon" href="../../39c.jpg">
+    <script src="scripty.js"></script>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <h1>Autó karbantartás lista - tulajdonosok</h1>
+    </header>
+
+    <div class="divy">
+        <button class ="tableMaker" id="tableMaker" onclick="CreateRow()">Táblázat Új sor</button>
+        <table id="table"></table>
+    </div>
+  
+
+    <div class="divy">
+        <button class="tableMaker" id="DBReader" onclick="DataBaseRead()">Adat Beolvasás</button>
+
+        <div id="result_table">
+
+        </div>
+    </div>
+
+</body>
+</html>
