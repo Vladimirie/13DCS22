@@ -10,6 +10,15 @@ function CreateRow() {
     cella2.innerText = "Adat";
 }
 
+function AddToList() {
+    let lista = document.getElementById("listy");
+
+    let ujAdat = document.createElement("li");
+    ujAdat.innerText= "Adat";
+    lista.appendChild(ujAdat);
+
+}
+
 function DataBaseRead() {
     const apiUrl = 'api.php';
 
