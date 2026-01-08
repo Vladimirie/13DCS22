@@ -1,0 +1,26 @@
+SELECT megnevezes, veznev, utonev, email FROM felhasznalo, hirfolyam
+WHERE moderator = felhasznalo.id
+
+SELECT tartalom FROM uzenet WHERE tartalom LIKE "%bike%"
+OR tartalom LIKE "%bicikli%"
+
+SELECT veznev, utonev, COUNT(veznev), COUNT(utonev) FROM felhasznalo 
+GROUP BY veznev, utonev HAVING COUNT(veznev) > 1 ORDER BY COUNT(veznev) DESC;
+
+SELECT megnevezes, COUNT(tartalom) AS uzenetek FROM hirfolyam, uzenet 
+WHERE uzenet.h_id = hirfolyam.id 
+GROUP BY megnevezes ORDER BY uzenetek DESC
+
+SELECT veznev, utonev, tartalom, kuldido FROM hirfolyam, uzenet, felhasznalo
+WHERE felhasznalo.id = f_id AND tartalom LIKE CONCAT('%',megnevezes,'%')
+
+SELECT COUNT(DISTINCT f_id) FROM uzenet
+
+SELECT veznev, utonev, utolso FROM felhasznalo
+WHERE utolso < DATE("2010-1-1") ORDER BY utolso DESC
+
+SELECT veznev, utonev, COUNT(tartalom), kuldido FROM felhasznalo, uzenet WHERE f_id = felhasznalo.id
+AND h_id = 3
+AND kuldido >= TIME("12:00:00")
+AND kuldido <= TIME("16:00:00")
+GROUP BY veznev;

@@ -25,6 +25,7 @@ def override(event):
 	win32gui.SetWindowLong(hwnd, win32con.GWL_STYLE, style)
 	root.bind('<Map>', None)
 num = []
+forbiddenchars = ['\\','/',':','*','?','\"','<','>','|']
 chk = BooleanVar()
 writemodes = ['r','w','a','r+','w+','a+']
 for i in range(101):
@@ -68,8 +69,13 @@ def writerandnums():
 	except Exception as e:
 		messagebox.showerror("An error occured", e)
 def writeinput():
+	name = filename.get()
+	for char in name:
+		for forbchar in forbiddenchars:
+			if char == forbchar:
+				name = name.replace(char,'')
 	try:
-		with open(f"{filename.get()}.txt",modes.get()) as wrtext:
+		with open(f"{name}.txt",modes.get()) as wrtext:
 			if modes.get() == writemodes[0]:
 				text.delete('1.0', 'end')
 				text.insert('end', wrtext.read())
