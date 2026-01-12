@@ -73,6 +73,39 @@
 
 
 
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-primary" id="table-bt2">Add cela</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-primary" id="list-bt2">Add cela</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-primary" id="div-bt2">Add text</button>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+    <table id="tabla2"></table>
+    </div>
+    <div class="col">
+    <ul id="sorszamozott-lista2">
+
+</ul>
+    </div>
+    <div class="col">
+      
+<div id="mezo-kontener2" class="tinput">
+
+</div>
+    </div>
+  </div>
+</div>
+
 
 
 
