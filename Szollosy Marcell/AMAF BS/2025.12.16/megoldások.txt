@@ -1,0 +1,35 @@
+-- 2 start
+SELECT ev, start, orszag
+FROM tour
+WHERE orszag != 'FRA' OR orszag IS NULL
+ORDER BY ev;
+
+-- 3feladok
+SELECT 
+    ev,
+    tav,
+    ROUND(feladok / indulok, 4) AS feladasi_arany
+FROM tour
+WHERE indulok > 0
+ORDER BY feladasi_arany DESC;
+
+-- 4utolso
+SELECT 
+    t.ev,
+    g.vnev,
+    g.csapat  -- vagy t.csapat, ha a csapat a tour táblában van
+FROM tour AS t
+INNER JOIN gyoztesek AS g ON g.vazon = t.gyoztesid 
+WHERE g.vorszag = 'FRA'
+ORDER BY t.ev DESC
+LIMIT 1;
+
+-- 5tobbszor
+SELECT 
+    g.vnev,
+    COUNT(*) AS gyozelmek_szama
+FROM tour t
+JOIN gyoztesek g ON t.gyoztesid = g.vazon
+GROUP BY g.vnev
+HAVING COUNT(*) > 1
+ORDER BY gyozelmek_szama DESC;
