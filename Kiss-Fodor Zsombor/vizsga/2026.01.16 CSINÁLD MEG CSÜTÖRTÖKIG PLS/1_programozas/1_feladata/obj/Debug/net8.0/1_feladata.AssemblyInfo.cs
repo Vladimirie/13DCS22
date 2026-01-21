@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("1_feladata")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0d0b6991fc961a76c83d8733ef46bb2633b69e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6af0763008448f29815144e1914a49a1b1790c6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("1_feladata")]
 [assembly: System.Reflection.AssemblyTitleAttribute("1_feladata")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
