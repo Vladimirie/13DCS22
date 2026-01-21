@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\",
+  "WorkspaceRootPath": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\temp.azuread.002\\desktop\\zulu\\zulu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\ErettsegiDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zulu\\ErettsegiDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\temp.azuread.002\\desktop\\zulu\\zulu\\tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zulu\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\temp.azuread.002\\desktop\\zulu\\zulu\\erettsegidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\erettsegidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zulu\\Tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\temp.azuread.002\\desktop\\zulu\\zulu\\vizsga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\vizsga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Vizsga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zulu\\Vizsga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\temp.azuread.002\\desktop\\zulu\\zulu\\vizsgazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\vizsgazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Vizsgazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zulu\\Vizsgazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Zulu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zulu\\Zulu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,32 +34,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Zulu.csproj",
+              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Zulu.csproj",
+              "RelativeDocumentMoniker": "Zulu\\Zulu.csproj",
+              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Zulu.csproj",
+              "RelativeToolTip": "Zulu\\Zulu.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-20T11:01:54.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ErettsegiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\ErettsegiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\ErettsegiDbContext.cs",
               "RelativeDocumentMoniker": "Zulu\\ErettsegiDbContext.cs",
-              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\ErettsegiDbContext.cs",
+              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\ErettsegiDbContext.cs",
               "RelativeToolTip": "Zulu\\ErettsegiDbContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA9wBoAAAAvAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T09:54:48.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Tanar.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Tanar.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Tanar.cs",
               "RelativeDocumentMoniker": "Zulu\\Tanar.cs",
-              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Tanar.cs",
+              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Tanar.cs",
               "RelativeToolTip": "Zulu\\Tanar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,9 +79,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Vizsgazo.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Vizsgazo.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Vizsgazo.cs",
               "RelativeDocumentMoniker": "Zulu\\Vizsgazo.cs",
-              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Vizsgazo.cs",
+              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Vizsgazo.cs",
               "RelativeToolTip": "Zulu\\Vizsgazo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,27 +92,31 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Vizsga.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Vizsga.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Vizsga.cs",
               "RelativeDocumentMoniker": "Zulu\\Vizsga.cs",
-              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Vizsga.cs",
+              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Vizsga.cs",
               "RelativeToolTip": "Zulu\\Vizsga.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T09:18:41.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Program.cs",
               "RelativeDocumentMoniker": "Zulu\\Program.cs",
-              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Program.cs",
+              "ToolTip": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\git\\13DCS22\\\u00DAjv\u00E1rosi Katona G\u00E1briel\\c#\\Zulu\\Zulu\\Program.cs",
               "RelativeToolTip": "Zulu\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAuwB0AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T09:16:30.2Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
