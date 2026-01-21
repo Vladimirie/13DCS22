@@ -109,6 +109,7 @@ function LoadData()
 	gsmdata.forEach(phone =>
 	{
 		const data = document.createElement("tr");
+		data.clear();
 		data.innerHTML = `
 			<td>${phone.márka}</td>
 			<td>${phone.név}</td>

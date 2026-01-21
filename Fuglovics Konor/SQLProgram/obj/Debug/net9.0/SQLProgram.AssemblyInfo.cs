@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SQLProgram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c1f904296b44e5bdeaf1a7dc7e6ce55cd15c0eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01eceb5ec148b9ecaa864544eba11d15f9f6d93e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQLProgram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQLProgram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

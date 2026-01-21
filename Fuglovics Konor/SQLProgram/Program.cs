@@ -115,12 +115,12 @@
 			Console.WriteLine($"{string.Join("\n", query1)}\n");
 			foreach(var name in query2)
 			{
-				Console.WriteLine($"{name.Évfolyam}\t{name.Osztály}\t{name.Darab}\n");
+				Console.WriteLine($"{name.Évfolyam}\t{name.Osztály}\t{name.Darab}");
 			}
 			Console.WriteLine($"{string.Join("\n", query3)}\n");
 			foreach (var name in query4)
 			{
-				Console.WriteLine($"{name.Évfolyam}\t{name.Osztály}\t{name.Darab}\n");
+				Console.WriteLine($"{name.Évfolyam}\t{name.Osztály}\t{name.Név}");
 			}
 			Console.ReadKey();
         }
