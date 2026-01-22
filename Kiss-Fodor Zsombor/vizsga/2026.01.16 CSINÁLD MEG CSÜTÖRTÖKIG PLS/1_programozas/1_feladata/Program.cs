@@ -33,7 +33,6 @@
                 //12: categoryId	
                 //13: categoryName
 
-
                 string[] splitLine = file[indexer].Split(";");
                 Ad house = new Ad(
                     int.Parse(splitLine[4]),
@@ -66,7 +65,7 @@
                 }
             }
             átlag = Math.Round(átlag / házakSzáma, 2);
-            return $"Földszinti ingatlanok átlagos alapterülete: {átlag} m2";
+            return $"1. Földszinti ingatlanok átlagos alapterülete: {átlag} m2";
         }
 
         static string MasodikFeladat(List<Ad> adatok)
@@ -81,9 +80,29 @@
                     távolságok.Add(házAdat);
                 }             
             }
-            //float legközelebbi =;
 
-            return $"";
+            float minimum = távolságok[0].Value;
+            int id = távolságok[0].Key;
+
+            foreach (var ház in távolságok)
+            {
+                if ( ház.Value < minimum )
+                {
+                    minimum = ház.Value;
+                    id = ház.Key;
+                }
+            }
+
+            string response = "";
+            foreach (Ad adat in adatok)
+            {
+                if (adat.Id == id)
+                {
+                    response = $"2. A Mesevár óvodához légvonalban a legközelebbi tehermentes ingatlan adatai: \n \t\t Eladó neve: {adat.Seller.Name} \n \t\t Eladó telefonja: {adat.Seller.Phone} \n \t\t Alapterület: {adat.Area} \n \t\t Szobák száma: {adat.Rooms}";
+                }
+            }
+
+            return response;
         }
 
         static float DistanceTo(string latLong, float lati, float longi)
@@ -93,26 +112,28 @@
             float b = 0f;
                 
             string[] latiLongiread = latLong.Split(",");
+            float parsedLati = float.Parse(latiLongiread[0].Replace('.', ','));
+            float parsedLongi = float.Parse(latiLongiread[1].Replace('.', ','));
                 
             //float[] latiLong = { float.Parse(latiLongiread[0]), float.Parse(latiLongiread[1])};
                 
-            if (float.Parse(latiLongiread[0]) > lati) 
+            if (parsedLati > lati) 
             {           
-                a = float.Parse(latiLongiread[0]) - lati;    
+                a = parsedLati - lati;    
             }       
             else
             {          
-                a = lati - float.Parse(latiLongiread[0]);              
+                a = lati - parsedLati;              
             }
 
-            if (float.Parse(latiLongiread[1]) > longi)
+            if (parsedLongi > longi)
                 
             {
-                b = float.Parse(latiLongiread[1]) - longi;
+                b = parsedLongi - longi;
             }
             else
             {
-                b = longi - float.Parse(latiLongiread[1]);
+                b = longi - parsedLongi;
             }
 
             float c = Pitegorasz(a, b);
@@ -123,9 +144,9 @@
         static float Pitegorasz(float a, float b)
         {
             double cSq = (a * a) + (b * b);
-            Console.WriteLine(cSq);
+            //Console.WriteLine(cSq);
             float c = (float)Math.Sqrt(cSq); //this should make it into a float without issue idk
-            Console.WriteLine(c);
+            //Console.WriteLine(c);
             return c;
         }
       
