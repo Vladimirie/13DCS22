@@ -13,49 +13,28 @@ namespace _1_feladata
         public DateTime CreateAt { get; set; }
         public string Description { get; set; }
         public int Floors { get; set; }
+        public int Id { get; set; }
         public string ImageUrl { get; set; }
         public string LatLong { get; set; }
         public int Rooms { get; set; }
         public Seller Seller { get; set; }
+        public int Free { get; set; }
 
-        public Ad(int area, Category category, DateTime createAt, string description, int floors, string imageUrl, string latLong, int rooms, Seller seller)
+        public Ad(int area, Category category, DateTime createAt, string description, int floors,int id, string imageUrl, string latLong, int rooms, Seller seller, int free)
         {
             Area = area;
             Category = category;
             CreateAt = createAt;
             Description = description;
             Floors = floors;
+            Id = id;
             ImageUrl = imageUrl;
             LatLong = latLong;
             Rooms = rooms;
             Seller = seller;
+            Free = Free;
         }
 
-        static List<Ad> loadCSV(string filePath)
-        {
-            List<Ad> adatok = new List<Ad>();
-            string[] file = File.ReadAllLines(filePath);
-            int indexer = 1;
-            while (indexer < file.Length) 
-            {
-                //0: id	
-                //1: rooms	
-                //2: latlong	
-                //3: floors	
-                //4: area	
-                //5: description	
-                //6: freeOfCharge	
-                //7: imageUrl	
-                //8: createAt	
-                //9: sellerId	
-                //10: sellerName	
-                //11: sellerPhone	
-                //12: categoryId	
-                //13: categoryName
-                string[] splitLine = file[indexer].Split(";");
-                Ad house = new Ad(int.Parse(splitLine[4]), new Category(1, "haz"), splitLine[5], );
-            }
-            return adatok;
-        }
+        
     }
 }

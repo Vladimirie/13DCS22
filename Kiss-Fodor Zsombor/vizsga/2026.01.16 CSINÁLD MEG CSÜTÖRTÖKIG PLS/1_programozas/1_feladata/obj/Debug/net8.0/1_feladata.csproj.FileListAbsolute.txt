@@ -1,0 +1,45 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.deps.json
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.runtimeconfig.json
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.dll
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.AssemblyInfoInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.AssemblyInfo.cs
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.sourcelink.json
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.dll
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\refint\1_feladata.dll
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.genruntimeconfig.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\ref\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.exe
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\refint\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\ref\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.exe
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\bin\Debug\net8.0\1_feladata.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\refint\1_feladata.dll
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\1_feladata.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\github\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\1_programozas\1_feladata\obj\Debug\net8.0\ref\1_feladata.dll

@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\",
+  "WorkspaceRootPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\13dcs22\\kiss-fodor zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|solutionrelative:ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\13dcs22\\kiss-fodor zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\vizsga\\2026.01.16 csin\u00E1ld meg cs\u00FCt\u00F6rt\u00F6kig pls\\1_programozas\\1_feladata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\13dcs22\\kiss-fodor zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\vizsga\\2026.01.16 csin\u00E1ld meg cs\u00FCt\u00F6rt\u00F6kig pls\\1_programozas\\1_feladata\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|solutionrelative:ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\vizsga\\2026.01.16 csin\u00E1ld meg cs\u00FCt\u00F6rt\u00F6kig pls\\1_programozas\\1_feladata\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|solutionrelative:category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\13dcs22\\kiss-fodor zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\vizsga\\2026.01.16 csin\u00E1ld meg cs\u00FCt\u00F6rt\u00F6kig pls\\1_programozas\\1_feladata\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6E13D73-AAB4-446C-8E52-6A31C9CC1280}|1_feladata.csproj|solutionrelative:seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,56 +26,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Category.cs",
               "RelativeDocumentMoniker": "Category.cs",
-              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Category.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Category.cs",
               "RelativeToolTip": "Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:10:49.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T12:10:49.842Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Seller.cs",
-              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Seller.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Seller.cs",
               "RelativeDocumentMoniker": "Seller.cs",
-              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Seller.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Seller.cs",
               "RelativeToolTip": "Seller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:10:35.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ad.cs",
-              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Ad.cs",
-              "RelativeDocumentMoniker": "Ad.cs",
-              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Ad.cs",
-              "RelativeToolTip": "Ad.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwDUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:10:21.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T12:10:35.62Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Ad.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Ad.cs",
+              "RelativeDocumentMoniker": "Ad.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Ad.cs",
+              "RelativeToolTip": "Ad.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:10:21.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\sz\u00F3sz\\1_programozas\\1_feladata\\Program.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSIN\u00C1LD MEG CS\u00DCT\u00D6RT\u00D6KIG PLS\\1_programozas\\1_feladata\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAcwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T12:07:36.006Z",
               "EditorCaption": ""

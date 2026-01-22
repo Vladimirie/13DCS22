@@ -19,7 +19,7 @@ namespace Zulu
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured) {
-                var connectionString = "Server=localhost;Database=erettsegi;User=root;Password=;";
+                var connectionString = "Server=localhost;Database=13d2cs;User=root;Password=;";
                 optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
             
             }
