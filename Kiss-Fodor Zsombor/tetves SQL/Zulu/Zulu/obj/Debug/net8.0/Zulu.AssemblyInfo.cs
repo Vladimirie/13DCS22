@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zulu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b9eb9da7a0f988f6d2eb5d27e9537214e777f67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b17561949f6ceb927f114e95db546ddc11e9bed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zulu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zulu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

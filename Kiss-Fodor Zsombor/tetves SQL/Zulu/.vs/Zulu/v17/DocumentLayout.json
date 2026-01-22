@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\tetves SQL\\Zulu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\tetves sql\\zulu\\zulu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\tetves sql\\zulu\\zulu\\vizsgazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\vizsgazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\vizsga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\tetves sql\\zulu\\zulu\\tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\tetves sql\\zulu\\zulu\\erettsegidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\erettsegidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\tetves sql\\zulu\\zulu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\tetves sql\\zulu\\zulu\\tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812D7924-0A7F-4BC0-BF42-CCBBD816A29E}|Zulu\\Zulu.csproj|solutionrelative:zulu\\tanar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -40,14 +40,13 @@
               "RelativeDocumentMoniker": "Zulu\\ErettsegiDbContext.cs",
               "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\tetves SQL\\Zulu\\Zulu\\ErettsegiDbContext.cs",
               "RelativeToolTip": "Zulu\\ErettsegiDbContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T09:54:48.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T09:54:48.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Tanar.cs",
               "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\tetves SQL\\Zulu\\Zulu\\Tanar.cs",
               "RelativeDocumentMoniker": "Zulu\\Tanar.cs",
@@ -55,12 +54,11 @@
               "RelativeToolTip": "Zulu\\Tanar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T09:26:54.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T09:26:54.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Vizsgazo.cs",
               "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\tetves SQL\\Zulu\\Zulu\\Vizsgazo.cs",
               "RelativeDocumentMoniker": "Zulu\\Vizsgazo.cs",
@@ -68,12 +66,11 @@
               "RelativeToolTip": "Zulu\\Vizsgazo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T09:24:15.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T09:24:15.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Vizsga.cs",
               "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\tetves SQL\\Zulu\\Zulu\\Vizsga.cs",
               "RelativeDocumentMoniker": "Zulu\\Vizsga.cs",
@@ -81,20 +78,20 @@
               "RelativeToolTip": "Zulu\\Vizsga.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T09:18:41.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T09:18:41.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\tetves SQL\\Zulu\\Zulu\\Program.cs",
               "RelativeDocumentMoniker": "Zulu\\Program.cs",
               "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\tetves SQL\\Zulu\\Zulu\\Program.cs",
               "RelativeToolTip": "Zulu\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAABLAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwDMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T09:16:30.2Z"
+              "WhenOpened": "2026-01-13T09:16:30.2Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kiss-FodorZsombor\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kiss-FodorZsombor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\\1_programozas\\1_feladata\\1_feladata.csproj",
+      "projectUniqueName": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\\1_programozas\\1_feladata\\1_feladata.csproj",
       "projectName": "1_feladata",
-      "projectPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\\1_programozas\\1_feladata\\1_feladata.csproj",
+      "projectPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\\1_programozas\\1_feladata\\1_feladata.csproj",
       "packagesPath": "C:\\Users\\Kiss-FodorZsombor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\\1_programozas\\1_feladata\\obj\\",
+      "outputPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\vizsga\\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\\1_programozas\\1_feladata\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Kiss-FodorZsombor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -50,8 +45,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -72,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
