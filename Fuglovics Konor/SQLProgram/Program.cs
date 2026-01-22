@@ -122,7 +122,7 @@
 			{
 				Console.WriteLine($"{name.Évfolyam}\t{name.Osztály}\t{name.Név}");
 			}
-			Console.ReadKey();
+			
         }
     }
 }
