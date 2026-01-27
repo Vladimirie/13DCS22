@@ -69,16 +69,16 @@ def writerandnums():
 	except Exception as e:
 		messagebox.showerror("An error occured", e)
 def writeinput():
-	if chk == True:
-		name = filename.get()
+	if chk.get() == True:
+		name = f"{filename.get()}.txt"
 	else:
-		name = filename.get().upper()
+		name = (filename.get()+".txt").upper()
 	for char in name:
 		for forbchar in forbiddenchars:
 			if char == forbchar:
 				name = name.replace(char,'')
 	try:
-		with open(f"{name}.txt",modes.get()) as wrtext:
+		with open(name,modes.get()) as wrtext:
 			if modes.get() == writemodes[0]:
 				text.delete('1.0', 'end')
 				text.insert('end', wrtext.read())

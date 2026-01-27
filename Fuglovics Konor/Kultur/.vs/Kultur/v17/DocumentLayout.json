@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\Kultur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8778D7-F683-4E7D-879E-39C0CA093167}|Kultur.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\kultur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8778D7-F683-4E7D-879E-39C0CA093167}|Kultur.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8778D7-F683-4E7D-879E-39C0CA093167}|Kultur.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\kultur\\kulturdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8778D7-F683-4E7D-879E-39C0CA093167}|Kultur.csproj|solutionrelative:kulturdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KulturDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\Kultur\\KulturDbContext.cs",
+              "RelativeDocumentMoniker": "KulturDbContext.cs",
+              "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\Kultur\\KulturDbContext.cs",
+              "RelativeToolTip": "KulturDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:04:21.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\Kultur\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\Kultur\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIAwwD4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:17:56.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
