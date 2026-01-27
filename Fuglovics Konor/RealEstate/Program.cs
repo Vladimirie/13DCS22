@@ -99,7 +99,20 @@
 			get;
 			set;
 		}
-		public Ad(int area, Category Category, DateTime CreateAt)
+		public Ad(int area, Category category, DateTime createat, string desc, int floors, bool freeofcharge, int id, string imgurl, string latlong, int rooms, Seller seller)
+		{
+			Area = area;
+			Category = category;
+			CreateAt = createat;
+			Description = desc;
+			Floors = floors;
+			FreeOfCharge = freeofcharge;
+			ID = id;
+			ImageURL = imgurl;
+			LatLong = latlong;
+			Rooms = rooms;
+			Seller = seller;
+		}
 	}
     internal class Program
     {

@@ -758,11 +758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Zulu.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\github\\13DCS22\\Újvárosi Katona Gábriel\\c#\\Zulu\\Zulu\\Zulu.csproj",
       "projectName": "Zulu",
-      "projectPath": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\Zulu.csproj",
+      "projectPath": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\github\\13DCS22\\Újvárosi Katona Gábriel\\c#\\Zulu\\Zulu\\Zulu.csproj",
       "packagesPath": "C:\\Users\\TEMP.AzureAD.002\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\Zulu\\Zulu\\obj\\",
+      "outputPath": "C:\\Users\\TEMP.AzureAD.002\\Desktop\\github\\13DCS22\\Újvárosi Katona Gábriel\\c#\\Zulu\\Zulu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TEMP.AzureAD.002\\AppData\\Roaming\\NuGet\\NuGet.Config",
