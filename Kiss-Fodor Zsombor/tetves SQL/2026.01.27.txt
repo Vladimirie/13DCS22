@@ -1,0 +1,10 @@
+SELECT `nev` FROM `csapat` WHERE `nev` LIKE "#%"
+SELECT `nevado` FROM `feladatsor` WHERE `nevado` LIKE "% %"
+SELECT `nevado` FROM `feladatsor` WHERE '2018/12/31' BETWEEN `kituzes` AND `hatarido`
+SELECT csapat.nev ,SUM(megoldas.pontszam) FROM megoldas, csapat WHERE  csapat.id = megoldas.csapatid GROUP BY megoldas.csapatid  ORDER BY SUM(megoldas.pontszam) DESC
+SELECT feladatsor.nevado, feladatsor.ag ,SUM(feladat.pontszam) FROM feladatsor JOIN feladat ON feladatsor.id = feladat.feladatsorid  GROUP BY feladat.feladatsorid HAVING SUM(feladat.pontszam) < 150
+SELECT csapat.nev FROM megoldas JOIN csapat ON megoldas.csapatid = csapat.id JOIN feladat ON megoldas.feladatid = feladat.id WHERE megoldas.pontszam = feladat.pontszam GROUP BY csapat.nev
+SELECT feladatsor.nevado, COUNT(feladat.id) FROM megoldas JOIN feladat ON megoldas.feladatid = feladat.id JOIN feladatsor ON feladat.feladatsorid = feladatsor.id JOIN csapat ON megoldas.csapatid = csapat.id WHERE megoldas.pontszam = 0 AND csapat.nev = '#win' GROUP BY feladatsor.id
+SELECT nevado FROM feladatsor WHERE MONTH(`kituzes`) = MONTH(`hatarido`) AND ag = "irodalom"
+SELECT nevado FROM feladatsor ORDER BY Datediff(hatarido, kituzes) LIMIT 1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
