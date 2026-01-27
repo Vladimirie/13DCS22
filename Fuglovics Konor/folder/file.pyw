@@ -69,7 +69,10 @@ def writerandnums():
 	except Exception as e:
 		messagebox.showerror("An error occured", e)
 def writeinput():
-	name = filename.get()
+	if chk == True:
+		name = filename.get()
+	else:
+		name = filename.get().upper()
 	for char in name:
 		for forbchar in forbiddenchars:
 			if char == forbchar:
