@@ -67,7 +67,10 @@ WHERE ag = 'irodalom'
   AND MONTH(kituzes) = MONTH(hatarido);
 
 10. Feladat
-
+SELECT f2.nevado, f2.kituzes
+FROM feladatsor f1
+JOIN feladatsor f2
+  ON f2.kituzes = DATE_ADD(f1.hatarido, INTERVAL 1 DAY);
 
 11. Feladat
 
