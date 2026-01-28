@@ -1,20 +1,110 @@
 const express = require('express');
-const mysql = require('mysql2/promise');
 const app = express();
+const mysql = require('mysql2/promise');
+const PORT = 3000;
 
-const db_config = { 
-  host: "37.221.209.228", 
-  port: 40180, 
-  user: "ajax", 
-  password: "Password123", 
-  database: "ajaxteszt" 
-}; 
+// XAMPP MySQL
+const dbConfig = {
+	host: '37.221.209.228',
+	port: 40180,
+	user: 'ajax',
+	password: 'Password123',
+	database: 'ajaxteszt',
+};
 
 app.use(express.json());
-app.use(express.static('Public'));
-const pool = mysql.createPool(db_config);
- 
-console.log("Adatbazis konfiguracio betoltve."); 
+app.use(express.static('public'));
+const pool = mysql.createPool(dbConfig);
 
-app.listen(3000, () => console.log('Szerver: http//localhost:3000'));
+// API ENDPOINT-OK
+app.get('/api/szemelyek', async (req, res) =>
+{
+	let connection;
+	try
+	{
+		connection = await mysql.createConnection(dbConfig);
+		const [rows] = await connection.execute('SELECT * FROM Szemelyek ORDER BY id ASC');
+		res.json(rows);
+	}
+	catch (error)
+	{
+	res.status(500).json({ error: error.message });
+	}
+	finally
+	{
+		if (connection)
+	{
+		await connection.end();
+	}
+	}
+});
 
+app.post('/api/szemelyek', async (req, res) => {
+	let connection;
+	try
+	{
+		connection = await mysql.createConnection(dbConfig);
+		const { nev, email, telefon, anyja_neve, igazolvany_szam } = req.body;
+		const [result] = await connection.execute('INSERT INTO Szemelyek (nev, email, telefon, anyja_neve, igazolvany_szam) VALUES (?, ?, ?, ?, ?)', [nev, email, telefon, anyja_neve, igazolvany_szam]);
+		res.json({ success: true, id: result.insertId });
+	}
+	catch (error)
+	{
+		res.status(500).json({ error: error.message });
+	}
+	finally
+	{
+		if (connection)
+		{
+			await connection.end();
+		}
+	}
+});
+
+app.put('/api/szemelyek/:id', async (req, res) => {
+	let connection;
+	try 
+	{
+		connection = await mysql.createConnection(dbConfig);
+		const { nev, email, telefon, anyja_neve, igazolvany_szam } = req.body;
+		const id = req.params.id;
+		await connection.execute(
+			'UPDATE Szemelyek SET nev=?, email=?, telefon=?, anyja_neve=?, igazolvany_szam=? WHERE id=?', [nev, email, telefon, anyja_neve, igazolvany_szam, id]);
+		res.json({ success: true });
+	}
+	catch (error)
+	{
+		res.status(500).json({ error: error.message });
+	}
+	finally
+	{
+		if (connection)
+		{
+			await connection.end();
+		}
+	}
+});
+
+app.delete('/api/szemelyek/:id', async (req, res) => {
+	let connection;
+	try
+	{
+		connection = await mysql.createConnection(dbConfig);
+		const id = req.params.id;
+		await connection.execute('DELETE FROM Szemelyek WHERE id=?', [id]);
+		res.json({ success: true });
+	}
+	catch (error)
+	{
+		res.status(500).json({ error: error.message });
+	}
+	finally
+	{
+		if (connection)
+		{
+			await connection.end();
+		}
+	}
+});
+
+app.listen(PORT, () => console.log('http://localhost:3000'));

@@ -1,10 +1,12 @@
 // 1.
-
+async function kuldKoszontes() {
+    onst nev = document.getElementByID
+}
 
 // 2. List Lekérés
 app.get('/api/szemlyek', async (req, res) => {
     try {
-        const [rows = await]
+        const [rows] = await pool.query
     }
 })
 
