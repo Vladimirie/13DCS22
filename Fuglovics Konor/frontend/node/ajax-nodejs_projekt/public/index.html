@@ -12,6 +12,7 @@
 		<select id="people">
 		</select>
 		<div class="forminput">
+			<input type="hidden" id="edit_id">
 			<input type="text" id="f_name" placeholder="Név" readonly>
 			<input type="text" id="f_email" placeholder="E-Mail" readonly>
 			<input type="text" id="f_phone" placeholder="Tel. szám" readonly>
@@ -22,6 +23,20 @@
 			<button type="button" id="refresh_table">Refresh</button>
 			<button type="button" id="clear">Clear</button>
 		</div>
+	</div>
+	<div class="card">
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>E-Mail</th>
+					<th>Phone number</th>
+					<th>Mother's name</th>
+					<th>I.D. number</th>
+				</tr>
+			</thead>
+			<tbody id="datatable"></tbody>
+		</table>
 	</div>
 	<script src="./js/script.js"></script>
 </body>

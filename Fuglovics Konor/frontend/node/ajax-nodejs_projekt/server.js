@@ -17,6 +17,24 @@ app.use(express.static('public'));
 const pool = mysql.createPool(dbConfig);
 
 // API ENDPOINT-OK
+app.post('/api/koszontes', (req, res) =>
+{
+	const name = req.body.nev;
+	if(name)
+	{
+		res.json
+		({
+			message: `Hello, ${name}! This AJAX message was sent from the server! :3`
+		});
+	}
+	else
+	{
+		res.status(400).json
+		({
+			error: "NAME REQUIRED!!"
+		});
+	}
+})
 app.get('/api/szemelyek', async (req, res) =>
 {
 	let connection;
