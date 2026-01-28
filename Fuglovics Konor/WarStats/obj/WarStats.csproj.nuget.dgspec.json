@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj": {}
+    "C:\\Users\\Kiss-FodorZsombor\\Desktop\\Github\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj": {
+    "C:\\Users\\Kiss-FodorZsombor\\Desktop\\Github\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj",
+        "projectUniqueName": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\Github\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj",
         "projectName": "WarStats",
-        "projectPath": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj",
-        "packagesPath": "C:\\Users\\Sound Crafter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\WarStats\\obj\\",
+        "projectPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\Github\\13DCS22\\Fuglovics Konor\\WarStats\\WarStats.csproj",
+        "packagesPath": "C:\\Users\\Kiss-FodorZsombor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\Github\\13DCS22\\Fuglovics Konor\\WarStats\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sound Crafter\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kiss-FodorZsombor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -60,12 +55,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
