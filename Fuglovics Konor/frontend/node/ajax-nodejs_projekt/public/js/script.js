@@ -6,17 +6,17 @@ const name = document.getElementById('f_name').value;
 const email = document.getElementById('f_email').value;
 const phone = document.getElementById('f_phone').value;
 const mother = document.getElementById('f_mother').value;
-const id = document.getElementById('f_id').value;
+const id = document.getElementById('f_idnum').value;
 
-function Silly()
+function Silly()	//EZ CSAK A GOMBOK TESZTELÉSEKÉNT VOLT!!
 {
 	alert(":3");
 }
-
 async function UploadCombobox()
 {
 	try
 	{
+		let allpeople = [];
 		const res = await fetch('/api/szemelyek');
 		allpeople = await res.json();
 		const select = document.getElementById("people");
@@ -37,15 +37,6 @@ async function UploadCombobox()
 		console.error(err);
 	}
 }
-let allpeople = [];
-function ClearData()
-{
-	name = "";
-	email = "";
-	phone = "";
-	mother = "";
-	id = "";
-}
 function LoadData(id)
 {
 	if(!id)
@@ -62,4 +53,12 @@ function LoadData(id)
 		mother = selected.anyja_neve || 'Not assigned';
 		id = selected.igazolvany_szam || 'Not assigned';
 	}
+}
+function ClearData()
+{
+	document.getElementById('f_name').value = "";
+	document.getElementById('f_email').value = "";
+	document.getElementById('f_phone').value = "";
+	document.getElementById('f_mother').value = "";
+	document.getElementById('f_idnum').value = "";
 }

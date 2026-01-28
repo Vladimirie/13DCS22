@@ -18,7 +18,7 @@ body
 	padding: 10px;
 	margin: 0 32px;
 }
-.forminput
+.card .forminput
 {
 	display: grid;
 	grid: auto/auto auto;
