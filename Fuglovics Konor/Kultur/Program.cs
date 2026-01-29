@@ -59,8 +59,61 @@
 			}
 			var _3 = from c in ab.Megoldas
 					 from d in ab.Csapat
+					 from e in ab.Feladat
 					 where c.CsapatID == d.ID
-					 && c.Pontszam == 40;
+					 && e.Pontszam == c.Pontszam
+					 group d by new
+					 {
+						 d.Nev,
+						 e.Pontszam
+					 } into grp
+					 select new
+					 {
+						 grp.Key,
+						 grp.Key.Pontszam
+					 };
+			Console.WriteLine("\nNév\t\tPontszám");
+			foreach (var i in _3)
+			{
+				if (i.Key.Nev.Length < 8)
+				{
+					Console.WriteLine($"{i.Key.Nev}\t\t{i.Key.Pontszam}");
+				}
+				else
+				{
+					Console.WriteLine($"{i.Key.Nev}\t{i.Key.Pontszam}");
+				}
+			}
+			var _4 = from f in ab.Feladatsor
+					 from g in ab.Feladat
+					 where g.FeladatsorID == f.ID
+					 orderby g.ID
+					 select new
+					 {
+						 g.ID,
+						 f.Nevado,
+						 g.Pontszam
+					 };
+			Console.WriteLine($"\nFel. ID\tNévadó\t\t\t\tPontszám");
+			foreach(var i in _4)
+			{
+				if(i.Nevado.Length < 8)
+				{
+					Console.WriteLine($"{i.ID}\t{i.Nevado}\t\t\t\t{i.Pontszam}");
+				}
+				else if(i.Nevado.Length < 16)
+				{
+					Console.WriteLine($"{i.ID}\t{i.Nevado}\t\t\t{i.Pontszam}");
+				}
+				else if(i.Nevado.Length < 24)
+				{
+					Console.WriteLine($"{i.ID}\t{i.Nevado}\t\t{i.Pontszam}");
+				}
+				else
+				{
+					Console.WriteLine($"{i.ID}\t{i.Nevado}\t{i.Pontszam}");
+				}
+			}
 			Console.ReadKey();
         }
     }
