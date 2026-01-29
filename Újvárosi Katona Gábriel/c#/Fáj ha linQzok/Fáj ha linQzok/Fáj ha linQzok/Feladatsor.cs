@@ -11,7 +11,7 @@ namespace Fáj_ha_linQzok
         public int Id { get; set; }
         public string Nevado { get; set; }
         public string Ag { get; set; }
-        public DateTime Kituzes { get; set; }
-        public DateTime Hatarido { get; set; }
+        public DateOnly Kituzes { get; set; }
+        public DateOnly Hatarido { get; set; }
     }
 }

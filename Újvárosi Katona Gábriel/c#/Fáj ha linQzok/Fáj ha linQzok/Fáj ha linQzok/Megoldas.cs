@@ -11,7 +11,7 @@ namespace Fáj_ha_linQzok
         public int Id { get; set; }
         public int Feladatid { get; set; }
         public int Csapatid { get; set; }
-        public DateTime Datum { get; set; }
+        public DateOnly Datum { get; set; }
         public int Pontszam { get; set; }
     }
 }

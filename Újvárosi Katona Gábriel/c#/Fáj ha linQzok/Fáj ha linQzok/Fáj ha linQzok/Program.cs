@@ -38,6 +38,10 @@ namespace Fáj_ha_linQzok
             var keses = db.Megoldas.Join(db.Feladat, m => m.Feladatid, f => f.Id, (m, f) => new { m, f }).Join(db.Feladatsor, j => j.f.Feladatsorid, fs => fs.Id, (j, fs) => new { j, fs }).Where(g => g.fs.Hatarido < g.j.m.Datum).Select(g => new { g.fs.Nevado, g.fs.Hatarido, g.j.m.Datum });
             Console.WriteLine("6. feladat:" + string.Join("\n", keses));
             Console.WriteLine("Count " + keses.Count());
+            var breanches = db.Feladatsor.GroupBy(f => f.Ag).Select(g => new {Ág = g.Key, Darab = g.Count() });
+            Console.WriteLine("7. feladat:" + string.Join("\n", breanches));
+            Console.WriteLine("Count " + breanches.Count());
+
         }
     }
 
