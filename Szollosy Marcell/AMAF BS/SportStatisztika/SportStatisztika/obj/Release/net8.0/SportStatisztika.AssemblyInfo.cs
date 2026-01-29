@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportStatisztika")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cc423ebdd970e5153386f583258e8ccc12a13c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc820b2f56ed7a2d2ea6c2a441158b3852905b5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportStatisztika")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportStatisztika")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("konvytar kategorizálás")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26df15395202a41a747cb5f9bfb4a7a226815d7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc820b2f56ed7a2d2ea6c2a441158b3852905b5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("konvytar kategorizálás")]
 [assembly: System.Reflection.AssemblyTitleAttribute("konvytar kategorizálás")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
