@@ -12,11 +12,6 @@
 			get;
 			set;
 		}
-		public Category(int id, string name)
-		{
-			ID = id;
-			Name = name;
-		}
 	}
 	internal class Seller
 	{
@@ -34,12 +29,6 @@
 		{
 			get;
 			set;
-		}
-		public Seller(int id, string name, string phone)
-		{
-			ID = id;
-			Name = name;
-			Phone = phone;
 		}
 	}
 	internal class Ad
@@ -98,6 +87,10 @@
 		{
 			get;
 			set;
+		}
+		static void LoadFromCSV()
+		{
+
 		}
 		public Ad(int area, Category category, DateTime createat, string desc, int floors, bool freeofcharge, int id, string imgurl, string latlong, int rooms, Seller seller)
 		{
