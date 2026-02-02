@@ -1,0 +1,15 @@
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\bin\Debug\net9.0\AutóVerseny.exe
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\bin\Debug\net9.0\AutóVerseny.deps.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\bin\Debug\net9.0\AutóVerseny.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\bin\Debug\net9.0\AutóVerseny.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\bin\Debug\net9.0\AutóVerseny.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\refint\AutóVerseny.dll
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.pdb
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\AutóVerseny.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS2\Fuglovics Konor\AutóVerseny\obj\Debug\net9.0\ref\AutóVerseny.dll

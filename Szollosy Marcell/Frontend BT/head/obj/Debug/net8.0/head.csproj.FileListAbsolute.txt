@@ -1,0 +1,15 @@
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\bin\Debug\net8.0\head.exe
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\bin\Debug\net8.0\head.deps.json
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\bin\Debug\net8.0\head.runtimeconfig.json
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\bin\Debug\net8.0\head.dll
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\bin\Debug\net8.0\head.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.AssemblyInfoInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.AssemblyInfo.cs
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.csproj.CoreCompileInputs.cache
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.sourcelink.json
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.dll
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\refint\head.dll
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.pdb
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\head.genruntimeconfig.cache
+C:\Users\Kiss-FodorZsombor\Desktop\13Dénes\13DCS2\Kiss-Fodor Zsombor\Frontend\head\obj\Debug\net8.0\ref\head.dll

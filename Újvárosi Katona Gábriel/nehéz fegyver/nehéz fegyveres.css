@@ -1,0 +1,38 @@
+
+body {
+ font-family: 'Georgia', serif;
+ line-height: 1.6;
+ margin: 0;
+ padding: 20px;
+ background-color: #f9f7f1;
+}
+header {
+ text-align: center;
+ margin-bottom: 20px;
+}
+header h1 {
+ font-size: 3rem;
+ text-transform: uppercase;
+}
+header .date {
+ font-size: 1rem;
+ color: #555;
+}
+
+newspaper {
+ column-count: 2; 
+ column-gap: 30px; 
+article {
+ break-inside: avoid; 
+}
+article h2 {
+ font-size: 1.5rem;
+ margin-bottom: 10px;
+}
+article p {
+ margin-bottom: 15px;
+}
+
+newspaper {
+ column-rule: 2px solid #ccc; 
+}

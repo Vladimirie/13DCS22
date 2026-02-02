@@ -1,0 +1,3 @@
+﻿//Species table structure: species name and then multipliers for:
+//base health, base defense, base attack, base crit chance, 
+Human, 1, 1, 1, 1.3

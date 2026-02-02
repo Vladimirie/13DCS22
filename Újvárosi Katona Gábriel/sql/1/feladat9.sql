@@ -1,0 +1,1 @@
+SELECT felhasznalo.veznev, felhasznalo.utonev, COUNT(*) FROM felhasznalo , uzenet , hirfolyam WHERE felhasznalo.id = uzenet.f_id AND uzenet.h_id = hirfolyam.id AND hirfolyam.megnevezes = "e-bike" AND uzenet.kuldido > TIME("12:00") AND uzenet.kuldido < TIME("16:00")

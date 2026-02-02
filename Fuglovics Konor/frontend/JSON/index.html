@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/theme.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="main">
+		<div class="left">
+			<p>Név:</p>
+			<input type="text" id="name">
+			<p>Életkor:</p>
+			<input class="age" type="text" id="age" maxlength="2">
+			<p>Elektronikus levél név:</p>
+			<input type="email" id="email">
+			<p>Jegyek (vesszővel elválaszva):</p>
+			<input type="text" id="grades">
+			<button class="butt" id="jsonparse">JSON Elemzés</button>
+			<button class="butt" id="parseback">Visszaelemzés</button>
+		</div>
+		<div class="right">
+			<p class="output" id="jsonresult">[JSON Output]</p>
+			<p class="output" id="jsoutput">[JS Code]</p>
+		</div>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+</html>

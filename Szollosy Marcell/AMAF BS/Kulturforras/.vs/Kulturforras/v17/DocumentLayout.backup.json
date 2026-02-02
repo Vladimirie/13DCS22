@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|c:\\users\\marcellszollosy\\source\\repos\\kulturforras\\kulturforras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|solutionrelative:kulturforras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|c:\\users\\marcellszollosy\\source\\repos\\kulturforras\\kulturforras\\megoldas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|solutionrelative:kulturforras\\megoldas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|c:\\users\\marcellszollosy\\source\\repos\\kulturforras\\kulturforras\\feladat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|solutionrelative:kulturforras\\feladat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|c:\\users\\marcellszollosy\\source\\repos\\kulturforras\\kulturforras\\kulturforrasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|solutionrelative:kulturforras\\kulturforrasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|c:\\users\\marcellszollosy\\source\\repos\\kulturforras\\kulturforras\\feladatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|solutionrelative:kulturforras\\feladatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|c:\\users\\marcellszollosy\\source\\repos\\kulturforras\\kulturforras\\csapat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72846122-8808-4420-8635-F091093E4209}|Kulturforras\\Kulturforras.csproj|solutionrelative:kulturforras\\csapat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KulturforrasDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\KulturforrasDbContext.cs",
+              "RelativeDocumentMoniker": "Kulturforras\\KulturforrasDbContext.cs",
+              "ToolTip": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\KulturforrasDbContext.cs",
+              "RelativeToolTip": "Kulturforras\\KulturforrasDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewBMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T10:11:41.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Megoldas.cs",
+              "DocumentMoniker": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\Megoldas.cs",
+              "RelativeDocumentMoniker": "Kulturforras\\Megoldas.cs",
+              "ToolTip": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\Megoldas.cs",
+              "RelativeToolTip": "Kulturforras\\Megoldas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T09:55:39.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Feladat.cs",
+              "DocumentMoniker": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\Feladat.cs",
+              "RelativeDocumentMoniker": "Kulturforras\\Feladat.cs",
+              "ToolTip": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\Feladat.cs",
+              "RelativeToolTip": "Kulturforras\\Feladat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T09:55:09.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FeladatSor.cs",
+              "DocumentMoniker": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\FeladatSor.cs",
+              "RelativeDocumentMoniker": "Kulturforras\\FeladatSor.cs",
+              "ToolTip": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\FeladatSor.cs",
+              "RelativeToolTip": "Kulturforras\\FeladatSor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T09:54:55.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "csapat.cs",
+              "DocumentMoniker": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\csapat.cs",
+              "RelativeDocumentMoniker": "Kulturforras\\csapat.cs",
+              "ToolTip": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\csapat.cs",
+              "RelativeToolTip": "Kulturforras\\csapat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T09:54:35.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\Program.cs",
+              "RelativeDocumentMoniker": "Kulturforras\\Program.cs",
+              "ToolTip": "C:\\Users\\MarcellSzollosy\\source\\repos\\Kulturforras\\Kulturforras\\Program.cs",
+              "RelativeToolTip": "Kulturforras\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwDkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T09:52:56.983Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

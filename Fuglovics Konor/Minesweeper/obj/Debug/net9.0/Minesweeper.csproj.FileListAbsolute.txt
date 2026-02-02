@@ -1,0 +1,30 @@
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.exe
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.deps.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\refint\Minesweeper.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\ref\Minesweeper.dll
+F:\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.exe
+F:\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.deps.json
+F:\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.runtimeconfig.json
+F:\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.dll
+F:\13DCS22\Fuglovics Konor\Minesweeper\bin\Debug\net9.0\Minesweeper.pdb
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.AssemblyInfoInputs.cache
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.AssemblyInfo.cs
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.csproj.CoreCompileInputs.cache
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.sourcelink.json
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.dll
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\refint\Minesweeper.dll
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.pdb
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\Minesweeper.genruntimeconfig.cache
+F:\13DCS22\Fuglovics Konor\Minesweeper\obj\Debug\net9.0\ref\Minesweeper.dll

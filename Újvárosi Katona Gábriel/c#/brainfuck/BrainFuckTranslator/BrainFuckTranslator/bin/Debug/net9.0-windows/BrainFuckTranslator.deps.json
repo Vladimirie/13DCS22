@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BrainFuckTranslator/1.0.0": {
+        "runtime": {
+          "BrainFuckTranslator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BrainFuckTranslator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
