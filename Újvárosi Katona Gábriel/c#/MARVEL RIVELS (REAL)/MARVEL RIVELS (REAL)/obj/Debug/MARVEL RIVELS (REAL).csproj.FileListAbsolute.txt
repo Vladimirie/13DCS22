@@ -1,7 +1,0 @@
-C:\Users\TEMP.AzureAD.007\Desktop\MArverlthgf1\MARVEL RIVELS (REAL)\MARVEL RIVELS (REAL)\bin\Debug\MARVEL RIVELS (REAL).exe.config
-C:\Users\TEMP.AzureAD.007\Desktop\MArverlthgf1\MARVEL RIVELS (REAL)\MARVEL RIVELS (REAL)\bin\Debug\MARVEL RIVELS (REAL).exe
-C:\Users\TEMP.AzureAD.007\Desktop\MArverlthgf1\MARVEL RIVELS (REAL)\MARVEL RIVELS (REAL)\bin\Debug\MARVEL RIVELS (REAL).pdb
-C:\Users\TEMP.AzureAD.007\Desktop\MArverlthgf1\MARVEL RIVELS (REAL)\MARVEL RIVELS (REAL)\obj\Debug\MARVEL RIVELS (REAL).csproj.AssemblyReference.cache
-C:\Users\TEMP.AzureAD.007\Desktop\MArverlthgf1\MARVEL RIVELS (REAL)\MARVEL RIVELS (REAL)\obj\Debug\MARVEL RIVELS (REAL).csproj.CoreCompileInputs.cache
-C:\Users\TEMP.AzureAD.007\Desktop\MArverlthgf1\MARVEL RIVELS (REAL)\MARVEL RIVELS (REAL)\obj\Debug\MARVEL RIVELS (REAL).exe
-C:\Users\TEMP.AzureAD.007\Desktop\MArverlthgf1\MARVEL RIVELS (REAL)\MARVEL RIVELS (REAL)\obj\Debug\MARVEL RIVELS (REAL).pdb

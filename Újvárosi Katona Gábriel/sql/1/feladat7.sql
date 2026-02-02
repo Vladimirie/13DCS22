@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT uzenet.f_id)  FROM uzenet
