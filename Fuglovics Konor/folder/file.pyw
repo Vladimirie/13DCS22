@@ -41,7 +41,7 @@ def charlimit(inp):
 	return True
 Label(root, text="File name:").grid(row=0, column=0, pady=5, padx=5)
 filename = Entry(root, justify="center", width=16, validate="key", validatecommand=(root.register(charlimit),'%P'))
-filename.grid(row=0, column=1, pady=(5,0), padx=10)
+filename.grid(row=0, column=1, pady=(5,0))
 filesystem = Checkbutton(root, text="Enable modern naming system", variable=chk, onvalue=True, offvalue=False)
 filesystem.grid(row=1, column=0, columnspan=2, sticky="w", padx=10, pady=(0,6))
 testtxt = StringVar()
@@ -96,7 +96,7 @@ def buttonswitch(*args):
 		Button(root, text="Create file", width=20, command=writeinput).grid(row=5, column=0, columnspan=2, pady=6)
 modes.bind("<<ComboboxSelected>>", buttonswitch)
 root.rowconfigure(5, weight=1)
-root.grid_columnconfigure((0,1), weight=1, uniform="column")
+root.grid_columnconfigure(1, weight=1, uniform="column")
 ctframe.columnconfigure(0, weight=1)
 root.bind('<Map>', override)
 root.mainloop()
