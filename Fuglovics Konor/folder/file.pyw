@@ -73,9 +73,13 @@ def writeinput():
 		name = f"{filename.get()}.txt"
 	else:
 		name = (filename.get()+".txt").upper()
+		for char in name:
+			if char == " ":
+				name = name.replace(char,'_')
 	for char in name:
 		for forbchar in forbiddenchars:
 			if char == forbchar:
+				print(f"Forbidden character found: [{char}]")
 				name = name.replace(char,'')
 	try:
 		with open(name,modes.get()) as wrtext:
