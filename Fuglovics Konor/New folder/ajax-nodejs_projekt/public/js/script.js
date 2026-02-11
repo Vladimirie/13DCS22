@@ -23,8 +23,8 @@ async function UploadCombobox()
 		allpeople.forEach(p =>
 		{
 			const option = document.createElement('option');
-			option.value = p.carid;
-			option.textContent = p.brand;
+			option.value = p.CarID;
+			option.textContent = p.Brand;
 			select.appendChild(option);
 		});
 		alert("Updated list :3");
@@ -64,12 +64,12 @@ function LoadData(id)
 		ClearData();
 		return;
 	}
-	const selected = allpeople.find(c => c.carid == id);
+	const selected = allpeople.find(c => c.CarID == id);
 	if (selected)
 	{
-		carplate = selected.licenseplate;
-		carbrand = selected.brand;
-		carmodel = selected.model;
+		carplate = selected.LicensePlate;
+		carbrand = selected.Brand;
+		carmodel = selected.Model;
 	}
 }
 function ClearData()
