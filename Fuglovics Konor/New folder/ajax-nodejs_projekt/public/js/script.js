@@ -1,13 +1,11 @@
 const butt = document.getElementById("refresh_table");
 butt.addEventListener("click", UploadCombobox);
-const combobox = document.getElementById("people");
+const combobox = document.getElementById("cars");
 combobox.addEventListener("onchange", LoadData(this.value));
 const _id = document.getElementById('edit_id').value;
-const name = document.getElementById('f_name').value;
-const email = document.getElementById('f_email').value;
-const phone = document.getElementById('f_phone').value;
-const mother = document.getElementById('f_mother').value;
-const id = document.getElementById('f_idnum').value;
+const carplate = document.getElementById('f_licenseplate').value;
+const carbrand = document.getElementById('f_brand').value;
+const carmodel = document.getElementById('f_model').value;
 const tabl = document.getElementById('datatable');
 tabl.addEventListener("onload", LoadTable);
 
@@ -16,17 +14,17 @@ async function UploadCombobox()
 	try
 	{
 		let allpeople = [];
-		const res = await fetch('/api/szemelyek');
+		const res = await fetch('/api/cars');
 		allpeople = await res.json();
-		const select = document.getElementById("people");
+		const select = document.getElementById("cars");
 		select.innerHTML = (
-			"<option value=\"\">Choose a person</option>"
+			"<option value=\"\">Choose a Car</option>"
 		);
 		allpeople.forEach(p =>
 		{
 			const option = document.createElement('option');
-			option.value = p.id;
-			option.textContent = p.nev;
+			option.value = p.carid;
+			option.textContent = p.brand;
 			select.appendChild(option);
 		});
 		alert("Updated list :3");
@@ -38,15 +36,13 @@ async function UploadCombobox()
 }
 async function LoadTable()
 {
-	const res = await fetch('/api/szemelyek');
+	const res = await fetch('/api/cars');
 	const datae = await res.json();
 	document.getElementById('datatable').innerHTML = datae.map(tbl => `
 		<tr>
-			<td>${tbl.nev}</td>
-			<td>${tbl.email}</td>
-			<td>${tbl.telefon}</td>
-			<td>${tbl.anyja_neve}</td>
-			<td>${tbl.igazolvany_szam}</td>
+			<td>${tbl.licenseplate}</td>
+			<td>${tbl.brand}</td>
+			<td>${tbl.model}</td>
 			<td>
 				<button class="modify" onclick="edit(${JSON.stringify(tbl)})">Modify</button>
 				<button class="delete" onclick="delete(${tbl.id})"></button>
@@ -54,14 +50,12 @@ async function LoadTable()
 		`
 	).join();
 }
-function edit(person)
+function edit(car)
 {
-	_id = person.id;
-	name = person.nev;
-	email = person.email;
-	phone = person.telefon || '';
-	mother = person.anyja_neve || '';
-	id = person.igazolvany_szam || '';
+	_id = car.carid;
+	carplate = car.licenseplate;
+	carbrand = car.brand;
+	carmodel = car.model;
 }
 function LoadData(id)
 {
@@ -70,21 +64,17 @@ function LoadData(id)
 		ClearData();
 		return;
 	}
-	const selected = allpeople.find(p => p.id == id);
+	const selected = allpeople.find(c => c.carid == id);
 	if (selected)
 	{
-		name = selected.nev;
-		email = selected.email;
-		phone = selected.telefon || 'Not assigned';
-		mother = selected.anyja_neve || 'Not assigned';
-		id = selected.igazolvany_szam || 'Not assigned';
+		carplate = selected.licenseplate;
+		carbrand = selected.brand;
+		carmodel = selected.model;
 	}
 }
 function ClearData()
 {
-	document.getElementById('f_name').value = "";
-	document.getElementById('f_email').value = "";
-	document.getElementById('f_phone').value = "";
-	document.getElementById('f_mother').value = "";
-	document.getElementById('f_idnum').value = "";
+	document.getElementById('f_licenseplate').value = "";
+	document.getElementById('f_brand').value = "";
+	document.getElementById('f_model').value = "";
 }

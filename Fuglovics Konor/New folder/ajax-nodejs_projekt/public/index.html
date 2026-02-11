@@ -6,21 +6,20 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1 class="head">Person database</h1>
+	<h1 class="head">Car database</h1>
 	<div class="card">
-		<h2>View and edit people</h3>
-		<select id="people">
+		<h2>View and edit cars</h3>
+		<select id="cars">
 		</select>
 		<div class="forminput">
 			<input type="hidden" id="edit_id">
-			<input type="text" id="f_name" placeholder="Név" readonly>
-			<input type="text" id="f_email" placeholder="E-Mail" readonly>
-			<input type="text" id="f_phone" placeholder="Tel. szám" readonly>
-			<input type="text" id="f_mother" placeholder="Anyja neve" readonly>
-			<input type="text" id="f_idnum" placeholder="Igazolványszám" readonly>
+			<input type="text" id="f_licenseplate" placeholder="Rendszám" readonly>
+			<input type="text" id="f_brand" placeholder="Márka" readonly>
+			<input type="text" id="f_model" placeholder="Modell" readonly>
 		</div>
 		<div>
 			<button type="button" id="refresh_table">Refresh</button>
+			<button type="button" id="save">Save</button>
 			<button type="button" id="clear">Clear</button>
 		</div>
 	</div>
@@ -28,11 +27,10 @@
 		<table>
 			<thead>
 				<tr>
-					<th>Name</th>
-					<th>E-Mail</th>
-					<th>Phone number</th>
-					<th>Mother's name</th>
-					<th>I.D. number</th>
+					<th>Rendszám</th>
+					<th>Márka</th>
+					<th>Modell</th>
+					<th>Műveletek</th>
 				</tr>
 			</thead>
 			<tbody id="datatable"></tbody>

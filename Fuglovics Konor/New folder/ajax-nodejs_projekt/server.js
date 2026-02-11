@@ -26,13 +26,13 @@ app.listen(PORT, () => {
   console.log("========================================"); 
 }); 
 
-app.get('/api/szemelyek', async (req, res) =>
+app.get('/api/cars', async (req, res) =>
 {
 	let connection;
 	try
 	{
 		connection = await mysql.createConnection(db_config);
-		const [rows] = await connection.execute('SELECT * FROM Owners ORDER BY OwnerID ASC');
+		const [rows] = await connection.execute('SELECT * FROM Cars');
 		res.json(rows);
 	}
 	catch (error)
@@ -47,7 +47,7 @@ app.get('/api/szemelyek', async (req, res) =>
 		}
 	}
 });
-app.post('/api/szemelyek', async (req, res) => {
+/*app.post('/api/cars', async (req, res) => {
 	let connection;
 	try
 	{
@@ -67,16 +67,16 @@ app.post('/api/szemelyek', async (req, res) => {
 			await connection.end();
 		}
 	}
-});
-app.put('/api/szemelyek/:id', async (req, res) => {
+});*/
+app.post('/api/cars/:id', async (req, res) => {
 	let connection;
 	try 
 	{
 		connection = await mysql.createConnection(db_config);
-		const { fullname, email, phone, mothername, birthdate, address } = req.body;
-		const id = req.params.id;
+		const { licenseplate, brand, model } = req.body;
+		const id = req.params.carid;
 		await connection.execute(
-			'UPDATE Szemelyek SET FullName=?, Email=?, Phone=?, MotherName=?, BirthDate=?, Address=? WHERE OwnerID=?', [fullname, email, phone, mothername, birthdate, address, id]);
+			'UPDATE Cars SET LicensePlate=?, Brand=?, Model=? WHERE CarID=?', [licenseplate, brand, model, id]);
 		res.json({ success: true });
 	}
 	catch (error)
@@ -91,7 +91,7 @@ app.put('/api/szemelyek/:id', async (req, res) => {
 		}
 	}
 });
-app.delete('/api/szemelyek/:id', async (req, res) => {
+/*app.delete('/api/szemelyek/:id', async (req, res) => {
 	let connection;
 	try
 	{
@@ -111,4 +111,4 @@ app.delete('/api/szemelyek/:id', async (req, res) => {
 			await connection.end();
 		}
 	}
-});
+});*/
