@@ -1,0 +1,31 @@
+﻿<Window x:Class="Classing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Classing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="fálj" Click="MenuItem_Click">
+                <MenuItem Header="Megnyitás" Click="MenumegnyitasClick"/>
+            </MenuItem>
+            <MenuItem Header="Keresés" Click="MenuKereses_Click"/>
+            <MenuItem Header="Kilépeés" Click="MenuKilepes_Click"/>
+        </Menu>
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1.5*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox x:Name="boxHidak" Grid.Column="0" Margin="0,0,10,0" 
+            SelectionChanged="boxHidakSelChanged" DisplayMemberPath="Nev"/>
+            <StackPanel Grid.Column="1"></StackPanel>
+        </Grid>
+    </Grid>
+</Window>
