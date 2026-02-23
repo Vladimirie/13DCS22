@@ -19,7 +19,7 @@ class MenuItem extends Model
         'is_available' => 'boolean'
     ];
 
-    public function category(): BelongsTo{
+    public function category()/*: BelongsTo*/{
         return $this->belongsTo(Category::class);
 
     }
