@@ -1,0 +1,44 @@
+DROP TABLE IF EXISTS allergens;
+CREATE TABLE IF NOT EXISTS allergens(allergenID int AUTO_INCREMENT, allergenNev varchar(50), PRIMARY KEY (allergenID));
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Glutén');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Rákfélék');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Tojás');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Hal');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Földimogyoró');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Szója');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Tej');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Diófélék');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Zeller');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Mustár');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Szezámmag');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Kén-dioxid');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Csillagfürt');
+INSERT INTO `allergens`(`allergenNev`) VALUES ('Puhatestűek');
+
+DROP TABLE IF EXISTS drinks;
+CREATE TABLE IF NOT EXISTS drinks(drinkID int AUTO_INCREMENT, drinkName varchar(50), isAlcoholic boolean, hasReturnFee boolean, PRIMARY KEY (drinkID));
+INSERT INTO  `drinks`(`drinkName`, `isAlcoholic`, `hasReturnFee`) VALUES ('Reffil','0','0');
+INSERT INTO  `drinks`(`drinkName`, `isAlcoholic`, `hasReturnFee`) VALUES ('Almalé','0','0');
+INSERT INTO  `drinks`(`drinkName`, `isAlcoholic`, `hasReturnFee`) VALUES ('Baracklé','0','1');
+INSERT INTO  `drinks`(`drinkName`, `isAlcoholic`, `hasReturnFee`) VALUES ('Almalé','0','1');
+INSERT INTO  `drinks`(`drinkName`, `isAlcoholic`, `hasReturnFee`) VALUES ('Kozel Világos sör','1','1');
+INSERT INTO  `drinks`(`drinkName`, `isAlcoholic`, `hasReturnFee`) VALUES ('Szentkirályi Mentes Ásványvíz','0','1');
+INSERT INTO  `drinks`(`drinkName`, `isAlcoholic`, `hasReturnFee`) VALUES ('Szentkirályi Ásványvíz','0','1');
+
+DROP TABLE IF EXISTS ingredients;
+CREATE TABLE ingredients (ingredientId int AUTO_INCREMENT, ingredientName varchar(50), inStock boolean, PRIMARY KEY (ingredientID));
+
+DROP TABLE IF EXISTS items;
+CREATE TABLE items (itemID int AUTO_INCREMENT, itemName varchar(50), itemPrice int, itemIngredients varchar(50), itemAllegrenArray varchar(50), PRIMARY KEY (itemID));
+
+DROP TABLE IF EXISTS comboItems;
+CREATE TABLE comboItems (comboItemID int AUTO_INCREMENT, comboItemNane varchar(50), comboItemPrice int, itemIngredients varchar(50), PRIMARY KEY (comboItemID));
+
+DROP TABLE IF EXISTS workers;
+CREATE TABLE workers (workerID int AUTO_INCREMENT, workerFirstName varchar(50), workerLastName varchar(50), PRIMARY KEY (workerID));
+
+DROP TABLE IF EXISTS ongoingOrders;
+CREATE TABLE ongoingOrders (orderID int AUTO_INCREMENT, PRIMARY KEY (orderID));
+
+DROP TABLE IF EXISTS completedOrders;
+CREATE TABLE completedOrders (compOrderID int AUTO_INCREMENT, PRIMARY KEY (compOrderID));
