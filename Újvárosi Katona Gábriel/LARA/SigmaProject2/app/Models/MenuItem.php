@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class MenuItem extends Model
 {
     protected $fillable = [
@@ -19,7 +19,7 @@ class MenuItem extends Model
         'is_available' => 'boolean'
     ];
 
-    public function category()/*: BelongsTo*/{
+    public function category(): BelongsTo{
         return $this->belongsTo(Category::class);
 
     }
