@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 class Category extends Model
 {
     //
@@ -17,7 +17,7 @@ class Category extends Model
     ];
 
     public function menuItems(): HasMany{
-        return $this->hasMany(menuItems::class);
+        return $this->hasMany(MenuItems::class);
     }
 
 }
