@@ -1,0 +1,31 @@
+h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 5ch;
+    color: white;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    border: 0.3ch solid black;
+    background-image: url(honda-civic__804681-460x345.jpg);
+    background-size: contain;
+    color: aqua;
+}
+
+form {
+    background-color: lightblue;
+    margin: auto;
+    padding: 1ch;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+}
+
+button {
+    background-color: cadetblue;
+}
