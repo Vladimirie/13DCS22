@@ -33,17 +33,19 @@ namespace Fügőhidak
                 {
                     string[] sorok = File.ReadAllLines(ofd.FileName);
                     hidak.Clear();
+                    List<Fugohid> hiddak = new List<Fugohid>();
                     for (int i = 1; sorok.Length > i; i++)
                     {
                         string[] s = sorok[i].Split('	');
-                    int helyezes =  int.Parse(s[0]);
-                    string nev = s[1];
+
+                        hidak.Add( new Fugohid(int.Parse(s[0]), s[1], s[2], s[3], int.Parse(s[4]), int.Parse(s[5])));
                         
                     
                     }
-                } catch (Exception efas )
+                    lbHidak.ItemsSource = hidak;
+                } catch (Exception ex )
                 {
-                    MessageBox.Show("Hiba a fájl belovasáskor" + efas.Message, "hiba", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Hiba a fájl belovasáskor" + ex.Message, "hiba", MessageBoxButton.OK, MessageBoxImage.Error);
                     
                 }
             }
@@ -54,7 +56,7 @@ namespace Fügőhidak
 
         }
 
-        private void lHibák_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void lbHidak_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
