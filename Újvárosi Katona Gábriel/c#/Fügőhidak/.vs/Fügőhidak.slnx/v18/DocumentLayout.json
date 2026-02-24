@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|c:\\users\\intel\\desktop\\f\u00FCg\u0151hidak\\f\u00FCg\u0151hidak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|solutionrelative:f\u00FCg\u0151hidak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|c:\\users\\intel\\desktop\\f\u00FCg\u0151hidak\\f\u00FCg\u0151hidak\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|solutionrelative:f\u00FCg\u0151hidak\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|c:\\users\\intel\\desktop\\f\u00FCg\u0151hidak\\f\u00FCg\u0151hidak\\fugohid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|solutionrelative:f\u00FCg\u0151hidak\\fugohid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|c:\\users\\intel\\desktop\\f\u00FCg\u0151hidak\\f\u00FCg\u0151hidak\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C820A7A9-7CC8-42CB-A3D9-B046EB09E4BD}|F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak.csproj|solutionrelative:f\u00FCg\u0151hidak\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 176,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fugohid.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\Fugohid.cs",
+              "RelativeDocumentMoniker": "F\u00FCg\u0151hidak\\Fugohid.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\Fugohid.cs",
+              "RelativeToolTip": "F\u00FCg\u0151hidak\\Fugohid.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:15:30.106Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "F\u00FCg\u0151hidak\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\AssemblyInfo.cs",
+              "RelativeToolTip": "F\u00FCg\u0151hidak\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:56:59.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "F\u00FCg\u0151hidak\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\MainWindow.xaml",
+              "RelativeToolTip": "F\u00FCg\u0151hidak\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T11:38:17.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "F\u00FCg\u0151hidak\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\F\u00FCg\u0151hidak\\F\u00FCg\u0151hidak\\MainWindow.xaml.cs",
+              "RelativeToolTip": "F\u00FCg\u0151hidak\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:12:38.4Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

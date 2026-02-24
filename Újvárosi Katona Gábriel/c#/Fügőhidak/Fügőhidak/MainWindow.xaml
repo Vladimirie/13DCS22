@@ -1,0 +1,38 @@
+﻿<Window x:Class="Fügőhidak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fügőhidak"
+        mc:Ignorable="d"
+        Title="Fügőhidak" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition  Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Fájl" >
+            <MenuItem Header="Megnyitás" Click="Menumegniytas_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Menü keresés" Click="MenuKereses_Click"></MenuItem>
+        </Menu>
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"></ColumnDefinition>
+                   <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.3*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <ListBox x:Name="lHibák" Grid.Column="0" Margin="0,0,10,0" SelectionChanged="lHibák_SelectionChanged" DisplayMemberPath="Nev"/>
+            <StackPanel Grid.Column="1"  >
+                <TextBlock Text="Helyezés:"/>
+                
+                <TextBox x:Name="txtHelyezes" IsReadOnly="true" Margin="0, 0, 10, 0" ></TextBox>
+            </StackPanel>
+     
+        </Grid> 
+    </Grid>
+</Window>
