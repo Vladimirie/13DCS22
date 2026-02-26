@@ -24,7 +24,7 @@
         {
 			//1. Feladat
 			Console.WriteLine("1.");
-            List<War> stats = [];
+			List<War> stats = [];
 			foreach(var file in File.ReadAllLines("feladat1.txt"))
 			{
 				string[] line = file.Split(";");

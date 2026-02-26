@@ -12,6 +12,11 @@
 			get;
 			set;
 		}
+		public Category(int id, string name)
+		{
+			ID = id;
+			Name = name;
+		}
 	}
 	internal class Seller
 	{
@@ -29,6 +34,12 @@
 		{
 			get;
 			set;
+		}
+		public Seller(int id, string name, string phone)
+		{
+			ID = id;
+			Name = name;
+			Phone = phone;
 		}
 	}
 	internal class Ad
@@ -73,7 +84,7 @@
 			get;
 			set;
 		}
-		public string LatLong
+		public double LatLong
 		{
 			get;
 			set;
@@ -88,30 +99,44 @@
 			get;
 			set;
 		}
-		static void LoadFromCSV()
+		public Ad(int id, int rooms, double latlong, int floors, int area, string desc, bool freeofcharge, string imgurl, DateTime createat, Seller seller, Category category)
 		{
-
-		}
-		public Ad(int area, Category category, DateTime createat, string desc, int floors, bool freeofcharge, int id, string imgurl, string latlong, int rooms, Seller seller)
-		{
-			Area = area;
-			Category = category;
-			CreateAt = createat;
-			Description = desc;
-			Floors = floors;
-			FreeOfCharge = freeofcharge;
 			ID = id;
-			ImageURL = imgurl;
-			LatLong = latlong;
 			Rooms = rooms;
+			LatLong = latlong;
+			Floors = floors;
+			Area = area;
+			Description = desc;
+			FreeOfCharge = freeofcharge;
+			ImageURL = imgurl;
+			CreateAt = createat;
 			Seller = seller;
+			Category = category;
 		}
 	}
     internal class Program
     {
         static void Main(string[] args)
         {
-            
+            List<Ad> adlist = [];
+			foreach(var ad in File.ReadAllLines("realestates.csv"))
+			{
+				string[] line = ad.Split(";");
+				adlist.Add(new Ad
+				(
+					int.Parse(line[0]), 
+					int.Parse(line[1]), 
+					double.Parse(line[2]), 
+					int.Parse(line[3]), 
+					int.Parse(line[4]), 
+					line[5], 
+					Convert.ToBoolean(line[6]), 
+					line[7], 
+					Convert.ToDateTime(line[8]), 
+					new Seller(int.Parse(line[9]), line[10], line[11]), 
+					new Category(int.Parse(line[12]), line[13]))
+				);
+			}
 			Console.ReadKey();
         }
     }
