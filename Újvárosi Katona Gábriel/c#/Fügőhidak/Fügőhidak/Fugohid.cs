@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Fügőhidak
+{
+    public class Fugohid
+    {
+        public Fugohid(int helyezes, string nev, string hely, string orszag, int hossz, int ev)
+        {
+            Helyezes = helyezes;
+            Nev = nev;
+            Hely = hely;
+            Orszag = orszag;
+            Hossz = hossz;
+            Ev = ev;
+        }
+
+        public int Helyezes { get; set; }
+        public string Nev { get; set; }
+        public string  Hely { get; set; }
+        public string Orszag { get; set; }
+        public int Hossz { get; set; }
+        public int Ev { get; set; }
+
+
+        //cosn
+    }
+}

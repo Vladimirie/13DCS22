@@ -63,3 +63,12 @@ BEGIN
     END IF;
 END MagyarHimnusz
 DELIMITER ;
+
+DELIMITER MagyarHimnusz
+
+CREATE PROCEDURE SzofajStatisztika(IN p_szofaj VARCHAR(100), OUT k_atlagGyak DECIMAL, OUT k_legritkabb INT)
+BEGIN
+	SELECT AVG(gyakori) INTO k_atlagGyak FROM szo10000 WHERE szofaj = p_szofaj;
+    SELECT gyakori INTO k_legritkabb FROM szo10000 WHERE szofaj = p_szofaj ORDER BY gyakori DESC LIMIT 1;
+END MagyarHimnusz
+DELIMITER ;
