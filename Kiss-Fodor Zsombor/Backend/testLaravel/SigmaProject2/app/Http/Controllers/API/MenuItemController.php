@@ -7,7 +7,7 @@ use App\Models\Test;
 use App\Http\Controllers\Controller;
 use App\Models\MenuItem;
 use Illuminate\Http\Request;
-
+use PHPUnit\Event\TestSuite\Loaded;
 
 class MenuItemController extends Controller
 {
@@ -31,11 +31,15 @@ class MenuItemController extends Controller
 
     public function store(Request $request) {
         $validated = $request->validate([
-            'name' => ['required', 'max:255', 'string'],
-            'price' => ['required', 'numeric'],
-            'is_available' => ['boolean']
+            'category_id' => ['required', 'integer', 'exists:categories_id'],
+            'name' => ['required', 'string', 'max:255'],
+            'desc' => ['nullabe', 'string'],
+            'price' => ['required', 'numeric', 'min:0'],
+            'is_available' => ['required', 'boolean']
         ]);
-        $item = MenuItem::create($validated);
+
+        $item = MenuItem::create($validated)->load('category');
+
         return response()->json([
             'data' => $item
         ], 201);

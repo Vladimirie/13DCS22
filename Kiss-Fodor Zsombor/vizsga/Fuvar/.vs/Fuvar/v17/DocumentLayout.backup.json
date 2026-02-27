@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\ss\\Kiss-Fodor Zsombor\\vizsga\\Fuvar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6593F4BB-6AA6-4E4B-8202-9DBD6005B696}|Fuvar.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\ss\\kiss-fodor zsombor\\vizsga\\fuvar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6593F4BB-6AA6-4E4B-8202-9DBD6005B696}|Fuvar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6593F4BB-6AA6-4E4B-8202-9DBD6005B696}|Fuvar.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\ss\\kiss-fodor zsombor\\vizsga\\fuvar\\fuvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6593F4BB-6AA6-4E4B-8202-9DBD6005B696}|Fuvar.csproj|solutionrelative:fuvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fuvar.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\ss\\Kiss-Fodor Zsombor\\vizsga\\Fuvar\\fuvar.cs",
+              "RelativeDocumentMoniker": "fuvar.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\ss\\Kiss-Fodor Zsombor\\vizsga\\Fuvar\\fuvar.cs",
+              "RelativeToolTip": "fuvar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:09:05.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\ss\\Kiss-Fodor Zsombor\\vizsga\\Fuvar\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\ss\\Kiss-Fodor Zsombor\\vizsga\\Fuvar\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwG0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:05:39.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
