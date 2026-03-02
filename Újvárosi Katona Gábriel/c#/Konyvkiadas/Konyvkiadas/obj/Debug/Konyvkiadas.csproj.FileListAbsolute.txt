@@ -1,0 +1,14 @@
+C:\Users\UivarosiGabriel\Desktop\c#\Konyvkiadas\Konyvkiadas\bin\Debug\Konyvkiadas.exe.config
+C:\Users\UivarosiGabriel\Desktop\c#\Konyvkiadas\Konyvkiadas\bin\Debug\Konyvkiadas.exe
+C:\Users\UivarosiGabriel\Desktop\c#\Konyvkiadas\Konyvkiadas\bin\Debug\Konyvkiadas.pdb
+C:\Users\UivarosiGabriel\Desktop\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.exe
+C:\Users\UivarosiGabriel\Desktop\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.pdb
+C:\Users\TEMP.AzureAD.000\Desktop\git\13DCS2\Újvárosi Katona Gábriel\c#\Konyvkiadas\Konyvkiadas\bin\Debug\Konyvkiadas.exe.config
+C:\Users\TEMP.AzureAD.000\Desktop\git\13DCS2\Újvárosi Katona Gábriel\c#\Konyvkiadas\Konyvkiadas\bin\Debug\Konyvkiadas.exe
+C:\Users\TEMP.AzureAD.000\Desktop\git\13DCS2\Újvárosi Katona Gábriel\c#\Konyvkiadas\Konyvkiadas\bin\Debug\Konyvkiadas.pdb
+C:\Users\TEMP.AzureAD.000\Desktop\git\13DCS2\Újvárosi Katona Gábriel\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.000\Desktop\git\13DCS2\Újvárosi Katona Gábriel\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.000\Desktop\git\13DCS2\Újvárosi Katona Gábriel\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.exe
+C:\Users\TEMP.AzureAD.000\Desktop\git\13DCS2\Újvárosi Katona Gábriel\c#\Konyvkiadas\Konyvkiadas\obj\Debug\Konyvkiadas.pdb

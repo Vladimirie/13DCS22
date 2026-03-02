@@ -1,0 +1,13 @@
+Kijelölés:
+const szuloElem = documet.getElementById("szulo_id");
+
+Létrehozás:
+const ujElem = document.createElement('div');
+
+Konfigurálás:
+ujElem.id = "uj_div";
+ujElem.classList.add("kartya_stilus");
+ujElem.textContent = "tartalom";
+ujElem.style.backgroundColor = "lightblue";
+
+hozzáadás:

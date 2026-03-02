@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\AMAF\\mozi mozi lady\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D32F7A76-58C7-415B-9F31-BE12A29A1CA4}|mozi mozi lady.csproj|c:\\users\\kiss-fodorzsombor\\desktop\\github\\13dcs22\\kiss-fodor zsombor\\amaf\\mozi mozi lady\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32F7A76-58C7-415B-9F31-BE12A29A1CA4}|mozi mozi lady.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\AMAF\\mozi mozi lady\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Kiss-FodorZsombor\\Desktop\\github\\13DCS22\\Kiss-Fodor Zsombor\\AMAF\\mozi mozi lady\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA4wCkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T11:04:56.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

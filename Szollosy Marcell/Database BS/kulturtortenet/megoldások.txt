@@ -1,0 +1,76 @@
+1. Feladat
+SELECT nev
+FROM csapat
+WHERE nev LIKE '#%';
+
+2. Feladat
+SELECT nevado
+FROM feladatsor
+WHERE nevado LIKE '% %'
+  AND nevado NOT LIKE '% % %';
+
+3. Feladat
+SELECT nevado
+FROM feladatsor
+WHERE '2018-12-31' BETWEEN kituzes AND hatarido;
+
+4. Feladat
+SELECT csapat.nev, SUM(megoldas.pontszam) AS osszpontszam
+FROM csapat
+JOIN megoldas ON csapat.id = megoldas.csapatid
+GROUP BY csapat.id, csapat.nev
+ORDER BY osszpontszam DESC;
+
+5. Feladat
+SELECT feladatsor.nevado,
+       feladatsor.ag,
+       SUM(feladat.pontszam) AS pontszam
+FROM feladatsor
+JOIN feladat ON feladatsor.id = feladat.feladatsorid
+GROUP BY feladatsor.id, feladatsor.nevado, feladatsor.ag
+HAVING SUM(feladat.pontszam) <> 150;
+
+
+6. Feladat
+SELECT feladatsor.nevado,
+       feladatsor.ag,
+       SUM(feladat.pontszam) AS pontszam
+FROM feladatsor
+JOIN feladat ON feladatsor.id = feladat.feladatsorid
+GROUP BY feladatsor.id, feladatsor.nevado, feladatsor.ag
+HAVING SUM(feladat.pontszam) <> 150;
+
+7. Feladat
+SELECT DISTINCT csapat.nev
+FROM csapat
+JOIN megoldas ON csapat.id = megoldas.csapatid
+JOIN feladat ON megoldas.feladatid = feladat.id
+WHERE megoldas.pontszam = feladat.pontszam;
+
+8. Feladat
+SELECT feladatsor.nevado,
+       COUNT(feladat.id) - COUNT(megoldas.id) AS be_nem_adott
+FROM csapat
+JOIN feladatsor
+JOIN feladat ON feladatsor.id = feladat.feladatsorid
+LEFT JOIN megoldas
+  ON feladat.id = megoldas.feladatid
+ AND megoldas.csapatid = csapat.id
+WHERE csapat.nev = '#win'
+GROUP BY feladatsor.id, feladatsor.nevado;
+
+9. Feladat
+SELECT nevado
+FROM feladatsor
+WHERE ag = 'irodalom'
+  AND YEAR(kituzes) = YEAR(hatarido)
+  AND MONTH(kituzes) = MONTH(hatarido);
+
+10. Feladat
+SELECT f2.nevado, f2.kituzes
+FROM feladatsor f1
+JOIN feladatsor f2
+  ON f2.kituzes = DATE_ADD(f1.hatarido, INTERVAL 1 DAY);
+
+11. Feladat
+

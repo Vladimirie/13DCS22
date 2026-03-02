@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\UivarosiGabriel\\Desktop\\c#\\Konyvkiadas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70B5820F-698A-4EA6-A374-BC99028C516A}|Konyvkiadas\\Konyvkiadas.csproj|c:\\users\\uivarosigabriel\\desktop\\c#\\konyvkiadas\\konyvkiadas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70B5820F-698A-4EA6-A374-BC99028C516A}|Konyvkiadas\\Konyvkiadas.csproj|solutionrelative:konyvkiadas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UivarosiGabriel\\Desktop\\c#\\Konyvkiadas\\Konyvkiadas\\Program.cs",
+              "RelativeDocumentMoniker": "Konyvkiadas\\Program.cs",
+              "ToolTip": "C:\\Users\\UivarosiGabriel\\Desktop\\c#\\Konyvkiadas\\Konyvkiadas\\Program.cs",
+              "RelativeToolTip": "Konyvkiadas\\Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAmwF4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:02:18.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

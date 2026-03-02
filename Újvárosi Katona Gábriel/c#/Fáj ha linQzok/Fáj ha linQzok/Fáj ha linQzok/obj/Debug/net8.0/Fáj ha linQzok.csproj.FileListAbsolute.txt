@@ -1,0 +1,31 @@
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Fáj ha linQzok.exe
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Fáj ha linQzok.deps.json
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Fáj ha linQzok.runtimeconfig.json
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Fáj ha linQzok.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Fáj ha linQzok.pdb
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.csproj.AssemblyReference.cache
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.AssemblyInfoInputs.cache
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.AssemblyInfo.cs
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha l.423C17D4.Up2Date
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\refint\Fáj ha linQzok.dll
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.pdb
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\Fáj ha linQzok.genruntimeconfig.cache
+C:\Users\TEMP.AzureAD.002\Desktop\Fáj ha linQzok\Fáj ha linQzok\Fáj ha linQzok\obj\Debug\net8.0\ref\Fáj ha linQzok.dll

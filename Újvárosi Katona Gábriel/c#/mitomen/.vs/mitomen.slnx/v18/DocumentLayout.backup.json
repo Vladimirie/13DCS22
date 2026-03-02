@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\intel\\Desktop\\mitomen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|c:\\users\\intel\\desktop\\mitomen\\mitomen\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|solutionrelative:mitomen\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|c:\\users\\intel\\desktop\\mitomen\\mitomen\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|solutionrelative:mitomen\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|c:\\users\\intel\\desktop\\mitomen\\mitomen\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|solutionrelative:mitomen\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|c:\\users\\intel\\desktop\\mitomen\\mitomen\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|solutionrelative:mitomen\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|c:\\users\\intel\\desktop\\mitomen\\mitomen\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|solutionrelative:mitomen\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|c:\\users\\intel\\desktop\\mitomen\\mitomen\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|solutionrelative:mitomen\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|c:\\users\\intel\\desktop\\mitomen\\mitomen\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3CA76D0-8126-AF5E-CB86-1DE00A10D4E3}|mitomen\\mitomen.csproj|solutionrelative:mitomen\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControl1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\UserControl1.xaml.cs",
+              "RelativeDocumentMoniker": "mitomen\\UserControl1.xaml.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\UserControl1.xaml.cs*",
+              "RelativeToolTip": "mitomen\\UserControl1.xaml.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T11:08:49.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl1.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\UserControl1.xaml",
+              "RelativeDocumentMoniker": "mitomen\\UserControl1.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\UserControl1.xaml*",
+              "RelativeToolTip": "mitomen\\UserControl1.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T11:08:37.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\App.xaml",
+              "RelativeDocumentMoniker": "mitomen\\App.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\App.xaml",
+              "RelativeToolTip": "mitomen\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T09:57:50.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "mitomen\\Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\Window1.xaml.cs",
+              "RelativeToolTip": "mitomen\\Window1.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T09:56:59.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\Window1.xaml",
+              "RelativeDocumentMoniker": "mitomen\\Window1.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\Window1.xaml",
+              "RelativeToolTip": "mitomen\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T09:56:54.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "mitomen\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\MainWindow.xaml",
+              "RelativeToolTip": "mitomen\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-10T09:04:44.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "mitomen\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\mitomen\\mitomen\\MainWindow.xaml.cs",
+              "RelativeToolTip": "mitomen\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T09:04:43.072Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

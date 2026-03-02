@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <title>Nyomtatás</title>
+
+    <!-- meglévő hivatkozások után -->
+    <link rel="stylesheet" href="../web/nyomtatas.css">
+    <script src="../web/nyomtatas.js"></script>
+</head>
+
+<body>
+
+  <div class="row bg-fej">
+    <h1>NYOMTATÁS</h1>
+</div>
+<div class="container">
+
+    <div class="row bg-fej">
+        <div class="col-md-6">
+            <h2>Klasszikus nyomtatási eljárások</h2>
+            <p>
+                <a href="URL_GUTENBERG" target="_blank">Johannes Gutenberg</a>
+                nevéhez fűződik a könyvnyomtatás elterjedése.
+            </p>
+            <p>
+                <img src="kezi_szedes.jpg"
+                     alt="KÉZI SZEDÉS FELIRATA webforras.txt-ből"
+                     title="KÉZI SZEDÉS FELIRATA webforras.txt-ből"
+                     class="img-thumbnail">
+            </p>
+        </div>
+
+        <div class="row">
+    <div class="col-md-4">...</div>
+    <div class="col-md-4">...</div>
+    <div class="col-md-4">...</div>
+</div>
+
+
+        <div class="col-md-6">
+            <h2>Kőnyomtatás</h2>
+            <p>
+                <a href="URL_SENEFELDER" target="_blank">Alois Senefelder</a>
+                dolgozta ki a litográfia eljárását.
+            </p>
+            <p>
+                <img src="ofszet_nyomogep.jpg"
+                     alt="OFSZET NYOMÓGÉP FELIRATA webforras.txt-ből"
+                     title="OFSZET NYOMÓGÉP FELIRATA webforras.txt-ből"
+                     class="img-thumbnail">
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Fotográfia</h3>
+            <p>
+                <a href="URL_TALBOT" target="_blank">William Henry Fox Talbot</a>
+                jelentős szerepet játszott a fényképezés fejlődésében.
+            </p>
+            <p>
+                <img src="nyomdagep_pultja.jpg"
+                     alt="NYOMDAGÉP PULTJA FELIRATA webforras.txt-ből"
+                     title="NYOMDAGÉP PULTJA FELIRATA webforras.txt-ből"
+                     class="img-thumbnail">
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Digitális eljárások</h3>
+            <p>Digitális nyomtatási technológiák rövid bemutatása.</p>
+        </div>
+
+        <!-- ÚJ BLOKK -->
+        <div class="col-md-4">
+            <h3>Nyomtatási kalkuláció</h3>
+
+            <ul>
+                <li>A nyomat méretének megadása</li>
+                <li>Papírtípus kiválasztása</li>
+                <li>Költség kiszámítása</li>
+            </ul>
+
+            <form>
+                <label>Szélesség (mm)</label>
+                <input type="number" id="szelesseg" value="297">
+
+                <label>Magasság (mm)</label>
+                <input type="number" id="magassag" value="420">
+
+                <label>Papírtípus</label>
+                <select id="papirTipus">
+                    <option>Fényes papír (90 g/m2)</option>
+                    <option selected>Matt, vastag, általános papír (120 g/m2)</option>
+                    <option>Kartonos papír (200 g/m2)</option>
+                </select>
+
+                <button type="button" id="kalkulalGomb" onclick="kalkulal()">
+                    Kalkulál
+                </button>
+            </form>
+
+            <div id="valasz"></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
