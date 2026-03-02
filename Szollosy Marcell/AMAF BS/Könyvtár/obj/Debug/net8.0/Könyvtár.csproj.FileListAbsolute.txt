@@ -1,5 +1,0 @@
-C:\Users\MarcellSzollosy\Desktop\Github\13DCS22\Szollosy Marcell\AMAF BS\Könyvtár\obj\Debug\net8.0\Könyvtár.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\MarcellSzollosy\Desktop\Github\13DCS22\Szollosy Marcell\AMAF BS\Könyvtár\obj\Debug\net8.0\Könyvtár.AssemblyInfoInputs.cache
-C:\Users\MarcellSzollosy\Desktop\Github\13DCS22\Szollosy Marcell\AMAF BS\Könyvtár\obj\Debug\net8.0\Könyvtár.AssemblyInfo.cs
-C:\Users\MarcellSzollosy\Desktop\Github\13DCS22\Szollosy Marcell\AMAF BS\Könyvtár\obj\Debug\net8.0\Könyvtár.csproj.CoreCompileInputs.cache
-C:\Users\MarcellSzollosy\Desktop\Github\13DCS22\Szollosy Marcell\AMAF BS\Könyvtár\obj\Debug\net8.0\Könyvtár.sourcelink.json

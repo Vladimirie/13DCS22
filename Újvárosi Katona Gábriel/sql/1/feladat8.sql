@@ -1,1 +1,0 @@
-SELECT  felhasznalo.veznev, felhasznalo.utonev  FROM felhasznalo WHERE NOT EXISTS (SELECT uzenet.f_id FROM uzenet WHERE uzenet.f_id = felhasznalo.id ) AND YEAR(felhasznalo.utolso) < 2010

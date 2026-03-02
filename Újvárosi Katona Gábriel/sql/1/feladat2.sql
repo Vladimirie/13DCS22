@@ -1,1 +1,0 @@
-SELECT hirfolyam.megnevezes, felhasznalo.veznev, felhasznalo.utonev ,felhasznalo.email  from hirfolyam JOIN felhasznalo on hirfolyam.moderator = felhasznalo.id 

@@ -1,8 +1,0 @@
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\RealEstateGUI_MarkupCompile.cache
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\RealEstateGUI_MarkupCompile.lref
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\RealEstateGUI.dll
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\refint\RealEstateGUI.dll
-C:\Users\zsomb\OneDrive\Asztali gép\school\school\.IT\13DCS22\Kiss-Fodor Zsombor\vizsga\2026.01.16 CSINÁLD MEG CSÜTÖRTÖKIG PLS\RealEstateGUI\obj\Debug\net8.0-windows\RealEstateGUI.pdb

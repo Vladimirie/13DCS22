@@ -1,9 +1,0 @@
-SELECT `szoto` FROM `szavak` WHERE `szofaj` = 'ige' AND `gyakori` >= 500000;
-
-SELECT `szoto`,`gyakori` FROM `szavak` WHERE  `szofaj` = 'mn' AND `szoto` LIKE 'br%';
-
-SELECT `szoto` FROM `szavak` WHERE `szofaj` = 'hsz' ORDER BY `gyakori` LIMIT 10;
-
-SELECT `szofaj`, COUNT(`szoto`)  FROM `szavak` GROUP BY `szofaj`;
-
-SELECT `szoto` FROM `szavak` GROUP BY `szoto` HAVING COUNT(*) >= 3;
