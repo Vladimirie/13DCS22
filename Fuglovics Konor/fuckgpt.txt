@@ -1,0 +1,332 @@
+SRP, függvényhossz, paraméterszám, side effect – összefoglaló
+
+SRP (Single Responsibility Principle)
+Egy osztálynak vagy függvénynek egy és csak egy felelőssége legyen.
+Ha egy metódus túl sokat csinál, azt le kell bontani külön logikai egységekre.
+
+Függvényhossz
+maximum ~ 20 sor
+ha hosszabb: bontsuk alfüggvényekre
+
+Paraméterszám
+maximum 3 paraméter
+ha több kell: csomagoljuk őket egy objektumba, vagy hozzunk létre egy request/config osztályt
+
+Side effect kerülése
+ne módosítsunk külső állapotot
+függvény legyen pure, lehetőleg csak a bemenetekből számítsa ki a kimenetet
+
+Tipikus tünetek, hogy SRP-t sértünk
+
+egy metódus:
+inputot dolgoz fel
+üzleti logikát számol
+adatot formáz
+állapotot ment adatbázisba
+→ legalább 4 külön felelősség
+
+❌ sok if-else vagy switch logika
+❌ sok paraméter
+❌ hosszú metódusok
+❌ mellékhatások tömkelege
+
+❌ SRP-sértő példa (Java, de bármilyen nyelvre átültethető)
+public class OrderService {
+
+    public String processOrder(String rawInput) {
+        // 1) input parsolása
+        String[] parts = rawInput.split(";");
+        String product = parts[0];
+        int quantity = Integer.parseInt(parts[1]);
+
+        // 2) üzleti logika
+        double price = Database.getPrice(product);
+        double total = price * quantity;
+
+        // 3) mentés mellékhatás
+        Database.saveOrder(product, quantity, total);
+
+        // 4) output formázás
+        return "Order: " + product + " x " + quantity + " = " + total + " USD";
+    }
+}
+
+Mi a gond?
+
+4 felelősség 1 metódusban
+hosszú
+side effect (adatbázis mentés)
+3+ implicit paraméter (input, DB, stb.)
+
+SRP-megfelelő, refaktorált verzió
+1) Input feldolgozás külön osztályban
+public class OrderInputParser {
+
+    public OrderRequest parse(String rawInput) {
+        String[] parts = rawInput.split(";");
+        return new OrderRequest(parts[0], Integer.parseInt(parts[1]));
+    }
+}
+
+2) Üzleti logika külön osztályban
+public class OrderCalculator {
+
+    public double calculateTotal(OrderRequest request) {
+        double price = Database.getPrice(request.product());
+        return price * request.quantity();
+    }
+}
+
+3) Perzisztálás külön metódusban (side effect)
+public class OrderRepository {
+
+    public void save(OrderRequest request, double total) {
+        Database.saveOrder(request.product(), request.quantity(), total);
+    }
+}
+
+4) Formázás külön segédosztályban
+public class OrderFormatter {
+
+    public String format(OrderRequest req, double total) {
+        return "Order: " + req.product() + " x " + req.quantity() + " = " + total + " USD";
+    }
+}
+
+5) Fő szolgáltatás csak koordinál
+public class OrderService {
+
+    private final OrderInputParser parser = new OrderInputParser();
+    private final OrderCalculator calculator = new OrderCalculator();
+    private final OrderRepository repository = new OrderRepository();
+    private final OrderFormatter formatter = new OrderFormatter();
+
+    public String process(String raw) {
+        OrderRequest req = parser.parse(raw);
+        double total = calculator.calculateTotal(req);
+        repository.save(req, total);
+        return formatter.format(req, total);
+    }
+}
+
+⭐ Mit értünk el?
+Probléma				Megoldás
+1 metódus 4 felelősséggel		külön osztályok és metódusok
+túl hosszú függvény			sok rövid, max 10–15 sor
+sok side effect				csak a repository végez mellékhatást
+nehezen tesztelhető			minden komponens könnyen mockolható
+input + logika + output keveredett	szépen szétválasztva
+🎓 Összegzés
+
+A jó SRP-alapú tervezés:
+
+rövid, egyszerű, tesztelhető metódusokat eredményez
+
+az egyes felelősségek külön vannak választva
+
+és minden elem csak egy "dologért" felel
+
+Ha szeretnéd, szívesen:
+
+refaktorálok saját mintakódot
+
+készítek SRP checklistet
+
+mutatok példát Python / C# / JavaScript megoldásokra is
+
+Íme egy 13 diapozitívból álló PowerPoint prezentáció tartalomvázlata, amely kb. 15 perces előadásra tökéletesen elegendő.
+A szöveget úgy írom meg, hogy könnyen beilleszthető legyen PowerPointba.
+
+📊 Prezentáció címe: SRP, Függvénytervezés és Refaktorálás a Gyakorlatban
+
+13 diapozitív – kb. 15 perc előadás
+
+1. DIA — Címoldal
+
+Cím: Felelősségek és függvények helyes tervezése
+Alcím: SRP, függvényhossz, paraméterszám, side effect elkerülése
+Előadó neve
+Dátum
+
+2. DIA — Miről lesz szó?
+
+SRP elv
+
+Függvényhossz és paraméterek
+
+Side effectek elkerülése
+
+Gyakori hibák
+
+Refaktorálási technikák
+
+Konkrét SRP-sértés + javítás élő példával
+
+3. DIA — Mit jelent az SRP?
+
+Single Responsibility Principle:
+
+Egy osztálynak vagy függvénynek csak EGY felelőssége legyen.
+
+Egyszerűbb karbantartás
+
+Könnyebb tesztelés
+
+Jobb újrafelhasználhatóság
+
+Kevesebb mellékhatás
+
+4. DIA — Mikor sérül az SRP?
+
+Ha egy metódus „mindent is” csinál
+
+Ha inputot dolgoz fel + üzleti logikát kezel + formáz + ment adatot
+
+Ha nő a komplexitás, a sorok száma, az if-else logika
+
+Ha a metódus nevét már nehéz megfogalmazni
+
+5. DIA — Függvényhossz ajánlások
+
+max 20 sor
+
+Ha hosszabb, ideje feldarabolni
+
+A rövid függvények:
+
+átláthatóbbak
+
+jobban tesztelhetők
+
+kevesebb hibát rejtenek
+
+6. DIA — Paraméterek száma
+
+max 3 paraméter
+
+Ha több kell:
+
+hozzunk létre konfigurációs osztályt
+
+használjunk Request/DTO objektumot
+
+csoportosítsuk logikai egységekbe
+
+7. DIA — Side effect elkerülése
+
+Side effect = amikor a függvény nem csak számol, hanem:
+
+ír egy fájlba
+
+adatbázist módosít
+
+globális állapotot változtat
+
+logol, külső API-t hív
+
+Pure function ↔ biztonsággal tesztelhető, kiszámítható.
+
+8. DIA — A tipikus "túl sokat csinál" metódus
+
+Jellemző tünetek:
+
+40–80 sor hosszúság
+
+input parsing + üzleti logika + formázás + mentés
+
+sok implicit függőség
+
+nehéz unit teszteket írni
+
+új fejlesztőnek "fekete doboz"
+
+9. DIA — Konkrét SRP-sértés (rövidített példa)
+
+Egy metódus 4 külön feladatot lát el:
+
+input feldolgozás
+
+árkalkuláció
+
+adatbázis mentés
+
+eredmény formázás
+
+→ Ez klasszikus SRP-sértés.
+
+(Később mutatom a felbontott verziót.)
+
+10. DIA — A megoldás: felelősségek szétválasztása
+
+A refaktorálás lépései:
+
+input parsing külön
+
+üzleti logika külön
+
+perzisztálás külön
+
+output vagy view formázás külön
+
+fő metódus = csak “koordinál”
+
+11. DIA — SRP-megoldás felépítése
+
+Ajánlott osztályok:
+
+OrderInputParser
+
+OrderCalculator
+
+OrderRepository
+
+OrderFormatter
+
+OrderService (összefogó réteg)
+
+Eredmény:
+
+rövid, 5–10 soros metódusok
+
+max 2–3 paraméter
+
+tiszta felelősség
+
+minimális mellékhatás
+
+12. DIA — Előtte–Utána összehasonlítás
+
+Előtte (monolit metódus):
+
+nehéz tesztelni
+
+sok sor
+
+sok felelősség
+
+hibák rejtve maradnak
+
+Utána (SRP-s tervezés):
+
+moduláris
+
+több kis, jól tesztelhető funkció
+
+jobb olvashatóság
+
+könnyebb bővíthetőség
+
+13. DIA — Összegzés és Q&A
+
+Mit vigyél haza?
+
+Ha valami túl hosszú → bontsd fel
+
+Ha túl sok paraméter → csomagold
+
+Ha sok felelősség → különítsd el
+
+Ha mellékhatás → tartsd külön a pure logikától
+
+Kérdések?
+Köszönöm a figyelmet!
