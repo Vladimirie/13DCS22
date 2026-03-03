@@ -23,6 +23,7 @@ namespace BridgeWPF
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
 		private void Open(object sender, RoutedEventArgs e)
@@ -54,7 +55,10 @@ namespace BridgeWPF
 
 		private void Search(object sender, RoutedEventArgs e)
 		{
-
+			Search search = new(this);
+			this.Hide();
+			search.ShowDialog();
+			this.Show();
 		}
 
 		private void Quit(object sender, RoutedEventArgs e)

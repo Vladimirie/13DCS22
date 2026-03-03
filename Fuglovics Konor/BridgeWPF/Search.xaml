@@ -1,0 +1,30 @@
+﻿<Window x:Class="BridgeWPF.Search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BridgeWPF"
+        mc:Ignorable="d"
+        Title="Search" Height="600" Width="500" Loaded="Window_Loaded">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="1.64*"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<TextBox x:Name="searchresult" Grid.Row="0" Margin="20">
+		</TextBox>
+		<GroupBox Grid.Row="1" Margin="75,40" Header="Search">
+			<StackPanel Orientation="Vertical">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Country:" Height="16" Width="64" TextAlignment="Right" Margin="5,0"/>
+					<ComboBox x:Name="country" Height="21" Width="128" Margin="0,10"/>
+				</StackPanel>
+				<CheckBox x:Name="aaa" Content="Is more than 1 km"/>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+					<Button Content="Search" Height="24" Width="100" Margin="20,0" Click="SearchBridges"/>
+					<Button Content="Close" Height="24" Width="100" Margin="20,0" Click="Quit"/>
+				</StackPanel>
+			</StackPanel>
+		</GroupBox>
+	</Grid>
+</Window>
