@@ -65,7 +65,7 @@ namespace BridgeWPF
 		{
 			if (MessageBox.Show("Do you wanna quit from this program?", "Question", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
 			{
-				Close();
+				Application.Current.Shutdown();
 			}
 			
 		}

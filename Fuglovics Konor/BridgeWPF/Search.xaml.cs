@@ -20,6 +20,7 @@ namespace BridgeWPF
     public partial class Search : Window
     {
 		MainWindow mainwindow = new();
+		public static List<string> result = new();
         public Search(MainWindow main)
         {
             InitializeComponent();
@@ -28,7 +29,7 @@ namespace BridgeWPF
 		private void SearchBridges(object sender, RoutedEventArgs e)
 		{
 			var cnt = country.SelectedItem.ToString();
-			var result = MainWindow.bridges.Where(b => b.Country == cnt).Select(b => b.Name);
+			var result = MainWindow.bridges.Where(b => b.Country == cnt).Select(b => b.Name).ToList();
 			searchresult.Text = string.Join("\n", result);
 		}
 		private void Quit(object sender, RoutedEventArgs e)
@@ -39,6 +40,12 @@ namespace BridgeWPF
 		{
 			var countries = MainWindow.bridges.Select(b => b.Country).ToHashSet();
 			country.ItemsSource = countries;
+		}
+
+		private void aaa_Checked(object sender, RoutedEventArgs e)
+		{
+			var result = MainWindow.bridges.Where(b => b.Length > 1000).Select(b => b.Name).ToList();
+			searchresult.Text = string.Join("\n", result);
 		}
 	}
 }

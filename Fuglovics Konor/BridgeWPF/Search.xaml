@@ -19,7 +19,7 @@
 					<TextBlock Text="Country:" Height="16" Width="64" TextAlignment="Right" Margin="5,0"/>
 					<ComboBox x:Name="country" Height="21" Width="128" Margin="0,10"/>
 				</StackPanel>
-				<CheckBox x:Name="aaa" Content="Is more than 1 km"/>
+				<CheckBox x:Name="aaa" Content="Is more than 1 km" Checked="aaa_Checked"/>
 				<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
 					<Button Content="Search" Height="24" Width="100" Margin="20,0" Click="SearchBridges"/>
 					<Button Content="Close" Height="24" Width="100" Margin="20,0" Click="Quit"/>
