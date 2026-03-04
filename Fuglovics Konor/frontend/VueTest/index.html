@@ -7,23 +7,46 @@
 	<title>Vue Teszt</title>
 </head>
 <body>
-	<div id="txtapp" class="card">
-		<h2>Text input</h2>
-		<input type="text" v-model="textinput" placeholder="write here :3">
-		<p>Value: {{ textinput }}</p>
-		<input type="text" v-model="textinput" placeholder="updates in real-time :3">
-	</div>
-	<div id="cntapp" class="card">
-		<h2>Counter</h2>
-		<p>{{ count }}</p>
-		<button type="button" @click="count++">Click! :3</button>
-	</div>
-	<div id="itemapp" class="card">
-		<h2>Item list</h2>
-		<button type="button" @click="additem">Add item</button>
-		<ul v-if="items.length">
-			<li v-for="(item, index) in items" :key="index">{{ item }}</li>
-		</ul>
+	<div class="main" id="app">
+		<div class="card">
+			<h2>Text input</h2>
+			<input type="text" v-model="textinput" placeholder="write here :3">
+			<p>Value: {{ textinput }}</p>
+			<input type="text" v-model="textinput" placeholder="updates in real-time :3">
+		</div>
+		<div class="card">
+			<h2>Counter</h2>
+			<p>{{ count }}</p>
+			<button type="button" @click="count++">Click! :3</button>
+		</div>
+		<div class="card">
+			<h2>Item list</h2>
+			<button type="button" @click="additem">Add item</button>
+			<ul v-if="items.length">
+				<li v-for="(item, index) in items" :key="index">{{ item }}</li>
+			</ul>
+		</div>
+		<div class="card">
+			<h2>Combobox</h2>
+			<select v-model="selectitem">
+				<option value="" disabled>Válassz elemet</option>
+				<option v-for="item in combodata" :key="item.id" :value="item.name">{{ item.name }}</option>
+			</select>
+			<p>Selected: <strong>{{ selectitem }}</strong></p></p>
+			<button type="button" @click="fillcombo">Upload from JSON</button>
+		</div>
+		<div class="card">
+			<h2>Table from CSV file</h2>
+			<div class="upload">
+				<label>Upload a 5-by-5 CSV file</label>
+				<input type="file" @change="fileuploadhandler" accept="*.csv">
+			</div>
+			<table>
+				<tr v-for="(row, indexr) in table" :key="indexr">
+					<td v-for="(col, indexc) in row" :key="indexc">{{ col }}</td>
+				</tr>
+			</table>
+		</div>
 	</div>
 	<script src="./js/script.js"></script>
 </body>
