@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="box">
+            <button @click="initialzeSystem">Rendszer betöltése</button>
+        <h3>1. Combobox</h3>
+
+    <select v-model="selectedItem" name="" id="">
+        <option disabled value="">Válassz elemet</option>
+        <option  v-for="item in comboData" :key="item.id" :value="item.nev">
+            {{ item.nev }}
+
+        </option>
+    </select>
+<p> Kiválasztva : <strong> {{selectedItem}} </strong></p>
+    <button  @click="fillCombo"> Feltöltés JSON-ből </button>
+</div>
+<!--
+    <div class="box">
+        <h3>2. Táblázat (CSV feltöltés)</h3>
+        <div class="upload-area">
+            <label for=""> Tallóz be egy 5x5 CSV-t</label>
+            <input type="file" @chage="handleFileUpload" accept=".csv" >
+        </div>
+        <table>
+            <tr v-for="(row , rindex) in tableData" : key="rindex">
+                <td v-for="(col, cIndex) in row" : key="cIndex">{{ col }} </td>
+            </tr>
+        </table>
+
+
+    </div>
+-->
+
+    </div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+
+const { createApp, ref } = Vue;
+
+createApp({
+    setup() {
+        // 1 es feladat: Combobox
+        const comboData = ref([]);
+        const selectedItem = ref("");
+        const isLoaded = ref(false);
+        const systemStatus = ref("Renszer bebaszva");
+        const lastUpdated = ref("soha");
+    
+        const fillCombo = () => {
+      
+                if (isLoaded.value) {
+                const jsonItems = [
+                { id: 1, nev: "Első opció"},
+                { id: 2, nev: "Lőrinc"},
+                { id: 3, nev: "Harmadik opció"},
+                
+            ];
+               comboData.value = jsonItems;
+            lastUpdated.value = new Date();    
+            console.log(lastUpdated.value)
+                } else {
+                    alert ("aktiváld a rendszerd")
+                }
+         
+           
+        },
+    
+        initialzeSystem = () => {
+            isLoaded.value = true;
+            systemStatus.value = "" ;
+        };
+
+
+/*
+        // 2 es feladat: Táblázat és CSV
+        const tableData = ref(Array(5).fill(null).map(() => Array(5).fill("-")));
+
+        const handle FileUpload = (event) => {}*/
+
+
+        return {
+            comboData, selectedItem, fillCombo ,initialzeSystem
+            
+        }
+    }
+
+
+}).mount('#app')
+
+
+</script>
+
+</body>
+</html>
