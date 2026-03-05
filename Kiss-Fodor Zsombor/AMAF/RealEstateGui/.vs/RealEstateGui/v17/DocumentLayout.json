@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zsombor.kiss-fodor\\source\\repos\\RealEstateGui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC1000-95C5-48DD-B030-B593D3C7AD99}|RealEstateGui\\RealEstateGui.csproj|c:\\users\\zsombor.kiss-fodor\\source\\repos\\realestategui\\realestategui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC1000-95C5-48DD-B030-B593D3C7AD99}|RealEstateGui\\RealEstateGui.csproj|solutionrelative:realestategui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC1000-95C5-48DD-B030-B593D3C7AD99}|RealEstateGui\\RealEstateGui.csproj|c:\\users\\zsombor.kiss-fodor\\source\\repos\\realestategui\\realestategui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBCC1000-95C5-48DD-B030-B593D3C7AD99}|RealEstateGui\\RealEstateGui.csproj|solutionrelative:realestategui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC1000-95C5-48DD-B030-B593D3C7AD99}|RealEstateGui\\RealEstateGui.csproj|c:\\users\\zsombor.kiss-fodor\\source\\repos\\realestategui\\realestategui\\housecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC1000-95C5-48DD-B030-B593D3C7AD99}|RealEstateGui\\RealEstateGui.csproj|solutionrelative:realestategui\\housecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HouseContext.cs",
+              "DocumentMoniker": "C:\\Users\\zsombor.kiss-fodor\\source\\repos\\RealEstateGui\\RealEstateGui\\HouseContext.cs",
+              "RelativeDocumentMoniker": "RealEstateGui\\HouseContext.cs",
+              "ToolTip": "C:\\Users\\zsombor.kiss-fodor\\source\\repos\\RealEstateGui\\RealEstateGui\\HouseContext.cs",
+              "RelativeToolTip": "RealEstateGui\\HouseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T12:27:29.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\zsombor.kiss-fodor\\source\\repos\\RealEstateGui\\RealEstateGui\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RealEstateGui\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\zsombor.kiss-fodor\\source\\repos\\RealEstateGui\\RealEstateGui\\MainWindow.xaml",
+              "RelativeToolTip": "RealEstateGui\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T12:44:16.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zsombor.kiss-fodor\\source\\repos\\RealEstateGui\\RealEstateGui\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RealEstateGui\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\zsombor.kiss-fodor\\source\\repos\\RealEstateGui\\RealEstateGui\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RealEstateGui\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T12:16:15.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
