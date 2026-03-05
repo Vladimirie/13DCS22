@@ -167,7 +167,7 @@
 					minads = a;
 				}
 			}
-			Console.WriteLine($"The Mesevár Kindergarten's closest estate's data:\n\tSeller's Name:\t{minads.Seller.Name}");
+			Console.WriteLine($"The Mesevár Kindergarten's closest estate's data:\n\tSeller's Name:\t{minads.Seller.Name}\n\tSeller's Phone:\t{minads.Seller.Phone}\n\tArea:\t{minads.Area}\n\tRooms:\t{minads.Rooms}\n");
 			Console.ReadKey();
         }
 		public static double DistanceTo(string latlong, double x, double y)
