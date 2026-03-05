@@ -1,0 +1,62 @@
+<?php
+
+namespace App\Http\Controllers\API;
+
+use Illuminate\Http\Request;
+use App\Models\Category;
+use App\Http\Controllers\Controller;
+
+class CategoryController extends Controller
+{
+    public function show(Request $request)
+    {
+        $validated = $request->validate
+        ([
+            'id' => ['required', 'integer', 'exists:categories,id'],
+        ]);
+        $category = Category::findOrFail($validated['id']);
+        return response()->json
+        ([
+            'data' => $category
+        ]);
+    }
+    public function store(Request $request)
+    {
+        $validated = $request->validate
+        ([
+            'name' => ['required', 'string', 'max:255', 'unique:categories,name'],
+        ]);
+        $category = Category::create($validated);
+        return response()->json
+        ([
+            'data' => $category
+        ],201);
+    }
+    public function update(Request $request)
+    {
+        $validated = $request->validate
+        ([
+            'id' => ['required', 'integer', 'exists:categories,id'],
+            'name' => ['required', 'string', 'max:255'],
+        ]);
+        $category = Category::findOrFail($validated['id']);
+        $category->update($validated);
+        return response()->json
+        ([
+            'data' => $category->fresh()
+        ]);
+    }
+    public function destroy(Request $request)
+    {
+        $validated = $request->validate
+        ([
+            'id' => ['required', 'integer', 'exists:categories,id']
+        ]);
+        $category = Category::findOrFail($validated['id']);
+        $category->destroy($validated);
+        return response()->json
+        ([
+            'message' => 'Deleted!  :D'
+        ],204);
+    }
+}
