@@ -11,7 +11,7 @@
 			<ColumnDefinition Width="0.3*"/>
 			<ColumnDefinition Width="*"/>
 		</Grid.ColumnDefinitions>
-		<ListBox x:Name="sellerlist" FontSize="11px" FontFamily="Microsoft Sans Serif" TextOptions.TextFormattingMode="Display" Margin="10" SelectionChanged="sellerlist_SelectionChanged"/>
+		<ListBox x:Name="sellerlist" FontSize="11px" FontFamily="Microsoft Sans Serif" TextOptions.TextFormattingMode="Display" Margin="10" SelectionChanged="sellerlist_SelectionChanged" DisplayMemberPath="Name"/>
 		<Grid Grid.Column="1" Margin="20">
 			<Grid.RowDefinitions>
 				<RowDefinition Height="0.125*"/>

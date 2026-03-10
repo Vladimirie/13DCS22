@@ -1,7 +1,9 @@
-﻿namespace RealEstateGUI
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RealEstateGUI
 {
 	public class RealEstate
 	{
-		public int SellerID { get; set; }
+		[Key] public int SellerID { get; set; }
 	}
 }

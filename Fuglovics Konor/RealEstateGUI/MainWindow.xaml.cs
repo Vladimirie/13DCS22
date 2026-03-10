@@ -16,15 +16,16 @@ namespace RealEstateGUI
     /// </summary>
     public partial class MainWindow : Window
     {
-		public static List<Seller> sellers = new();
-		private RealEstateDBContext db = new();
+		public static List<Seller> sellers = new List<Seller>();
+		private readonly RealEstateDBContext _db;
         public MainWindow()
         {
             InitializeComponent();
+			_db = new RealEstateDBContext();
         }
 		private void Window_Loaded(object sender, RoutedEventArgs e)
 		{
-			sellers = db.Sellers.ToList();
+			sellers = _db.Sellers.ToList();
 			sellerlist.ItemsSource = sellers;
 		}
 
