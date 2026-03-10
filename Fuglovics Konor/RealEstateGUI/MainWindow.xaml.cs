@@ -16,9 +16,32 @@ namespace RealEstateGUI
     /// </summary>
     public partial class MainWindow : Window
     {
+		public static List<Seller> sellers = new();
+		private RealEstateDBContext db = new();
         public MainWindow()
         {
             InitializeComponent();
         }
-    }
+		private void Window_Loaded(object sender, RoutedEventArgs e)
+		{
+			sellers = db.Sellers.ToList();
+			sellerlist.ItemsSource = sellers;
+		}
+
+		private void sellerlist_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+			if(sellerlist.SelectedItem is Seller selected)
+			{
+				textsellername.Text = selected.Name.ToString();
+				textsellerphone.Text = selected.Phone.ToString();
+			}
+		}
+
+		private void LoadAds(object sender, RoutedEventArgs e)
+		{
+			/*var result = _db.Sellers
+				.Join(_db.RealEstates, s => s.ID, r => r.SellerID, (s,r) => s.ID).Count();
+			textadverts.Text = result.ToString();*/
+		}
+	}
 }

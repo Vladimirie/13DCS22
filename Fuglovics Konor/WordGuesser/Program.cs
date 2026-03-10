@@ -27,28 +27,28 @@
 					{
 						user += " ";
 					}
-					for(int i = 0; i < user.Length; i++)
+					for(int i = 0; i < identical.Length; i++)
 					{
-						for(int j = 0; j < identical.Length;j++)
+						for(int j = 0; j < user.Length;j++)
 						{
-							while (guess.Count >= identical.Length)
+							while (guess.Count >= user.Length)
 							{
 								guess.RemoveAt(0);
 							}
-							if (user[i] == identical[j])
+							if (user[j] == identical[i])
 							{
 								//Console.Write(user[i]);
-								guess.Add(identical[i]);
+								guess.Add(user[j]);
 								if (guess[i] == '.')
 								{
-									guess[i] = identical[i];
+									guess[i] = user[j];
 								}
 							}
 							else
 							{
 								//Console.Write(".");
 								guess.Add('.');
-								if (guess[i] == identical[i])
+								if (guess[i] == user[j])
 								{
 
 								}

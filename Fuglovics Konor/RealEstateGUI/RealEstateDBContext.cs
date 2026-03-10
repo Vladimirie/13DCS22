@@ -18,5 +18,6 @@ namespace RealEstateGUI
 			}
 		}
 		public DbSet<Seller> Sellers{ get; set;}
+		public DbSet<RealEstate> RealEstates {get; set;}
 	}
 }
