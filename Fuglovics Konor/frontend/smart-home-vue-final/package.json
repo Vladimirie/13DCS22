@@ -1,0 +1,1 @@
+{"name":"smart-home","version":"1.0.0","type":"module","scripts":{"dev":"vite","build":"vite build"},"dependencies":{"vue":"^3.5.30"},"devDependencies":{"@vitejs/plugin-vue":"^6.0.4","vite":"^7.3.1"}}

@@ -1,0 +1,21 @@
+body
+{
+	font-family: sans-serif;
+	background: #f4f4f4;
+	width: 1440px;
+	margin: 0 auto
+} 
+.card
+{
+	background: white;
+	padding: 15px;
+	min-width: 100px;
+	border: 1px solid black;
+	text-align: center;
+}
+#app
+{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto
+}
