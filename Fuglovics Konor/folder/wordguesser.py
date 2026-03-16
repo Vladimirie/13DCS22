@@ -1,6 +1,6 @@
 # -*- coding: cp1250 -*-
 import random
-print('ű')
+print("áéíóöőúüű")
 
 """wordlist = []
 selword = []
@@ -19,7 +19,7 @@ for i in word:
 		print("_", end="")
 		incorrectchars += 1
 if len(wordinp) > len(word) or len(wordinp) < len(word) or (len(wordinp) == len(word) and incorrectchars > 0):
-	print("\nHibás szó!")
+	print("\nHibás szó")
 print(f"A helyes szó: {word}")"""
 
 #print(f"{len(word)}\n{len(wordinp)}")
