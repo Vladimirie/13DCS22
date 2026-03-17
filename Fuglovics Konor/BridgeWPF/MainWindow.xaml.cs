@@ -81,5 +81,16 @@ namespace BridgeWPF
 			var count = bridges.Count(b => b.Year >= 2000);
 			amt.Text = count.ToString();
 		}
+
+		private void listbridge_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+			if(listbridge.SelectedItem is Bridge selected)
+			{
+				pos.Content = selected.Position.ToString();
+				len.Content = selected.Length.ToString();
+				year.Content = selected.Year.ToString();
+				country.Content = selected.Country.ToString();
+			}
+		}
 	}
 }

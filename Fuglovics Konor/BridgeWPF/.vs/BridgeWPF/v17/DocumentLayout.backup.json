@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\bridgewpf\\search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|solutionrelative:search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\bridgewpf\\search.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|solutionrelative:search.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\bridgewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\bridgewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\bridgewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\bridgewpf\\search.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|solutionrelative:search.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\bridgewpf\\search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CC5C09-545E-4AA4-BAB6-6D79492E3600}|BridgeWPF.csproj|solutionrelative:search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +34,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Search.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\Search.xaml.cs",
               "RelativeDocumentMoniker": "Search.xaml.cs",
               "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\Search.xaml.cs",
               "RelativeToolTip": "Search.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAMwCwAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwCwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T10:14:33.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T10:14:33.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Search.xaml",
               "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\Search.xaml",
               "RelativeDocumentMoniker": "Search.xaml",
@@ -58,26 +57,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-24T11:39:32.335Z"
+              "WhenOpened": "2026-02-24T11:39:32.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\BridgeWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAIAwwEMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T12:01:44.127Z"
+              "WhenOpened": "2026-02-24T12:01:44.127Z",
+              "EditorCaption": ""
             }
           ]
         }

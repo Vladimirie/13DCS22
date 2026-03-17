@@ -27,15 +27,15 @@
 				<ColumnDefinition Width="1.2*"/>
 				<ColumnDefinition Width="*"/>
 			</Grid.ColumnDefinitions>
-			<ListBox DisplayMemberPath="Name" x:Name="listbridge" Width="250" Height="300"/>
+			<ListBox DisplayMemberPath="Name" x:Name="listbridge" Width="250" Height="300" SelectionChanged="listbridge_SelectionChanged"/>
 			<TextBlock Grid.Column="1" Height="24" Width="50" Text="Helyszín:" Margin="0,32,160,0" VerticalAlignment="Top" TextAlignment="Right"/>
-			<Label Grid.Column="1" x:Name="pos" Height="32" Width="140" Margin="50,32,0,0" VerticalAlignment="Top"/>
+			<Label Grid.Column="1" x:Name="pos" Height="32" Width="140" Margin="50,27,0,0" VerticalAlignment="Top"/>
 			<TextBlock Grid.Column="1" Height="24" Width="50" Text="Ország:" Margin="0,64,160,0" VerticalAlignment="Top" TextAlignment="Right"/>
-			<Label Grid.Column="1" x:Name="country" Height="32" Width="140" Margin="50,64,0,0" VerticalAlignment="Top"/>
+			<Label Grid.Column="1" x:Name="country" Height="32" Width="140" Margin="50,59,0,0" VerticalAlignment="Top"/>
 			<TextBlock Grid.Column="1" Height="24" Width="50" Text="Hossz:" Margin="0,96,160,0" VerticalAlignment="Top" TextAlignment="Right"/>
-			<Label Grid.Column="1" x:Name="len" Height="32" Width="140" Margin="50,96,0,0" VerticalAlignment="Top"/>
+			<Label Grid.Column="1" x:Name="len" Height="32" Width="140" Margin="50,91,0,0" VerticalAlignment="Top"/>
 			<TextBlock Grid.Column="1" Height="24" Width="50" Text="Év:" Margin="0,128,160,0" VerticalAlignment="Top" TextAlignment="Right"/>
-			<Label Grid.Column="1" x:Name="year" Height="32" Width="140" Margin="50,128,0,0" VerticalAlignment="Top"/>
+			<Label Grid.Column="1" x:Name="year" Height="32" Width="140" Margin="50,123,0,0" VerticalAlignment="Top"/>
 			<GroupBox Grid.Row="1" Header="Bridge filtering" Name="grp" Width="Auto" Height="Auto" Margin="20,50">
 				<StackPanel Orientation="Vertical" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center">
 					<RadioButton x:Name="rad_before2k" Checked="rad_before2k_isChecked">Built before 2K</RadioButton>
