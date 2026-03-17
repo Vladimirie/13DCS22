@@ -20,7 +20,7 @@ while on:
             else:
                 print(f"Unknown command: {after}")
                 after = input("")
-        else:
-            print("Ending session...")
-            time.sleep(random.uniform(0.001, 3))
-            on = False
+	else:
+		print("Ending session...")
+		time.sleep(random.uniform(0.001, 3))
+		on = False
