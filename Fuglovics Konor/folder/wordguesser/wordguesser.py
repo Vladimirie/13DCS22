@@ -7,16 +7,19 @@ wordlist = []
 selword = []
 correctchars = 0
 incorrectchars = 0
+start = input("Nyelv? / Language? (hun / eng) ")
+if start == "hun":
+	with open("magyarszavak.txt", "r", encoding="cp1250") as f:
+		wordlist = [line.strip() for line in f]
+elif start == "eng":
+	with open("english3.txt", "r") as f:
+		wordlist = [line.strip() for line in f]
+else:
+	print(f"Nincs olyan nyelv! / No language named {start}!")
+	start = input("Nyelv? / Language? (hun / eng) ")
 while True:
-	start = input("Nyelv? / Language? (hun / eng)")
-	if start == "hun":
-		with open("magyarszaval.txt", "r", encoding="cp1250") as f:
-			wordlist = [line.strip() for line in f]
-	elif start == "eng":
-		with open("english3.txt", "r") as f:
-			wordlist = [line.strip() for line in f]
-	word = wordlist[random.randint(0,len(wordlist))]
 	#print(word)
+	word = wordlist[random.randint(0,len(wordlist))]
 	wordinp = input("")
 	for i in word:
 		if i in wordinp:
