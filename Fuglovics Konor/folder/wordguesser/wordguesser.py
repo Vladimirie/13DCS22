@@ -28,6 +28,7 @@ while True:
 		else:
 			print("_", end="")
 			incorrectchars += 1
+		print(f"\n{correctchars} {incorrectchars}")
 	if len(wordinp) > len(word) or len(wordinp) < len(word) or (len(wordinp) == len(word) and incorrectchars > 0):
 		print("\nHibás szó")
 	print(f"A helyes szó: {word}")
