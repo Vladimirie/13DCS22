@@ -16,7 +16,11 @@
 			<ColumnDefinition Width="*"/>
 		</Grid.ColumnDefinitions>
 		<ListBox x:Name="games" DisplayMemberPath="Name" TextOptions.TextFormattingMode="Display" FontSize="11px" TextOptions.TextRenderingMode="Aliased" FontFamily="Microsoft Sans Serif" HorizontalAlignment="Center" Height="320" Margin="0,0,0,0" VerticalAlignment="Center" Width="400" SelectionChanged="ListBox_SelectionChanged"/>
-		<Label Grid.Column="1" Content="Label" HorizontalAlignment="Left" Height="32" Margin="25,26,0,0" VerticalAlignment="Top" Width="102"/>
-
+		<StackPanel Grid.Column="1" Orientation="Vertical">
+			<StackPanel Orientation="Horizontal">
+				<Label Width="100" Height="32" Content="Publisher:" VerticalContentAlignment="Center"/>
+				<Label x:Name="pub" Width="Auto"/>
+			</StackPanel>
+		</StackPanel>
 	</Grid>
 </Window>

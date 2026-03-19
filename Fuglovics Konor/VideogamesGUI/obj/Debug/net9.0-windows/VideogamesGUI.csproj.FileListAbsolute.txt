@@ -19,3 +19,24 @@ C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug
 C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.pdb
 C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.genruntimeconfig.cache
 C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\ref\VideogamesGUI.dll
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\bin\Debug\net9.0-windows\VideogamesGUI.exe
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\bin\Debug\net9.0-windows\VideogamesGUI.deps.json
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\bin\Debug\net9.0-windows\VideogamesGUI.runtimeconfig.json
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\bin\Debug\net9.0-windows\VideogamesGUI.dll
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\bin\Debug\net9.0-windows\VideogamesGUI.pdb
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\MainWindow.g.cs
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\App.g.cs
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI_MarkupCompile.cache
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI_MarkupCompile.lref
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\MainWindow.baml
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.g.resources
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.GeneratedMSBuildEditorConfig.editorconfig
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.AssemblyInfoInputs.cache
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.AssemblyInfo.cs
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.csproj.CoreCompileInputs.cache
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.sourcelink.json
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.dll
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\refint\VideogamesGUI.dll
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.pdb
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.genruntimeconfig.cache
+F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\ref\VideogamesGUI.dll
