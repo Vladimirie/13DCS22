@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\VideogamesGUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF80E9E-89C5-4E85-8ECC-7E6964D928AB}|VideogamesGUI.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\videogamesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EF80E9E-89C5-4E85-8ECC-7E6964D928AB}|VideogamesGUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF80E9E-89C5-4E85-8ECC-7E6964D928AB}|VideogamesGUI.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\videogamesgui\\videogames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EF80E9E-89C5-4E85-8ECC-7E6964D928AB}|VideogamesGUI.csproj|solutionrelative:videogames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF80E9E-89C5-4E85-8ECC-7E6964D928AB}|VideogamesGUI.csproj|c:\\users\\sound crafter\\documents\\13dcs22\\fuglovics konor\\videogamesgui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EF80E9E-89C5-4E85-8ECC-7E6964D928AB}|VideogamesGUI.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoGames.cs",
+              "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\VideogamesGUI\\VideoGames.cs",
+              "RelativeDocumentMoniker": "VideoGames.cs",
+              "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\VideogamesGUI\\VideoGames.cs",
+              "RelativeToolTip": "VideoGames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:55:37.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\VideogamesGUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\VideogamesGUI\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T10:21:27.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\VideogamesGUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Sound Crafter\\Documents\\13DCS22\\Fuglovics Konor\\VideogamesGUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:21:26.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

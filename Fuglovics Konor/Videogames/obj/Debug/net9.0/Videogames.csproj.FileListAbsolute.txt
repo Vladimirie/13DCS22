@@ -1,0 +1,15 @@
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\bin\Debug\net9.0\Videogames.exe
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\bin\Debug\net9.0\Videogames.deps.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\bin\Debug\net9.0\Videogames.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\bin\Debug\net9.0\Videogames.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\bin\Debug\net9.0\Videogames.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\refint\Videogames.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\Videogames.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Videogames\obj\Debug\net9.0\ref\Videogames.dll
