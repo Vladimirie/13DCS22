@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>Névnapkereső</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<h1>Névnapkereső</h1>
+
+<div class="container">
+
+<div>
+    <h3>Keresés dátum szerint</h3>
+    <input type="text" id="nap" placeholder="pl. 4-30">
+    <button onclick="keresNap()">Keres</button>
+</div>
+
+<div>
+    <h3>Keresés név szerint</h3>
+    <input type="text" id="nev">
+    <button onclick="keresNev()">Keres</button>
+</div>
+
+</div>
+
+<h2>Eredmény:</h2>
+<div id="eredmeny"></div>
+
+<script>
+function keresNap() {
+    let nap = document.getElementById("nap").value;
+
+    if (!nap) {
+        document.getElementById("eredmeny").innerText = "Adj meg egy dátumot!";
+        return;
+    }
+
+    fetch(`http://localhost/api/nevnapok/?nap=${nap}`)
+        .then(res => res.json())
+        .then(adat => megjelenit(adat));
+}
+
+function keresNev() {
+    let nev = document.getElementById("nev").value;
+
+    if (!nev) {
+        document.getElementById("eredmeny").innerText = "Adj meg egy nevet!";
+        return;
+    }
+
+    fetch(`http://localhost/api/nevnapok/?nev=${nev}`)
+        .then(res => res.json())
+        .then(adat => megjelenit(adat));
+}
+
+function megjelenit(adat) {
+    if (adat.hiba) {
+        document.getElementById("eredmeny").innerText = adat.hiba;
+    } else {
+        document.getElementById("eredmeny").innerText =
+            `${adat.datum} → ${adat.nevnap1} ${adat.nevnap2}`;
+    }
+}
+</script>
+
+</body>
+</html>
