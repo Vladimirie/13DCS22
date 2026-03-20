@@ -1,0 +1,4 @@
+9;8419,00;Adrián Annus;HUN;Szombathely;2003.08.10
+11;8368,00;Tibor Gécsek;HUN;Zalaegerszeg;1998.09.19
+18;8300,00;Balázs Kiss;HUN;Saint-Denis;1998.06.04
+21;8269,00;Krisztián Pars;HUN;Zürich;2014.08.16

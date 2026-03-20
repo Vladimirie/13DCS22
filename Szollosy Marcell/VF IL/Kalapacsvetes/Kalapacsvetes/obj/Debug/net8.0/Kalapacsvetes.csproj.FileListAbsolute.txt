@@ -1,0 +1,14 @@
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\bin\Debug\net8.0\Kalapacsvetes.exe
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\bin\Debug\net8.0\Kalapacsvetes.deps.json
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\bin\Debug\net8.0\Kalapacsvetes.runtimeconfig.json
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\bin\Debug\net8.0\Kalapacsvetes.dll
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\bin\Debug\net8.0\Kalapacsvetes.pdb
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\Kalapacsvetes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\Kalapacsvetes.AssemblyInfoInputs.cache
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\Kalapacsvetes.AssemblyInfo.cs
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\Kalapacsvetes.csproj.CoreCompileInputs.cache
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\Kalapacsvetes.dll
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\refint\Kalapacsvetes.dll
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\Kalapacsvetes.pdb
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\Kalapacsvetes.genruntimeconfig.cache
+C:\Users\marcell.szollosy\source\repos\Kalapacsvetes\Kalapacsvetes\obj\Debug\net8.0\ref\Kalapacsvetes.dll
