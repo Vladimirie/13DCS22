@@ -43,10 +43,18 @@ namespace VideogamesGUI
 
 		private void MostGames(object sender, RoutedEventArgs e)
 		{
-			var mostgames = _db	//Valamiért leáll az egész applikáció...
+			/*var mostgames = _db	//Valamiért leáll az egész applikáció...
 				.GroupBy(a => a.Developer)
 				.Select(a => a.Key);
-			MessageBox.Show(string.Join("\n", mostgames));
+			MessageBox.Show(string.Join("\n", mostgames));*/
+			var mostgames = _db.Where(a => a.Developer != "Unknown").GroupBy(a => a.Developer).Select(dev => new { A = dev.Key, B = dev.Count() }).OrderBy(x => x.B);
+			var sol = mostgames.Last();
+			MessageBox.Show($"Fejlesztö: {sol.A}\nJátékok: {sol.B}db");
+		}
+
+		private void Search(object sender, RoutedEventArgs e)
+		{
+
 		}
 	}
 }
