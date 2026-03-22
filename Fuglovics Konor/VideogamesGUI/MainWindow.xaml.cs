@@ -19,7 +19,8 @@ namespace VideogamesGUI
 	public partial class MainWindow : Window
     {
 		private static List<VideoGames> _db = [];
-        public MainWindow()
+		private static SortedDictionary<string, int> _devs = [];
+		public MainWindow()
         {
             InitializeComponent();
 			foreach(var data in File.ReadAllLines("Video_Jatek_Eladasok.txt").Skip(1))
@@ -32,13 +33,20 @@ namespace VideogamesGUI
 
 		private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
-			/*if (games.SelectedItem is Bridge selected)
+			if (games.SelectedItem is VideoGames selected)
 			{
-				pos.Content = selected.Position.ToString();
-				len.Content = selected.Length.ToString();
-				year.Content = selected.Year.ToString();
-				country.Content = selected.Country.ToString();
-			}*/
+				pub.Content = selected.Publisher.ToString();
+				dev.Content = selected.Developer.ToString();
+				score.Content = selected.CriticScore.ToString();
+			}
+		}
+
+		private void MostGames(object sender, RoutedEventArgs e)
+		{
+			var mostgames = _db	//Valamiért leáll az egész applikáció...
+				.GroupBy(a => a.Developer)
+				.Select(a => a.Key);
+			MessageBox.Show(string.Join("\n", mostgames));
 		}
 	}
 }

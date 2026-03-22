@@ -16,11 +16,20 @@
 			<ColumnDefinition Width="*"/>
 		</Grid.ColumnDefinitions>
 		<ListBox x:Name="games" DisplayMemberPath="Name" TextOptions.TextFormattingMode="Display" FontSize="11px" TextOptions.TextRenderingMode="Aliased" FontFamily="Microsoft Sans Serif" HorizontalAlignment="Center" Height="320" Margin="0,0,0,0" VerticalAlignment="Center" Width="400" SelectionChanged="ListBox_SelectionChanged"/>
-		<StackPanel Grid.Column="1" Orientation="Vertical">
+		<StackPanel Grid.Column="1" Orientation="Vertical" Margin="0,32">
 			<StackPanel Orientation="Horizontal">
-				<Label Width="100" Height="32" Content="Publisher:" VerticalContentAlignment="Center"/>
-				<Label x:Name="pub" Width="Auto"/>
+				<Label Width="100" Height="32" Content="Publisher:" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+				<Label x:Name="pub" Width="Auto" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
 			</StackPanel>
+			<StackPanel Orientation="Horizontal">
+				<Label Width="100" Height="32" Content="Developer:" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+				<Label x:Name="dev" Width="Auto" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal">
+				<Label Width="100" Height="32" Content="Critic Score:" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+				<Label x:Name="score" Width="Auto" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+			</StackPanel>
+			<Button Height="21" Margin="32,0" Content="Legtermékenyebb fejlesztő" Click="MostGames"/>
 		</StackPanel>
 	</Grid>
 </Window>
