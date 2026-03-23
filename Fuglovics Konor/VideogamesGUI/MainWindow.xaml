@@ -29,8 +29,8 @@
 				<Label Width="100" Height="32" Content="Critic Score:" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
 				<Label x:Name="score" Width="Auto" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
 			</StackPanel>
-			<Button Height="21" Margin="32,2" Content="Legtermékenyebb fejlesztő" Click="MostGames" Foreground="#000"/>
-			<Button Height="21" Margin="32,2" Content="Keresés" Click="Search"/>
+			<Button Height="24" Margin="32,2" Content="Legtermékenyebb fejlesztő" Click="MostGames" Foreground="#000"/>
+			<Button Height="24" Margin="32,2" Content="Keresés" Click="Search"/>
 		</StackPanel>
 	</Grid>
 </Window>

@@ -5,8 +5,6 @@ import random
 on = True
 wordlist = []
 selword = []
-correctchars = 0
-incorrectchars = 0
 start = input("Nyelv? / Language? (hun / eng) ")
 if start == "hun":
 	with open("magyarszavak.txt", "r", encoding="cp1250") as f:
@@ -21,14 +19,22 @@ while True:
 	#print(word)
 	word = wordlist[random.randint(0,len(wordlist))]
 	wordinp = input("")
-	for i in word:
-		if i in wordinp:
-			print(i, end="")
+	if len(wordinp) <= len(word):
+		while len(wordinp) != len(word):
+			wordinp += " "
+	if len(wordinp) > len(word):
+		print("\nHibás szó")
+	correctchars = 0
+	incorrectchars = 0
+	for i in range(0, len(word)):
+		#if i in wordinp:
+		if word[i] == wordinp[i]:
+			print(word[i], end="")
 			correctchars += 1
 		else:
 			print("_", end="")
 			incorrectchars += 1
-		print(f"\n{correctchars} {incorrectchars}")
+		#print(f" {correctchars} {incorrectchars}")
 	if len(wordinp) > len(word) or len(wordinp) < len(word) or (len(wordinp) == len(word) and incorrectchars > 0):
 		print("\nHibás szó")
 	print(f"A helyes szó: {word}")
