@@ -2,19 +2,24 @@
 import random
 #print("ÁáÉéÍíÓóÖöÕõÚúÜüÛû")
 
+setup = True
 on = True
+end = True
 wordlist = []
 selword = []
-start = input("Nyelv? / Language? (hun / eng) ")
-if start == "hun":
-	with open("magyarszavak.txt", "r", encoding="cp1250") as f:
-		wordlist = [line.strip() for line in f]
-elif start == "eng":
-	with open("english3.txt", "r") as f:
-		wordlist = [line.strip() for line in f]
-else:
-	print(f"Nincs olyan nyelv! / No language named {start}!")
+while setup:
 	start = input("Nyelv? / Language? (hun / eng) ")
+	if start == "hun":
+		with open("magyarszavak.txt", "r", encoding="cp1250") as f:
+			wordlist = [line.strip() for line in f]
+			setup = False
+	elif start == "eng":
+		with open("english3.txt", "r") as f:
+			wordlist = [line.strip() for line in f]
+			setup = False
+	else:
+		print(f"Nincs olyan nyelv! / No language named {start}!")
+		continue
 while True:
 	#print(word)
 	word = wordlist[random.randint(0,len(wordlist))]
