@@ -40,3 +40,5 @@ F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\refint\Videoga
 F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.pdb
 F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\VideogamesGUI.genruntimeconfig.cache
 F:\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\ref\VideogamesGUI.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\Window1.g.cs
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\VideogamesGUI\obj\Debug\net9.0-windows\Window1.baml

@@ -54,7 +54,8 @@ namespace VideogamesGUI
 
 		private void Search(object sender, RoutedEventArgs e)
 		{
-
+			Window1 init = new();
+			init.ShowDialog();
 		}
 	}
 }
