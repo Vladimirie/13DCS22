@@ -1,0 +1,10 @@
+//Név alapján keresés
+SELECT * FROM `videojatekok` WHERE videojatekok.Név ="Grand Theft Auto V"
+
+//Műfaj alapján keresés
+SELECT * FROM `videojatekok` WHERE videojatekok.Műfaj="Lövöldözös" AND videojatekok.Konzol = "PS4"
+
+//1 kimaradt
+
+//Keresés
+SELECT * FROM videojatekok WHERE Konzol = "PS4" AND Műfaj = "Lövöldözős"
