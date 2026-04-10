@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|c:\\users\\intel\\desktop\\videogamegarfik\\videogamegarfik\\kereses.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|solutionrelative:videogamegarfik\\kereses.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|c:\\users\\intel\\desktop\\videogamegarfik\\videogamegarfik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|solutionrelative:videogamegarfik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|c:\\users\\intel\\desktop\\videogamegarfik\\videogamegarfik\\kereses.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|solutionrelative:videogamegarfik\\kereses.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|c:\\users\\intel\\desktop\\videogamegarfik\\videogamegarfik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|solutionrelative:videogamegarfik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|c:\\users\\intel\\desktop\\videogamegarfik\\videogamegarfik\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|solutionrelative:videogamegarfik\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|c:\\users\\intel\\desktop\\videogamegarfik\\videogamegarfik\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|solutionrelative:videogamegarfik\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|c:\\users\\intel\\desktop\\videogamegarfik\\videogamegarfik\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06D0CFB8-5756-4F98-A0A5-E8F364C2F24D}|VideogameGarfik\\VideogameGarfik.csproj|solutionrelative:videogamegarfik\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 33,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Kereses.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\Kereses.xaml.cs",
+              "RelativeDocumentMoniker": "VideogameGarfik\\Kereses.xaml.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\Kereses.xaml.cs*",
+              "RelativeToolTip": "VideogameGarfik\\Kereses.xaml.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwDcAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:05:17.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kereses.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\Kereses.xaml",
+              "RelativeDocumentMoniker": "VideogameGarfik\\Kereses.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\Kereses.xaml",
+              "RelativeToolTip": "VideogameGarfik\\Kereses.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T10:56:40.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "VideogameGarfik\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\MainWindow.xaml",
+              "RelativeToolTip": "VideogameGarfik\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T09:53:38.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "VideogameGarfik\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\MainWindow.xaml.cs",
+              "RelativeToolTip": "VideogameGarfik\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T09:53:37.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\App.xaml",
+              "RelativeDocumentMoniker": "VideogameGarfik\\App.xaml",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\App.xaml",
+              "RelativeToolTip": "VideogameGarfik\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T09:54:07.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VideoGame.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\VideoGame.cs",
+              "RelativeDocumentMoniker": "VideogameGarfik\\VideoGame.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\VideoGame.cs",
+              "RelativeToolTip": "VideogameGarfik\\VideoGame.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T09:55:00.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\App.xaml.cs",
+              "RelativeDocumentMoniker": "VideogameGarfik\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\VideogameGarfik\\VideogameGarfik\\App.xaml.cs",
+              "RelativeToolTip": "VideogameGarfik\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T09:54:06.521Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

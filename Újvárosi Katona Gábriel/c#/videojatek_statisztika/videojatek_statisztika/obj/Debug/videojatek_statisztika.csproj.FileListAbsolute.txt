@@ -1,0 +1,7 @@
+C:\Users\intel\Desktop\videojatek_statisztika\videojatek_statisztika\bin\Debug\videojatek_statisztika.exe.config
+C:\Users\intel\Desktop\videojatek_statisztika\videojatek_statisztika\bin\Debug\videojatek_statisztika.exe
+C:\Users\intel\Desktop\videojatek_statisztika\videojatek_statisztika\bin\Debug\videojatek_statisztika.pdb
+C:\Users\intel\Desktop\videojatek_statisztika\videojatek_statisztika\obj\Debug\videojatek_statisztika.csproj.AssemblyReference.cache
+C:\Users\intel\Desktop\videojatek_statisztika\videojatek_statisztika\obj\Debug\videojatek_statisztika.csproj.CoreCompileInputs.cache
+C:\Users\intel\Desktop\videojatek_statisztika\videojatek_statisztika\obj\Debug\videojatek_statisztika.exe
+C:\Users\intel\Desktop\videojatek_statisztika\videojatek_statisztika\obj\Debug\videojatek_statisztika.pdb
