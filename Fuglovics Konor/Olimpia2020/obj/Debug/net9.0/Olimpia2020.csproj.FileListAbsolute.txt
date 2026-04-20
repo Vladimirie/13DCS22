@@ -1,0 +1,15 @@
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\bin\Debug\net9.0\Olimpia2020.exe
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\bin\Debug\net9.0\Olimpia2020.deps.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\bin\Debug\net9.0\Olimpia2020.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\bin\Debug\net9.0\Olimpia2020.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\bin\Debug\net9.0\Olimpia2020.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\refint\Olimpia2020.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\Olimpia2020.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Olimpia2020\obj\Debug\net9.0\ref\Olimpia2020.dll
