@@ -1,0 +1,23 @@
+﻿<Window x:Class="VideogameGarfik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VideogameGarfik"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="0" x:Name="datalist" DisplayMemberPath="Nev"></ListBox>
+        <StackPanel Grid.Column="1" Orientation="Vertical" >
+            <Button x:Name="idk" Click="idk_Click" Content="valami"> </Button>
+            <Label Content=" " x:Name="legtermekenyebb"></Label>
+            <Label Content=" " x:Name="gamecount"></Label>
+            <Button Content="keresés" Click="Button_Click"    ></Button>
+        </StackPanel>
+       
+    </Grid>
+</Window>

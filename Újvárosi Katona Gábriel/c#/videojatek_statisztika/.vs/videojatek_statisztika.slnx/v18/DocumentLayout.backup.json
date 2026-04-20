@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\intel\\Desktop\\videojatek_statisztika\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D66F8C8-7C4D-41BC-9D40-7ABC29A09608}|videojatek_statisztika\\videojatek_statisztika.csproj|c:\\users\\intel\\desktop\\videojatek_statisztika\\videojatek_statisztika\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D66F8C8-7C4D-41BC-9D40-7ABC29A09608}|videojatek_statisztika\\videojatek_statisztika.csproj|solutionrelative:videojatek_statisztika\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D66F8C8-7C4D-41BC-9D40-7ABC29A09608}|videojatek_statisztika\\videojatek_statisztika.csproj|c:\\users\\intel\\desktop\\videojatek_statisztika\\videojatek_statisztika\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D66F8C8-7C4D-41BC-9D40-7ABC29A09608}|videojatek_statisztika\\videojatek_statisztika.csproj|solutionrelative:videojatek_statisztika\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 33,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoGame.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\videojatek_statisztika\\videojatek_statisztika\\VideoGame.cs",
+              "RelativeDocumentMoniker": "videojatek_statisztika\\VideoGame.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\videojatek_statisztika\\videojatek_statisztika\\VideoGame.cs",
+              "RelativeToolTip": "videojatek_statisztika\\VideoGame.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:25:42.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\intel\\Desktop\\videojatek_statisztika\\videojatek_statisztika\\Program.cs",
+              "RelativeDocumentMoniker": "videojatek_statisztika\\Program.cs",
+              "ToolTip": "C:\\Users\\intel\\Desktop\\videojatek_statisztika\\videojatek_statisztika\\Program.cs",
+              "RelativeToolTip": "videojatek_statisztika\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:24:31.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
