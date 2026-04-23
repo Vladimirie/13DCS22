@@ -1,0 +1,15 @@
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\bin\Debug\net9.0\Alcoholism.exe
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\bin\Debug\net9.0\Alcoholism.deps.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\bin\Debug\net9.0\Alcoholism.runtimeconfig.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\bin\Debug\net9.0\Alcoholism.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\bin\Debug\net9.0\Alcoholism.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.AssemblyInfoInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.AssemblyInfo.cs
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.sourcelink.json
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\refint\Alcoholism.dll
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.pdb
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\Alcoholism.genruntimeconfig.cache
+C:\Users\Sound Crafter\Documents\13DCS22\Fuglovics Konor\Alcoholism\obj\Debug\net9.0\ref\Alcoholism.dll

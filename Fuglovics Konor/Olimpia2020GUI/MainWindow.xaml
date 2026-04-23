@@ -12,7 +12,7 @@
 			<ColumnDefinition/>
 		</Grid.ColumnDefinitions>
 		<ListBox x:Name="országok" DisplayMemberPath="Ország" TextOptions.TextFormattingMode="Display" FontFamily="Microsoft Sans Serif" FontSize="11" Margin="10" SelectionChanged="országok_kiválasztva"/>
-		<StackPanel Grid.Column="1" Orientation="Vertical" Margin="0,48" Width="250" HorizontalAlignment="Center">
+		<StackPanel Grid.Column="1" Orientation="Vertical" Margin="0,40" Width="250" HorizontalAlignment="Center">
 			<StackPanel Orientation="Horizontal">
 				<Label Content="Aranyérmek:"/>
 				<Label x:Name="arany"/>

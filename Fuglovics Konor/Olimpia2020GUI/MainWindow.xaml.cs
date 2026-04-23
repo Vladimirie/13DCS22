@@ -44,7 +44,15 @@ namespace Olimpia2020GUI
 
 		private void Magyar_érmek(object sender, RoutedEventArgs e)
 		{
-
+			foreach(var i in _adatok)
+			{
+				if(i.Ország == "Magyarország")
+				{
+					hunarany.Content = i.Arany.ToString();
+					hunezüst.Content = i.Ezüst.ToString();
+					hunbronz.Content = i.Bronz.ToString();
+				}
+			}
 		}
 	}
 }
