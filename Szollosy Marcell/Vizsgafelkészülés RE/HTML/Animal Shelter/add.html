@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Animal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Main</a>
+  <a href="#">New</a>
+  <a href="list.html">List</a>
+</nav>
+
+<div class="container">
+    <h2>Add New Animal</h2>
+    <input id="name" placeholder="Name" required>
+    <select id="type">
+        <option value="Cat">Cat</option>
+        <option value="Dog">Dog</option>
+    </select>
+    <input id="age" placeholder="Age" type="number" required>
+    <button onclick="addAnimal()">Add Animal</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
