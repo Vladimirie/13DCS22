@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100vh;
+  overflow: hidden; /* Megállítja a teljes oldal görgetését */
+  background: linear-gradient(135deg, #0cf304 0%, #0b6d02 100%) no-repeat fixed;
+}
+
+#app, .app-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1600px; /* Középre fogja a tartalmat, de a sávok kimennek szélre */
+  margin: 0 auto;
+  flex: 1; /* Kitölti a helyet a header és footer között */
+  gap: 20px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* Oszlopok fixálása */
+.side-panel { flex: 0 0 350px; height: 100%; }
+.center-layout {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto; /* Csak a táblázat görgethető */
+}
+
+.panel-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  height: 100%;
+}
