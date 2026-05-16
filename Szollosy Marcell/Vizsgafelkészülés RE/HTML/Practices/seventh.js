@@ -25,9 +25,12 @@ function RenderItems() {
   if (!list) return;
 
   list.innerHTML = '';
-  list.forEach(a =>{
+  item.forEach(a =>{
+    const div = document.createElement('div');
     div.className = 'card';
     div.innerHTML = '<strong>${a.Brand}</strong><br>Type: ${a.Type}<br>Expiration_Date: ${a.Expiration_Date}';
     list.appendChild(div);
   });
 }
+
+RenderItems();
