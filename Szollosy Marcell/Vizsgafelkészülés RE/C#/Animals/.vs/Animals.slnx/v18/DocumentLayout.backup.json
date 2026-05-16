@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|c:\\users\\vladimire lznx\\source\\repos\\animals\\animals\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|solutionrelative:animals\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|c:\\users\\vladimire lznx\\source\\repos\\animals\\animals\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|solutionrelative:animals\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|c:\\users\\vladimire lznx\\source\\repos\\animals\\animals\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|solutionrelative:animals\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|c:\\users\\vladimire lznx\\source\\repos\\animals\\animals\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|solutionrelative:animals\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|c:\\users\\vladimire lznx\\source\\repos\\animals\\animals\\cica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|solutionrelative:animals\\cica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|c:\\users\\vladimire lznx\\source\\repos\\animals\\animals\\animaltypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF4FD87-33A2-4157-87A5-9CDF9A7132F6}|Animals\\Animals.csproj|solutionrelative:animals\\animaltypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cica.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\Cica.cs",
+              "RelativeDocumentMoniker": "Animals\\Cica.cs",
+              "ToolTip": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\Cica.cs",
+              "RelativeToolTip": "Animals\\Cica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:58:04.348Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\Dog.cs",
+              "RelativeDocumentMoniker": "Animals\\Dog.cs",
+              "ToolTip": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\Dog.cs",
+              "RelativeToolTip": "Animals\\Dog.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:23:20.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\AnimalTypes.cs",
+              "RelativeDocumentMoniker": "Animals\\AnimalTypes.cs",
+              "ToolTip": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\AnimalTypes.cs",
+              "RelativeToolTip": "Animals\\AnimalTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:51:03.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Animals\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\MainWindow.xaml",
+              "RelativeToolTip": "Animals\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T12:48:43.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\Animal.cs",
+              "RelativeDocumentMoniker": "Animals\\Animal.cs",
+              "ToolTip": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\Animal.cs",
+              "RelativeToolTip": "Animals\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:49:59.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Animals\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Vladimire Lznx\\source\\repos\\Animals\\Animals\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Animals\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T12:48:16.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
