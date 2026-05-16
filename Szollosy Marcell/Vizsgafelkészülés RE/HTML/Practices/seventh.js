@@ -1,4 +1,4 @@
-const list = JSON.parse(localStorage.getItem('Items')) || [
+const lists = JSON.parse(localStorage.getItem('Items')) || [
   { Brand: 'Axe', Type: 'Bodyspray', Expiration_Date: '2026.11.30' },
   { Brand: 'HoneyApple', Type: 'Food', Expiration_Date: '2026.10.30' }
 ];
@@ -11,7 +11,7 @@ function addItem() {
     alert('Please fill the space');
     return;
   }
-  list.push({ Brand, Type, Expiration_Date })
+  addItem.push({ Brand, Type, Expiration_Date })
   SaveItems();
   window.location.href='list.html';
 }
@@ -21,11 +21,15 @@ function SaveItems() {
 }
 
 function RenderItems() {
-  const lists = document.getElementById('ItemList');
+  const list = document.getElementById('itemList');
   if (!list) return;
 
   list.innerHTML = '';
+<<<<<<< HEAD
   item.forEach(a =>{
+=======
+  lists.forEach(a =>{
+>>>>>>> eb5b9e80266646de374ed7db566ac7ba368a0f4f
     const div = document.createElement('div');
     div.className = 'card';
     div.innerHTML = '<strong>${a.Brand}</strong><br>Type: ${a.Type}<br>Expiration_Date: ${a.Expiration_Date}';

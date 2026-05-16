@@ -30,7 +30,11 @@ input, select, button {
     width: stretch;
 }
 input{
+<<<<<<< HEAD
     background: rgb(255, 255, 255);
+=======
+    background: rgb(255, 0, 0);
+>>>>>>> eb5b9e80266646de374ed7db566ac7ba368a0f4f
 }
 button {
     background: #333;
@@ -42,6 +46,7 @@ button {
     width: 100%;
 }
 button:hover{
+<<<<<<< HEAD
     background-color: rgb(14, 107, 107);
     border-style: dashed;
     border-color: rgb(166, 255, 77);
@@ -58,6 +63,23 @@ button:hover{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);*/
+=======
+    background: rgb(255, 0, 0);
+    color: 333;
+}
+.bg {
+    height: 80%;
+    background-image: url("photo_2026-04-25_18-57-00.jpg");
+    background-repeat: repeat-x;
+}
+.test
+{
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+>>>>>>> eb5b9e80266646de374ed7db566ac7ba368a0f4f
     display: flex;
     justify-content: center;
     align-items: center;
