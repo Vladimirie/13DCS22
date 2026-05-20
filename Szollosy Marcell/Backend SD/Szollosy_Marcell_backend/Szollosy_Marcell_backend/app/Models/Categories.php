@@ -15,3 +15,4 @@ class Categories extends Model
         return $this->HasMany(Cars::Class);
     }
 }
+?>
